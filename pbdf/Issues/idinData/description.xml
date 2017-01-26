@@ -1,0 +1,56 @@
+<IssueSpecification version="3">
+	<Name>iDIN data</Name>
+	<ShortName>iDIN data</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>idinData</CredentialID>
+	<Description>
+	  Your personal data, provided by your bank, obtained through iDIN.
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Id>1</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>initials</Name>
+			<Description>First letters of your given name(s), as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>familyName</Name>
+			<Description>Your family name, as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>dateOfBirth</Name>
+			<Description>Your date of birth, as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>gender</Name>
+			<Description>Your gender, as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>address</Name>
+			<Description>Your address, as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>zipcode</Name>
+			<Description>Your postal code, as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>city</Name>
+			<Description>Your city of residence, as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>country</Name>
+			<Description>Your country of residence, as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>email</Name>
+			<Description>Your email address, as registered at your bank.</Description>
+		</Attribute>
+		<Attribute>
+			<Name>telephone</Name>
+			<Description>Your telephone number, as registered at your bank.</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

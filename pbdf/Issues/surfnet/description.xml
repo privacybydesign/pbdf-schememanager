@@ -1,0 +1,44 @@
+<IssueSpecification version="3">
+	<Name>Surfnet credentials</Name>
+	<ShortName>Surfnet</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>surfnet</CredentialID>
+	<Description>
+Your Surfnet credentials obtained through SurfConext.
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Id>1</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>institute</Name>
+			<Description></Description>
+		</Attribute>
+		<Attribute>
+			<Name>type</Name>
+			<Description></Description>
+		</Attribute>
+		<Attribute>
+			<Name>id</Name>
+			<Description></Description>
+		</Attribute>
+		<Attribute>
+			<Name>fullname</Name>
+			<Description></Description>
+		</Attribute>
+		<Attribute>
+			<Name>firstname</Name>
+			<Description></Description>
+		</Attribute>
+		<Attribute>
+			<Name>familyname</Name>
+			<Description></Description>
+		</Attribute>
+		<Attribute>
+			<Name>email</Name>
+			<Description></Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

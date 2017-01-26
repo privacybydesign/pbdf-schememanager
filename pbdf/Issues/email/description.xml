@@ -1,0 +1,20 @@
+<IssueSpecification version="3">
+	<Name>Email address</Name>
+	<ShortName>Email</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>email</CredentialID>
+	<Description>
+Your verified email address.
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Id>1</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>email</Name>
+			<Description>Your verified email address.</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
