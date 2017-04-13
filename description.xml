@@ -3,7 +3,7 @@
 	<Url>https://privacybydesign.foundation/schememanager/pbdf</Url>
 	<Name>Privacy by Design Foundation</Name>
 	<Description>Privacy by Design Foundation</Description>
-	<KeyshareServer></KeyshareServer>
-	<KeyshareWebsite></KeyshareWebsite>
+	<KeyshareServer>https://privacybydesign.foundation/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
+	<KeyshareWebsite>https://privacybydesign.foundation/mijnirma/</KeyshareWebsite>
 	<Contact>https://privacybydesign.foundation/</Contact>
 </SchemeManager>
