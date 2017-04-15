@@ -1,9 +1,9 @@
 <IssueSpecification version="3">
-	<Name>iDIN data</Name>
-	<ShortName>iDIN data</ShortName>
+	<Name>iDIN bank credentials</Name>
+	<ShortName>iDIN</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
-	<CredentialID>idinData</CredentialID>
+	<CredentialID>idin</CredentialID>
 	<Description>
 	  Your personal data, provided by your bank, obtained through iDIN.
 	</Description>
@@ -17,11 +17,11 @@
 			<Description>First letters of your given name(s), as registered at your bank.</Description>
 		</Attribute>
 		<Attribute>
-			<Name>familyName</Name>
+			<Name>familyname</Name>
 			<Description>Your family name, as registered at your bank.</Description>
 		</Attribute>
 		<Attribute>
-			<Name>dateOfBirth</Name>
+			<Name>dateofbirth</Name>
 			<Description>Your date of birth, as registered at your bank.</Description>
 		</Attribute>
 		<Attribute>
