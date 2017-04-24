@@ -1,0 +1,36 @@
+<IssueSpecification version="3">
+	<Name>Age limits</Name>
+	<ShortName>Age</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>ageLimits</CredentialID>
+	<Description>
+	  Your age attributes, issued after revealing your birthdate, e.g. from the iDIN bank credentials.
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Id>1</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>over12</Name>
+			<Description>True if you are over 12</Description>
+		</Attribute>
+		<Attribute>
+			<Name>over16</Name>
+			<Description>True if you are over 16</Description>
+		</Attribute>
+		<Attribute>
+			<Name>over18</Name>
+			<Description>True if you are over 18</Description>
+		</Attribute>
+		<Attribute>
+			<Name>over21</Name>
+			<Description>True if you are over 21</Description>
+		</Attribute>
+		<Attribute>
+			<Name>over65</Name>
+			<Description>True if you are over 65</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
