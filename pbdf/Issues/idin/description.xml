@@ -44,13 +44,5 @@
 			<Name>country</Name>
 			<Description>Your country of residence, as registered at your bank.</Description>
 		</Attribute>
-		<Attribute>
-			<Name>email</Name>
-			<Description>Your email address, as registered at your bank.</Description>
-		</Attribute>
-		<Attribute>
-			<Name>telephone</Name>
-			<Description>Your telephone number, as registered at your bank.</Description>
-		</Attribute>
 	</Attributes>
 </IssueSpecification>
