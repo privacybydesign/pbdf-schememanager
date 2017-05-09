@@ -1,0 +1,24 @@
+<IssueSpecification version="3">
+	<Name>IRMATube membership</Name>
+	<ShortName>IRMATube</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>irmatube</CredentialID>
+	<Description>
+Your IRMATube membership credential.
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Id>200</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>type</Name>
+			<Description>Your membership type</Description>
+		</Attribute>
+		<Attribute>
+			<Name>id</Name>
+			<Description>The membership id</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
