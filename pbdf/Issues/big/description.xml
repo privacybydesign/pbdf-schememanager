@@ -1,0 +1,32 @@
+<IssueSpecification version="3">
+	<Name>BIG registration</Name>
+	<ShortName>BIG</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>big</CredentialID>
+	<Description>
+BIG attributes from the BIG registration.
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Id>1</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>bignumber</Name>
+			<Description>Your BIG code</Description>
+		</Attribute>
+		<Attribute>
+			<Name>startdate</Name>
+			<Description>Start date of this registration</Description>
+		</Attribute>
+		<Attribute>
+			<Name>profession</Name>
+			<Description>The profession you have</Description>
+		</Attribute>
+		<Attribute>
+			<Name>specialty</Name>
+			<Description>The specialty you have as part of your profession</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
