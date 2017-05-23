@@ -25,7 +25,7 @@ BIG attributes from the BIG registration.
 			<Description>The profession you have</Description>
 		</Attribute>
 		<Attribute>
-			<Name>specialty</Name>
+			<Name>specialism</Name>
 			<Description>The specialty you have as part of your profession</Description>
 		</Attribute>
 	</Attributes>
