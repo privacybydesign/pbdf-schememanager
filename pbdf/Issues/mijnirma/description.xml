@@ -1,20 +1,31 @@
-<IssueSpecification version="3">
-	<Name>MijnIRMA login</Name>
-	<ShortName>MijnIRMA</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>MyIRMA login</en>
+		<nl>MijnIRMA login</nl>
+	</Name>
+	<ShortName>
+		<en>MyIRMA</en>
+		<nl>MijnIRMA</nl>
+	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>mijnirma</CredentialID>
 	<Description>
-Your MijnIRMA login.
+		<en>Your MyIRMA login credential</en>
+		<nl>Uw MijnIRMA login credential</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<Id>1</Id>
-
 	<Attributes>
 		<Attribute>
-			<Name>email</Name>
-			<Description>Your verified email address.</Description>
+			<Name id="email">
+				<en>Email address</en>
+				<nl>E-mailadres</nl>
+			</Name>
+			<Description>
+				<en>Your verified email address</en>
+				<nl>Uw geverifiëerde e-mailadres</nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

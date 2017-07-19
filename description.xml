@@ -1,8 +1,14 @@
-<SchemeManager version="6">
+<SchemeManager version="7">
 	<Id>pbdf</Id>
 	<Url>https://privacybydesign.foundation/schememanager/pbdf</Url>
-	<Name>Privacy by Design Foundation</Name>
-	<Description>Privacy by Design Foundation</Description>
+	<Name>
+		<en>Privacy by Design Foundation</en>
+		<nl>Stichting Privacy by Design</nl>
+	</Name>
+	<Description>
+		<en>The Privacy by Design Foundation develops the IRMA app and the IRMA infrastructure, and issues basic attributes for free.</en>
+		<nl>De stichting Privacy by Design ontwikkelt de IRMA app en de IRMA infrastructuur, en geeft gratis een set basisattributen uit.</nl>
+	</Description>
 	<KeyshareServer>https://privacybydesign.foundation/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
 	<KeyshareWebsite>https://privacybydesign.foundation/mijnirma/</KeyshareWebsite>
 	<KeyshareAttribute>pbdf.pbdf.mijnirma.email</KeyshareAttribute>

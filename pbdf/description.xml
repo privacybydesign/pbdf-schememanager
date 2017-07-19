@@ -1,9 +1,15 @@
-<Issuer version="3">
-  <ID>pbdf</ID>
-  <ShortName>PbD.f</ShortName>
-  <Name>Privacy by Design Foundation</Name>
-  <SchemeManager>pbdf</SchemeManager>
-  <ContactAddress></ContactAddress>
-  <ContactEMail>info@privacybydesign.foundation</ContactEMail>
-  <baseURL></baseURL>
+<Issuer version="4">
+	<ID>pbdf</ID>
+	<ShortName>
+		<en>PbD.f</en>
+		<nl>PbD.f</nl>
+	</ShortName>
+	<Name>
+		<en>Privacy by Design Foundation</en>
+		<nl>Stichting Privacy by Design</nl>
+	</Name>
+	<SchemeManager>pbdf</SchemeManager>
+	<ContactAddress></ContactAddress>
+	<ContactEMail>info@privacybydesign.foundation</ContactEMail>
+	<baseURL></baseURL>
 </Issuer>

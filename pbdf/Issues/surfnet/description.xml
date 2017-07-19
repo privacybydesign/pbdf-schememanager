@@ -1,44 +1,91 @@
-<IssueSpecification version="3">
-	<Name>Surfnet credentials</Name>
-	<ShortName>Surfnet</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Surfnet credential</en>
+		<nl>Surfnet credential</nl>
+	</Name>
+	<ShortName>
+		<en>Surfnet</en>
+		<nl>Surfnet</nl>
+	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>surfnet</CredentialID>
 	<Description>
-Your Surfnet credentials obtained through SurfConext.
+		<en>Your Surfnet credential obtained through SURFconext</en>
+		<nl>Uw Surfnet credential, verkregen met SURFconext</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<Id>1</Id>
-
 	<Attributes>
 		<Attribute>
-			<Name>institute</Name>
-			<Description></Description>
+			<Name id="institute">
+				<en>Institute</en>
+				<nl>Instituut</nl>
+			</Name>
+			<Description>
+				<en>The institute that provided these attributes</en>
+				<nl>De instantie die deze attributen heeft aangeleverd</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>type</Name>
-			<Description></Description>
+			<Name id="type">
+				<en>Type</en>
+				<nl>Type</nl>
+			</Name>
+			<Description>
+				<en>Your position at your institute</en>
+				<nl>Uw positie bij uw instantie</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>id</Name>
-			<Description></Description>
+			<Name id="id">
+				<en>Institute ID</en>
+				<nl>Instituut ID</nl>
+			</Name>
+			<Description>
+				<en>Your ID number at your institute</en>
+				<nl>Uw ID-nummer bij uw instantie</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>fullname</Name>
-			<Description></Description>
+			<Name id="fullname">
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>firstname</Name>
-			<Description></Description>
+			<Name id="firstname">
+				<en>First name</en>
+				<nl>Voornaam</nl>
+			</Name>
+			<Description>
+				<en>Your first name</en>
+				<nl>Uw voornaam</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>familyname</Name>
-			<Description></Description>
+			<Name id="familyname">
+				<en>Family name</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your family name</en>
+				<nl>Uw achternaam</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>email</Name>
-			<Description></Description>
+			<Name id="email">
+				<en>Email address</en>
+				<nl>E-mailadres</nl>
+			</Name>
+			<Description>
+				<en>Your email address at your institute</en>
+				<nl>Uw e-mailadres bij uw instantie</nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

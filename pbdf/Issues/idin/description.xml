@@ -1,11 +1,18 @@
-<IssueSpecification version="3">
-	<Name>iDIN bank credentials</Name>
-	<ShortName>iDIN</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>iDIN bank credentials</en>
+		<nl>iDIN bank credential</nl>
+	</Name>
+	<ShortName>
+		<en>iDIN</en>
+		<nl>iDIN</nl>
+	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>idin</CredentialID>
 	<Description>
-	  Your personal data, provided by your bank, obtained through iDIN.
+		<en>Your personal data, provided by your bank, obtained through iDIN</en>
+		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDIN.</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -13,36 +20,84 @@
 
 	<Attributes>
 		<Attribute>
-			<Name>initials</Name>
-			<Description>First letters of your given name(s), as registered at your bank.</Description>
+			<Name id="initials">
+				<en>Initials</en>
+				<nl>Initialen</nl>
+			</Name>
+			<Description>
+				<en>First letters of your given name(s), as registered at your bank</en>
+				<nl>Uw initialen, zoals geregistreerd bij uw bank</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>familyname</Name>
-			<Description>Your family name, as registered at your bank.</Description>
+			<Name id="familyname">
+				<en>Family name</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your family name, as registered at your bank</en>
+				<nl>Uw achternaam, zoals geregistreerd bij uw bank</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>dateofbirth</Name>
-			<Description>Your date of birth, as registered at your bank.</Description>
+			<Name id="dateofbirth">
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Your date of birth, as registered at your bank</en>
+				<nl>Uw geboortedatum, zoals geregistreerd bij uw bank</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>gender</Name>
-			<Description>Your gender, as registered at your bank.</Description>
+			<Name id="gender">
+				<en>Gender</en>
+				<nl>Geslacht</nl>
+			</Name>
+			<Description>
+				<en>Your gender, as registered at your bank</en>
+				<nl>Uw geslacht, zoals geregistreerd bij uw bank</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>address</Name>
-			<Description>Your address, as registered at your bank.</Description>
+			<Name id="address">
+				<en>Address</en>
+				<nl>Adres</nl>
+			</Name>
+			<Description>
+				<en>Your address, as registered at your bank</en>
+				<nl>Uw adres, zoals geregistreerd bij uw bank</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>zipcode</Name>
-			<Description>Your postal code, as registered at your bank.</Description>
+			<Name id="zipcode">
+				<en>Zip code</en>
+				<nl>Postcode</nl>
+			</Name>
+			<Description>
+				<en>Your postal code, as registered at your bank</en>
+				<nl>Uw postcode, zoals geregistreerd bij uw bank</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>city</Name>
-			<Description>Your city of residence, as registered at your bank.</Description>
+			<Name id="city">
+				<en>City</en>
+				<nl>Stad</nl>
+			</Name>
+			<Description>
+				<en>Your city of residence, as registered at your bank</en>
+				<nl>Uw stad, zoals geregistreerd bij uw bank</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>country</Name>
-			<Description>Your country of residence, as registered at your bank.</Description>
+			<Name id="country">
+				<en>Country</en>
+				<nl>Land</nl>
+			</Name>
+			<Description>
+				<en>Your country of residence, as registered at your bank</en>
+				<nl>Uw woonland, zoals geregistreerd bij uw bank</nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

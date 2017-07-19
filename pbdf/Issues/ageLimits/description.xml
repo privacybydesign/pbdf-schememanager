@@ -1,36 +1,67 @@
-<IssueSpecification version="3">
-	<Name>Age limits</Name>
-	<ShortName>Age</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Age limits</en>
+		<nl>Leeftijdslimieten</nl>
+	</Name>
+	<ShortName>
+		<en>Age</en>
+		<nl>Leeftijd<nl>
+	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>ageLimits</CredentialID>
 	<Description>
-	  Your age attributes, issued after revealing your birthdate, e.g. from the iDIN bank credentials.
+		<en>Your age attributes, issued after revealing your birthdate, e.g. from the iDIN bank credentials.</en>
+		<nl>Uw leeftijdsgrenzen zoals berekend uit uw geboortedatum, bijvoorbeeld uit een iDIN bank credential.<nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<Id>1</Id>
-
 	<Attributes>
 		<Attribute>
-			<Name>over12</Name>
-			<Description>True if you are over 12</Description>
+			<Name id="over12">
+				<en>Over 12</en>
+				<nl>Ouder dan 12</nl>
+			</Name>
+			<Description>
+				<en>If you are over 12</en>
+				<nl>Of u ouder dan 12 bent</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>over16</Name>
-			<Description>True if you are over 16</Description>
+			<Name id="over16">
+				<en>Over 16</en>
+				<nl>Ouder dan 16</nl>
+			<Description>
+				<en>If you are over 16</en>
+				<nl>Of u ouder dan 16 bent</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>over18</Name>
-			<Description>True if you are over 18</Description>
+			<Name id="over18">
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+			<Description>
+				<en>If you are over 18</en>
+				<nl>Of u ouder dan 18 bent</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>over21</Name>
-			<Description>True if you are over 21</Description>
+			<Name id="over21">
+				<en>Over 21</en>
+				<nl>Ouder dan 21</nl>
+			<Description>
+				<en>If you are over 21</en>
+				<nl>Of u ouder dan 21 bent</nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>over65</Name>
-			<Description>True if you are over 65</Description>
+			<Name id="over65">
+				<en>Over 65</en>
+				<nl>Ouder dan 65</nl>
+			<Description>
+				<en>If you are over 65</en>
+				<nl>Of u ouder dan 65 bent</nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>
