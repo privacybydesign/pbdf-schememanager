@@ -17,8 +17,8 @@
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute>
-			<Name id="institute">
+		<Attribute id="institute">
+			<Name>
 				<en>Institute</en>
 				<nl>Instituut</nl>
 			</Name>
@@ -27,8 +27,8 @@
 				<nl>De instantie die deze attributen heeft aangeleverd</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="type">
+		<Attribute id="type">
+			<Name>
 				<en>Type</en>
 				<nl>Type</nl>
 			</Name>
@@ -37,8 +37,8 @@
 				<nl>Uw positie bij uw instantie</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="id">
+		<Attribute id="id">
+			<Name>
 				<en>Institute ID</en>
 				<nl>Instituut ID</nl>
 			</Name>
@@ -47,8 +47,8 @@
 				<nl>Uw ID-nummer bij uw instantie</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="fullname">
+		<Attribute id="fullname">
+			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
 			</Name>
@@ -57,8 +57,8 @@
 				<nl>Uw volledige naam</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="firstname">
+		<Attribute id="firstname">
+			<Name>
 				<en>First name</en>
 				<nl>Voornaam</nl>
 			</Name>
@@ -67,8 +67,8 @@
 				<nl>Uw voornaam</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="familyname">
+		<Attribute id="familyname">
+			<Name>
 				<en>Family name</en>
 				<nl>Achternaam</nl>
 			</Name>
@@ -77,8 +77,8 @@
 				<nl>Uw achternaam</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="email">
+		<Attribute id="email">
+			<Name>
 				<en>Email address</en>
 				<nl>E-mailadres</nl>
 			</Name>

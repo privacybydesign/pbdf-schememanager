@@ -17,8 +17,8 @@
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute>
-			<Name id="email">
+		<Attribute id="email">
+			<Name>
 				<en>Email address</en>
 				<nl>E-mailadres</nl>
 			</Name>

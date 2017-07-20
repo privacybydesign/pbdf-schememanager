@@ -19,8 +19,8 @@
 	<Id>1</Id>
 
 	<Attributes>
-		<Attribute>
-			<Name id="initials">
+		<Attribute id="initials">
+			<Name>
 				<en>Initials</en>
 				<nl>Initialen</nl>
 			</Name>
@@ -29,8 +29,8 @@
 				<nl>Uw initialen, zoals geregistreerd bij uw bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="familyname">
+		<Attribute id="familyname">
+			<Name>
 				<en>Family name</en>
 				<nl>Achternaam</nl>
 			</Name>
@@ -39,8 +39,8 @@
 				<nl>Uw achternaam, zoals geregistreerd bij uw bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="dateofbirth">
+		<Attribute id="dateofbirth">
+			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
 			</Name>
@@ -49,8 +49,8 @@
 				<nl>Uw geboortedatum, zoals geregistreerd bij uw bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="gender">
+		<Attribute id="gender">
+			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
 			</Name>
@@ -59,8 +59,8 @@
 				<nl>Uw geslacht, zoals geregistreerd bij uw bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="address">
+		<Attribute id="address">
+			<Name>
 				<en>Address</en>
 				<nl>Adres</nl>
 			</Name>
@@ -69,8 +69,8 @@
 				<nl>Uw adres, zoals geregistreerd bij uw bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="zipcode">
+		<Attribute id="zipcode">
+			<Name>
 				<en>Zip code</en>
 				<nl>Postcode</nl>
 			</Name>
@@ -79,8 +79,8 @@
 				<nl>Uw postcode, zoals geregistreerd bij uw bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="city">
+		<Attribute id="city">
+			<Name>
 				<en>City</en>
 				<nl>Stad</nl>
 			</Name>
@@ -89,8 +89,8 @@
 				<nl>Uw stad, zoals geregistreerd bij uw bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="country">
+		<Attribute id="country">
+			<Name>
 				<en>Country</en>
 				<nl>Land</nl>
 			</Name>

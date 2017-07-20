@@ -17,8 +17,8 @@
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute>
-			<Name id="bignummer">
+		<Attribute id="bignummer">
+			<Name>
 				<en>BIG number</en>
 				<nl>BIG nummer</nl>
 			</Name>
@@ -27,8 +27,8 @@
 				<nl>Uw BIG-nummer</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="startdate">
+		<Attribute id="startdate">
+			<Name>
 				<en>Start date</en>
 				<nl>Startdatum</nl>
 			</Name>
@@ -37,8 +37,8 @@
 				<nl>Startdatum van uw registratie</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="profession">
+		<Attribute id="profession">
+			<Name>
 				<en>Profession</en>
 				<nl>Beroep</nl>
 			</Name>
@@ -47,8 +47,8 @@
 				<nl>Uw beroep</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="specialism">
+		<Attribute id="specialism">
+			<Name>
 				<en>Specialism</en>
 				<nl>Specialisme</nl>
 			</Name>

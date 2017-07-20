@@ -17,8 +17,8 @@
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute>
-			<Name id="type">
+		<Attribute id="type">
+			<Name>
 				<en>Type</en>
 				<nl>Type</nl>
 			</Name>
@@ -27,8 +27,8 @@
 				<nl>Uw lidmaatschap-type</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="id">
+		<Attribute id="id">
+			<Name>
 				<en>ID</en>
 				<nl>ID</nl>
 			</Name>

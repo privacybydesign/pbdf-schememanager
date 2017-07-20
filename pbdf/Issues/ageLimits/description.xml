@@ -17,8 +17,8 @@
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute>
-			<Name id="over12">
+		<Attribute id="over12">
+			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
 			</Name>
@@ -27,8 +27,8 @@
 				<nl>Of u ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="over16">
+		<Attribute id="over16">
+			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
 			<Description>
@@ -36,8 +36,8 @@
 				<nl>Of u ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="over18">
+		<Attribute id="over18">
+			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
 			<Description>
@@ -45,8 +45,8 @@
 				<nl>Of u ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="over21">
+		<Attribute id="over21">
+			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
 			<Description>
@@ -54,8 +54,8 @@
 				<nl>Of u ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="over65">
+		<Attribute id="over65">
+			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
 			<Description>
