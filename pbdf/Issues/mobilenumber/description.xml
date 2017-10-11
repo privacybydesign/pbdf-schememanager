@@ -1,0 +1,31 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Telephone number</en>
+		<nl>Telefoonnummer</nl>
+	</Name>
+	<ShortName>
+		<en>Phone</en>
+		<nl>Telefoon</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>mobilenumber</CredentialID>
+	<Description>
+		<en>Verified mobile phone number</en>
+		<nl>Geverifieerd mobiel telefoonnummer</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="mobilenumber">
+			<Name>
+				<en>Phone number</en>
+				<nl>Telefoonnnumer</nl>
+			</Name>
+			<Description>
+				<en>Your verified mobile phone number</en>
+				<nl>Uw geverifiëerde telefoonnummer</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
