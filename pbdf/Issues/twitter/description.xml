@@ -1,0 +1,61 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Twitter</en>
+		<nl>Twitter</nl>
+	</Name>
+	<ShortName>
+		<en>Twitter</en>
+		<nl>Twitter</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>twitter</CredentialID>
+	<Description>
+		<en>Twitter attributes from your Twitter account.</en>
+		<nl>Twitter attributen uit uw Twitter account.</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="username">
+			<Name>
+				<en>Username</en>
+				<nl>Gebruikersnaam</nl>
+			</Name>
+			<Description>
+				<en>Your username at Twitter</en>
+				<nl>Uw gebruikersnaam bij Twitter</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="email">
+			<Name>
+				<en>Email address</en>
+				<nl>E-mailadres</nl>
+			</Name>
+			<Description>
+				<en>Your email address as registered by Twitter</en>
+				<nl>Uw e-mailadres zoals geregistreerd bij Twitter</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="profileurl">
+			<Name>
+				<en>Profile</en>
+				<nl>Profile</nl>
+			</Name>
+			<Description>
+				<en>URL to your Twitter profile</en>
+				<nl>URL naar uw Twitter-profiel</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
