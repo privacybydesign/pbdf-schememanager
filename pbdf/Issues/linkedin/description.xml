@@ -1,0 +1,71 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>LinkedIn</en>
+		<nl>LinkedIn</nl>
+	</Name>
+	<ShortName>
+		<en>LinkedIn</en>
+		<nl>LinkedIn</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>linkedin</CredentialID>
+	<Description>
+		<en>LinkedIn attributes from your LinkedIn account.</en>
+		<nl>LinkedIn attributen uit uw LinkedIn account.</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="fullname">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="firstname">
+			<Name>
+				<en>First name</en>
+				<nl>Voornaam</nl>
+			</Name>
+			<Description>
+				<en>Your first name</en>
+				<nl>Uw voornaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="familyname">
+			<Name>
+				<en>Family name</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your family name</en>
+				<nl>Uw achternaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="email">
+			<Name>
+				<en>Email address</en>
+				<nl>E-mailadres</nl>
+			</Name>
+			<Description>
+				<en>Your email address as registered by LinkedIn</en>
+				<nl>Uw e-mailadres zoals geregistreerd bij LinkedIn</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="profileurl">
+			<Name>
+				<en>Profile</en>
+				<nl>Profile</nl>
+			</Name>
+			<Description>
+				<en>URL to your LinkedIn profile</en>
+				<nl>URL naar uw LinkedIn-profiel</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
