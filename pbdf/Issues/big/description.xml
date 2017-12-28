@@ -17,7 +17,7 @@
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute id="bignummer">
+		<Attribute id="bignumber">
 			<Name>
 				<en>BIG number</en>
 				<nl>BIG nummer</nl>
