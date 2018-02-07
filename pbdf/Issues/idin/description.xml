@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>iDIN bank credentials</en>
-		<nl>iDIN bank credential</nl>
+		<en>iDIN</en>
+		<nl>iDIN</nl>
 	</Name>
 	<ShortName>
 		<en>iDIN</en>
