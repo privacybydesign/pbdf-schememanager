@@ -19,12 +19,12 @@
 	<Attributes>
 		<Attribute id="email">
 			<Name>
-				<en>Email address</en>
-				<nl>E-mailadres</nl>
+				<en>Username</en>
+				<nl>Gebruikersnaam</nl>
 			</Name>
 			<Description>
-				<en>Your verified email address</en>
-				<nl>Uw geverifiëerde e-mailadres</nl>
+				<en>Your MyIRMA username</en>
+				<nl>Uw MijnIRMA-gebruikersnaam</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
