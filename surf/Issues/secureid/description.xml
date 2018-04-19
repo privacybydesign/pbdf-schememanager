@@ -1,0 +1,41 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>SURFsecureID</en>
+		<nl>SURFsecureID</nl>
+	</Name>
+	<ShortName>
+		<en>SURFsecureID</en>
+		<nl>SURFsecureID</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>surf</IssuerID>
+	<CredentialID>secureid</CredentialID>
+	<Description>
+		<en>Your SURFsecureID 2nd factor</en>
+		<nl>Uw SURFsecureID tweede factor</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="secureid">
+			<Name>
+				<en>Identifier</en>
+				<nl>Identifier</nl>
+			</Name>
+			<Description>
+				<en>Your SURFsecureID identifier</en>
+				<nl>Uw SURFsecureID identifier</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="environment" optional="true">
+			<Name>
+				<en>Environment</en>
+				<nl>Omgeving</nl>
+			</Name>
+			<Description>
+				<en>The SURFsecureID-environment</en>
+				<nl>De SURFsecureID-omgeving</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
