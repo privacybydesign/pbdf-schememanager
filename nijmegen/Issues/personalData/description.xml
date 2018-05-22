@@ -27,7 +27,6 @@
 				<nl>Uw initialen</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="firstnames">
 			<Name>
 				<en>First names</en>
@@ -38,7 +37,6 @@
 				<nl>Uw voornamen</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="prefix" optional="true">
 			<Name>
 				<en>Prefix</en>
@@ -49,7 +47,6 @@
 				<nl>Voorvoegsel van uw achternaam</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="familyname">
 			<Name>
 				<en>Family name</en>
@@ -60,7 +57,6 @@
 				<nl>Uw achternaam</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="fullname">
 			<Name>
 				<en>Full name</en>
@@ -71,7 +67,6 @@
 				<nl>Uw volledige naam</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="dateofbirth">
 			<Name>
 				<en>Date of birth</en>
@@ -82,7 +77,6 @@
 				<nl>Uw geboortedatum</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="gender">
 			<Name>
 				<en>Gender</en>
@@ -93,7 +87,6 @@
 				<nl>Uw geslacht</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="nationality" optional="true">
 			<Name>
 				<en>Nationaliteit</en>

@@ -27,7 +27,6 @@
 				<nl>Uw straat</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="number" optional="true">
 			<Name>
 				<en>House number</en>
@@ -38,7 +37,6 @@
 				<nl>Uw huisnummer, letter of toevoeging</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="zipcode">
 			<Name>
 				<en>Zip code</en>
@@ -49,7 +47,6 @@
 				<nl>Uw postcode</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="municipality">
 			<Name>
 				<en>Municipality</en>
@@ -60,7 +57,6 @@
 				<nl>Uw gemeente</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="city">
 			<Name>
 				<en>City</en>
@@ -71,7 +67,6 @@
 				<nl>Uw woonplaats</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="country">
 			<Name>
 				<en>Country</en>

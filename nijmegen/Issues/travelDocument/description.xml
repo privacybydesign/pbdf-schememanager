@@ -27,7 +27,6 @@
 				<nl>Het soort reisdocument (paspoort of identiteitskaart)</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="number">
 			<Name>
 				<en>Document number</en>
@@ -38,7 +37,6 @@
 				<nl>Het documentnummer</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="issuancedate">
 			<Name>
 				<en>Issuance date</en>
@@ -49,7 +47,6 @@
 				<nl>Datum van uitgifte van het reisdocument</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="expirydate">
 			<Name>
 				<en>Expiry date</en>
@@ -60,7 +57,6 @@
 				<nl>Verloopdatum van het reisdocument</nl>
 			</Description>
 		</Attribute>
-
 		<Attribute id="documentissuer">
 			<Name>
 				<en>Document issuer</en>
