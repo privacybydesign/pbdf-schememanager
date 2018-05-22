@@ -1,0 +1,31 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>BSN</en>
+		<nl>BSN</nl>
+	</Name>
+	<ShortName>
+		<en>BSN</en>
+		<nl>BSN</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>bsn</CredentialID>
+	<Description>
+		<en>Your Dutch Citizen service number (BSN)</en>
+		<nl>Uw Burgerservicenummer (BSN)</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="bsn">
+			<Name>
+				<en>BSN</en>
+				<nl>BSN</nl>
+			</Name>
+			<Description>
+				<en>Your Dutch Citizen service number (BSN)</en>
+				<nl>Uw Burgerservicenummer (BSN)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

@@ -1,0 +1,86 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Address</en>
+		<nl>Adres</nl>
+	</Name>
+	<ShortName>
+		<en>Address</en>
+		<nl>Adres</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>address</CredentialID>
+	<Description>
+		<en>Your address, from the Dutch population register</en>
+		<nl>Uw adres, afkomstig uit het Nederlandse Basisregistratie Persoonsgegevens</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="street">
+			<Name>
+				<en>Street</en>
+				<nl>Straat</nl>
+			</Name>
+			<Description>
+				<en>Your street</en>
+				<nl>Uw straat</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="number" optional="true">
+			<Name>
+				<en>House number</en>
+				<nl>Huisnummer</nl>
+			</Name>
+			<Description>
+				<en>Your house number, letter or addition</en>
+				<nl>Uw huisnummer, letter of toevoeging</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="zipcode">
+			<Name>
+				<en>Zip code</en>
+				<nl>Postcode</nl>
+			</Name>
+			<Description>
+				<en>Your zip code</en>
+				<nl>Uw postcode</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="municipality">
+			<Name>
+				<en>Municipality</en>
+				<nl>Gemeente</nl>
+			</Name>
+			<Description>
+				<en>Your municipality</en>
+				<nl>Uw gemeente</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="city">
+			<Name>
+				<en>City</en>
+				<nl>Woonplaats</nl>
+			</Name>
+			<Description>
+				<en>Your city of residence</en>
+				<nl>Uw woonplaats</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="country">
+			<Name>
+				<en>Country</en>
+				<nl>Land</nl>
+			</Name>
+			<Description>
+				<en>Your country of residence</en>
+				<nl>Uw woonland</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

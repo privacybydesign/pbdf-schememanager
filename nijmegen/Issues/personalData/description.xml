@@ -1,0 +1,108 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Personal data</en>
+		<nl>Persoonsgegevens</nl>
+	</Name>
+	<ShortName>
+		<en>Personal data</en>
+		<nl>Persoonsgegevens</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>personalData</CredentialID>
+	<Description>
+		<en>Your personal data, from the Dutch population register</en>
+		<nl>Uw persoonsgegevens, afkomstig uit het Nederlandse Basisregistratie Persoonsgegevens</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="initials">
+			<Name>
+				<en>Initials</en>
+				<nl>Initialen</nl>
+			</Name>
+			<Description>
+				<en>Your initials</en>
+				<nl>Uw initialen</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="firstnames">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>Your first names</en>
+				<nl>Uw voornamen</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="prefix" optional="true">
+			<Name>
+				<en>Prefix</en>
+				<nl>Voorvoegsel</nl>
+			</Name>
+			<Description>
+				<en>Prefix of your family name</en>
+				<nl>Voorvoegsel van uw achternaam</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="familyname">
+			<Name>
+				<en>Family name</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your family name</en>
+				<nl>Uw achternaam</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="fullname">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="dateofbirth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Your date of birth</en>
+				<nl>Uw geboortedatum</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="gender">
+			<Name>
+				<en>Gender</en>
+				<nl>Geslacht</nl>
+			</Name>
+			<Description>
+				<en>Your gender</en>
+				<nl>Uw geslacht</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="nationality" optional="true">
+			<Name>
+				<en>Nationaliteit</en>
+				<nl>Nationality</nl>
+			</Name>
+			<Description>
+				<en>Your nationality</en>
+				<nl>Uw nationaliteit</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
