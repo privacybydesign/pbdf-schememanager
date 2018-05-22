@@ -14,7 +14,7 @@
 		<en>Your Dutch passport or identity card</en>
 		<nl>Uw Nederlandse paspoort of identiteitskaart</nl>
 	</Description>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>
 		<Attribute id="kind">
