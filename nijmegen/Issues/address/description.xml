@@ -12,7 +12,7 @@
 	<CredentialID>address</CredentialID>
 	<Description>
 		<en>Your address, from the Dutch population register</en>
-		<nl>Uw adres, afkomstig uit het Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<nl>Uw adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

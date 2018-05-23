@@ -11,8 +11,8 @@
 	<IssuerID>nijmegen</IssuerID>
 	<CredentialID>ageLimits</CredentialID>
 	<Description>
-		<en>Your age attributes, issued after revealing your birthdate from the Dutch population register</en>
-		<nl>Uw leeftijdsgrenzen, zoals berekend uit uw geboortedatum afkomstig uit het Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<en>Your age limits, derived from your birthdate from the Dutch population register</en>
+		<nl>Uw leeftijdsgrenzen, afgeleid uit uw geboortedatum afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

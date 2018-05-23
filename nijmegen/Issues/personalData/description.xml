@@ -12,7 +12,7 @@
 	<CredentialID>personalData</CredentialID>
 	<Description>
 		<en>Your personal data, from the Dutch population register</en>
-		<nl>Uw persoonsgegevens, afkomstig uit het Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<nl>Uw persoonsgegevens, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
