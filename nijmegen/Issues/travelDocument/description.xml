@@ -57,7 +57,7 @@
 				<nl>Verloopdatum van het reisdocument</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="documentissuer">
+		<Attribute id="documentissuer" optional="true">
 			<Name>
 				<en>Document issuer</en>
 				<nl>Uitgever</nl>

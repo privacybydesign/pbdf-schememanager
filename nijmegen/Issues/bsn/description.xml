@@ -11,8 +11,8 @@
 	<IssuerID>nijmegen</IssuerID>
 	<CredentialID>bsn</CredentialID>
 	<Description>
-		<en>Your Dutch Citizen service number (BSN)</en>
-		<nl>Uw Burgerservicenummer (BSN)</nl>
+		<en>Your Dutch Citizen service number (BSN), from the Dutch population register</en>
+		<nl>Uw Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

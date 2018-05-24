@@ -27,14 +27,14 @@
 				<nl>Uw straat</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="number" optional="true">
+		<Attribute id="houseNumber" optional="true">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
 			</Name>
 			<Description>
-				<en>Your house number, letter or addition</en>
-				<nl>Uw huisnummer, letter of toevoeging</nl>
+				<en>Your house number, letter, addition and/or indication</en>
+				<nl>Uw huisnummer, letter, toevoeging en/of aanduiding</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode">
@@ -65,16 +65,6 @@
 			<Description>
 				<en>Your city of residence</en>
 				<nl>Uw woonplaats</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="country">
-			<Name>
-				<en>Country</en>
-				<nl>Land</nl>
-			</Name>
-			<Description>
-				<en>Your country of residence</en>
-				<nl>Uw land</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
