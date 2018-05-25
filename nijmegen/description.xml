@@ -11,4 +11,5 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://www.nijmegen.nl</ContactAddress>
 	<ContactEMail>gemeente@nijmegen.nl</ContactEMail>
+	<baseURL></baseURL>
 </Issuer>
