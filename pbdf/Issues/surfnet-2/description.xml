@@ -1,0 +1,101 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Surfnet</en>
+		<nl>Surfnet</nl>
+	</Name>
+	<ShortName>
+		<en>Surfnet</en>
+		<nl>Surfnet</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>surfnet-2</CredentialID>
+	<Description>
+		<en>Your Surfnet credential obtained through SURFconext</en>
+		<nl>Uw Surfnet credential, verkregen met SURFconext</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="institute" optional="true">
+			<Name>
+				<en>Institute</en>
+				<nl>Instituut</nl>
+			</Name>
+			<Description>
+				<en>The institute that provided these attributes</en>
+				<nl>De instantie die deze attributen heeft aangeleverd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="type" optional="true">
+			<Name>
+				<en>Type</en>
+				<nl>Type</nl>
+			</Name>
+			<Description>
+				<en>Your position at your institute</en>
+				<nl>Uw positie bij uw instantie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="id" optional="true">
+			<Name>
+				<en>User ID</en>
+				<nl>Gebruiker ID</nl>
+			</Name>
+			<Description>
+				<en>Your ID number at your institute</en>
+				<nl>Uw ID-nummer bij uw instantie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullid" optional="true">
+			<Name>
+				<en>Full ID</en>
+				<nl>Volledig ID</nl>
+			</Name>
+			<Description>
+				<en>Your ID number at your institute</en>
+				<nl>Uw ID-nummer bij uw instantie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname" optional="true">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="firstname" optional="true">
+			<Name>
+				<en>First name</en>
+				<nl>Voornaam</nl>
+			</Name>
+			<Description>
+				<en>Your first name</en>
+				<nl>Uw voornaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="familyname" optional="true">
+			<Name>
+				<en>Family name</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your family name</en>
+				<nl>Uw achternaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="email" optional="true">
+			<Name>
+				<en>Email address</en>
+				<nl>E-mailadres</nl>
+			</Name>
+			<Description>
+				<en>Your email address at your institute</en>
+				<nl>Uw e-mailadres bij uw instantie</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
