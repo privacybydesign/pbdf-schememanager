@@ -57,7 +57,7 @@
 				<nl>Uw e-mailadres zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="dateofbirth">
+		<Attribute id="dateofbirth" optional="true">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
