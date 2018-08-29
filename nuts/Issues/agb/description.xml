@@ -1,0 +1,30 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Vektis agb by Nuts</en>
+		<nl>Vektis agb via Nuts</nl>
+	</Name>
+	<ShortName>
+		<en>agb</en>
+		<nl>agb</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nuts</IssuerID>
+	<CredentialID>agb</CredentialID>
+	<Description>
+		<en>Vektis agb attributes issued by Nuts.</en>
+		<nl>Vektis agb attributen uitgegeven door Nuts.</nl>
+	</Description>
+
+	<Attributes>
+		<Attribute id="agbcode">
+			<Name>
+				<en>agbcode</en>
+				<nl>agbcode</nl>
+			</Name>
+			<Description>
+				<en>uniquely identifying key for individual care providers and care organisations</en>
+				<nl>unieke identificerende sleutel van individuele zorgverleners en zorgorganisaties</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
