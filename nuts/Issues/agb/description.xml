@@ -1,29 +1,29 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Vektis agb by Nuts</en>
-		<nl>Vektis agb via Nuts</nl>
+		<en>AGB</en>
+		<nl>AGB</nl>
 	</Name>
 	<ShortName>
-		<en>agb</en>
-		<nl>agb</nl>
+		<en>AGB</en>
+		<nl>AGB</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nuts</IssuerID>
 	<CredentialID>agb</CredentialID>
 	<Description>
-		<en>Vektis agb attributes issued by Nuts.</en>
-		<nl>Vektis agb attributen uitgegeven door Nuts.</nl>
+		<en>An AGB-code (in Dutch: Algemeen GegevensBeheer-code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registrered in a national database with this code. The database is maintained by Vektis.</en>
+		<nl>Een Algemeen GegevensBeheer-code (kort: AGB-code) is een landelijke code waarmee een zorgaanbieder kan worden herkend. Met deze unieke code staan zorgaanbieders geregistreerd in een landelijke database. Dit systeem wordt beheerd door Vektis.</nl>
 	</Description>
 
 	<Attributes>
 		<Attribute id="agbcode">
 			<Name>
-				<en>agbcode</en>
-				<nl>agbcode</nl>
+				<en>AGB-code</en>
+				<nl>AGB-code</nl>
 			</Name>
 			<Description>
-				<en>uniquely identifying key for individual care providers and care organisations</en>
-				<nl>unieke identificerende sleutel van individuele zorgverleners en zorgorganisaties</nl>
+				<en>Uniquely identifying key for individual care providers and care organisations</en>
+				<nl>Uniek identificerende sleutel van individuele zorgverleners en zorgorganisaties</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
