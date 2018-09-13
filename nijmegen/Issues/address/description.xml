@@ -33,8 +33,8 @@
 				<nl>Huisnummer</nl>
 			</Name>
 			<Description>
-				<en>Your house number, letter, addition and/or indication</en>
-				<nl>Uw huisnummer, letter, toevoeging en/of aanduiding</nl>
+				<en>Your house number, letter and/or addition</en>
+				<nl>Uw huisnummer, letter en/of toevoeging</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode">
