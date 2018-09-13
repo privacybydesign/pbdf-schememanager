@@ -19,8 +19,8 @@
 	<Attributes>
 		<Attribute id="fullname">
 			<Name>
-				<en>Full name</en>
-				<nl>Volledige naam</nl>
+				<en>Account holder</en>
+				<nl>Rekeninghouder</nl>
 			</Name>
 			<Description>
 				<en>Your full name, as registered at your bank</en>
