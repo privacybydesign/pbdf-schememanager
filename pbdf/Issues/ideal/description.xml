@@ -1,0 +1,51 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>iDeal</en>
+		<nl>iDeal</nl>
+	</Name>
+	<ShortName>
+		<en>iDeal</en>
+		<nl>iDeal</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>ideal</CredentialID>
+	<Description>
+		<en>Your personal data, provided by your bank, obtained through iDeal</en>
+		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDeal.</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="fullname">
+			<Name>
+				<en>Account holder</en>
+				<nl>Rekeninghouder</nl>
+			</Name>
+			<Description>
+				<en>Your full name, as registered at your bank</en>
+				<nl>Uw volledige naam, zoals geregistreerd bij uw bank</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="iban">
+			<Name>
+				<en>IBAN</en>
+				<nl>IBAN</nl>
+			</Name>
+			<Description>
+				<en>The IBAN of your bank account</en>
+				<nl>De IBAN van uw bankrekening</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bic">
+			<Name>
+				<en>BIC</en>
+				<nl>BIC</nl>
+			</Name>
+			<Description>
+				<en>The Bank Identifier Code of your bank</en>
+				<nl>De Bank Identifier Code van uw bank</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
