@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>nijmegen</ID>
+	<ShortName>
+		<en>Gemeente Nijmegen</en>
+		<nl>Gemeente Nijmegen</nl>
+	</ShortName>
+	<Name>
+		<en>Gemeente Nijmegen</en>
+		<nl>Gemeente Nijmegen</nl>
+	</Name>
+	<SchemeManager>pbdf</SchemeManager>
+	<ContactAddress>https://www.nijmegen.nl</ContactAddress>
+	<ContactEMail>gemeente@nijmegen.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
