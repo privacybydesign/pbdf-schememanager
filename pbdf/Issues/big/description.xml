@@ -15,10 +15,10 @@
 		<nl>BIG-attributen uit het BIG-register</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://privacybydesign.foundation/issuance/big/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/big/</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="bignumber">

@@ -15,10 +15,10 @@
 		<nl>Twitter attributen uit uw Twitter account</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://privacybydesign.foundation/issuance/social/twitter/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/social/twitter/</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="username">

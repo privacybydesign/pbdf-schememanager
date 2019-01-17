@@ -15,10 +15,10 @@
 		<nl>Uw leeftijdsgrenzen zoals berekend uit uw geboortedatum, uit uw iDIN bank attributen</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://privacybydesign.foundation/issuance/idin/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="over12">

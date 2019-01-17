@@ -15,10 +15,10 @@
 		<nl>Uw Nederlandse paspoort of identiteitskaart, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://services.nijmegen.nl/irma/issue/start</en>
 		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="kind">

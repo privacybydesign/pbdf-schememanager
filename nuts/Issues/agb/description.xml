@@ -14,10 +14,10 @@
 		<en>An AGB-code (in Dutch: Algemeen GegevensBeheer-code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registered in a national database with this code. The database is maintained by Vektis</en>
 		<nl>Een Algemeen GegevensBeheer-code (kort: AGB-code) is een landelijke code waarmee een zorgaanbieder kan worden herkend. Met deze unieke code staan zorgaanbieders geregistreerd in een landelijke database. Dit systeem wordt beheerd door Vektis</nl>
 	</Description>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://irma-agb.nuts.nl/</en>
 		<nl>https://irma-agb.nuts.nl/</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="agbcode">

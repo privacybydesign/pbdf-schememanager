@@ -15,10 +15,10 @@
 		<nl>Uw Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://services.nijmegen.nl/irma/issue/start</en>
 		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="bsn">

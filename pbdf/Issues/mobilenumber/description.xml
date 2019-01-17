@@ -15,10 +15,10 @@
 		<nl>Uw geverifieerde mobiel telefoonnummer</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://privacybydesign.foundation/issuance/phonenumber/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/telefoonnummer/</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="mobilenumber">

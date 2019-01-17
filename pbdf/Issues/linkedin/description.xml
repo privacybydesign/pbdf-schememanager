@@ -15,10 +15,10 @@
 		<nl>LinkedIn attributen uit uw LinkedIn account</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://privacybydesign.foundation/issuance/social/linkedin/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/social/linkedin/</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="fullname">

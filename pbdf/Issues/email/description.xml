@@ -15,10 +15,10 @@
 		<nl>Uw geverifieerde e-mailadres</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueUrl>
+	<IssueURL>
 		<en>https://privacybydesign.foundation/issuance/email/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/email/</nl>
-	</IssueUrl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="email">
