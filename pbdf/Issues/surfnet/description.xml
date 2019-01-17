@@ -15,6 +15,10 @@
 		<nl>Uw Surfnet-attributen, verkregen via SURFconext</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueUrl>
+		<en>https://privacybydesign.foundation/issuance/surfnet/surfnet/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/surfnet/surfnet/</nl>
+	</IssueUrl>
 
 	<Attributes>
 		<Attribute id="institute">

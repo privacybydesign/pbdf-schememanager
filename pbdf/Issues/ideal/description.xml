@@ -15,6 +15,10 @@
 		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDEAL</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueUrl>
+		<en>https://privacybydesign.foundation/issuance/ideal-idin/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/ideal-idin/</nl>
+	</IssueUrl>
 
 	<Attributes>
 		<Attribute id="fullname">

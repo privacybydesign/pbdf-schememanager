@@ -15,6 +15,10 @@
 		<nl>Uw adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueUrl>
+		<en>https://services.nijmegen.nl/irma/issue/start</en>
+		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
+	</IssueUrl>
 
 	<Attributes>
 		<Attribute id="street">

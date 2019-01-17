@@ -15,6 +15,10 @@
 		<nl>Facebook-attributen verkregen via Facebook Connect</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<IssueUrl>
+		<en>https://privacybydesign.foundation/issuance/social/facebook/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/social/facebook/</nl>
+	</IssueUrl>
 
 	<Attributes>
 		<Attribute id="fullname">

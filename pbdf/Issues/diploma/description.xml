@@ -15,6 +15,10 @@
 		<nl>Gegevens uit uw diploma, verkregen via DUO</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<IssueUrl>
+		<en>https://privacybydesign.foundation/uitgifte/diploma/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/diploma/</nl>
+	</IssueUrl>
 
 	<Attributes>
 		<Attribute id="firstname">

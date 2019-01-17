@@ -15,6 +15,10 @@
 		<nl>Uw IRMATube lidmaatschapsattributen</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueUrl>
+		<en>https://privacybydesign.foundation/demo-en/irmaTube/</en>
+		<nl>https://privacybydesign.foundation/demo/irmaTube/</nl>
+	</IssueUrl>
 
 	<Attributes>
 		<Attribute id="type">

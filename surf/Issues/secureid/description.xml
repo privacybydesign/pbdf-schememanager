@@ -15,6 +15,10 @@
 		<nl>Uw SURFsecureID tweede factor</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<IssueUrl>
+		<en>https://sa.surfconext.nl/registration/select-token/</en>
+		<nl>https://sa.surfconext.nl/registration/select-token/</nl>
+	</IssueUrl>
 
 	<Attributes>
 		<Attribute id="secureid">
