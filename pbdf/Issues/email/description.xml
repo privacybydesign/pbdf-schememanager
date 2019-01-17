@@ -12,7 +12,7 @@
 	<CredentialID>email</CredentialID>
 	<Description>
 		<en>Your verified email address</en>
-		<nl>Uw geverifiëerde e-mailadres</nl>
+		<nl>Uw geverifieerde e-mailadres</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -24,7 +24,7 @@
 			</Name>
 			<Description>
 				<en>Your verified email address</en>
-				<nl>Uw geverifiëerde e-mailadres</nl>
+				<nl>Uw geverifieerde e-mailadres</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

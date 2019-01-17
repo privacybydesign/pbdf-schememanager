@@ -12,11 +12,9 @@
 	<CredentialID>idin</CredentialID>
 	<Description>
 		<en>Your personal data, provided by your bank, obtained through iDIN</en>
-		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDIN.</nl>
+		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDIN</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
-
-	<Id>1</Id>
 
 	<Attributes>
 		<Attribute id="initials">

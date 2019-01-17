@@ -11,8 +11,8 @@
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>diploma</CredentialID>
 	<Description>
-		<en>Data extracted from your diploma provided by DUO.</en>
-		<nl>Gegevens uit uw diploma, verkregen via DUO.</nl>
+		<en>Data extracted from your diploma provided by DUO</en>
+		<nl>Gegevens uit uw diploma, verkregen via DUO</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -23,8 +23,8 @@
 				<nl>Voornaam</nl>
 			</Name>
 			<Description>
-				<en>Your first name</en>
-				<nl>Uw voornaam</nl>
+				<en>Your first name from your diploma</en>
+				<nl>Uw voornaam uit uw diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="prefix" optional="true">
@@ -33,8 +33,8 @@
 				<nl>Tussenvoegsel</nl>
 			</Name>
 			<Description>
-				<en>Your family name prefix</en>
-				<nl>Uw tussenvoegsel</nl>
+				<en>Your family name prefix from your diploma</en>
+				<nl>Uw tussenvoegsel uit uw diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -43,8 +43,8 @@
 				<nl>Achternaam</nl>
 			</Name>
 			<Description>
-				<en>Your family name</en>
-				<nl>Uw achternaam</nl>
+				<en>Your family name from your diploma</en>
+				<nl>Uw achternaam uit uw diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth">
@@ -53,8 +53,8 @@
 				<nl>Geboortedatum</nl>
 			</Name>
 			<Description>
-				<en>Your date of birth</en>
-				<nl>Uw geboortedatum</nl>
+				<en>Your date of birth from your diploma</en>
+				<nl>Uw geboortedatum uit uw diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="gender">
@@ -63,8 +63,8 @@
 				<nl>Geslacht</nl>
 			</Name>
 			<Description>
-				<en>Your gender</en>
-				<nl>Uw geslacht</nl>
+				<en>Your gender from your diploma</en>
+				<nl>Uw geslacht uit uw diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="education">
@@ -73,8 +73,8 @@
 				<nl>Opleiding</nl>
 			</Name>
 			<Description>
-				<en>Completed education, as registered by DUO</en>
-				<nl>Voltooide opleiding, zoals geregistreerd door DUO</nl>
+				<en>Completed education</en>
+				<nl>Voltooide opleiding</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="degree" optional="true">
@@ -83,8 +83,8 @@
 				<nl>Opleiding</nl>
 			</Name>
 			<Description>
-				<en>Type of education, as registered by DUO</en>
-				<nl>Soort opleiding, zoals geregistreerd door DUO</nl>
+				<en>Type of education</en>
+				<nl>Soort opleiding</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="profile" optional="true">
@@ -93,8 +93,8 @@
 				<nl>Profiel</nl>
 			</Name>
 			<Description>
-				<en>Education profile, as registered by DUO</en>
-				<nl>Profiel, zoals geregistreerd door DUO</nl>
+				<en>Education profile</en>
+				<nl>Opleidingsprofiel</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="achieved">
@@ -103,8 +103,8 @@
 				<nl>Behaald in</nl>
 			</Name>
 			<Description>
-				<en>Month of achieving this diploma, as registered by DUO</en>
-				<nl>Maand waarin dit diploma behaald is, zoals geregistreerd door DUO</nl>
+				<en>Month of achieving this diploma</en>
+				<nl>Maand waarin dit diploma behaald is</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="institute">

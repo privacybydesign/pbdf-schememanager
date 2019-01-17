@@ -11,8 +11,8 @@
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>facebook</CredentialID>
 	<Description>
-		<en>Facebook attributes obtained using Facebook Connect.</en>
-		<nl>Facebook attributen verkregen via Facebook Connect.</nl>
+		<en>Facebook attributes obtained using Facebook Connect</en>
+		<nl>Facebook-attributen verkregen via Facebook Connect</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -23,8 +23,8 @@
 				<nl>Volledige naam</nl>
 			</Name>
 			<Description>
-				<en>Your full name</en>
-				<nl>Uw volledige naam</nl>
+				<en>Your full name, as registered by Facebook</en>
+				<nl>Uw volledige naam, zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstname">
@@ -33,8 +33,8 @@
 				<nl>Voornaam</nl>
 			</Name>
 			<Description>
-				<en>Your first name</en>
-				<nl>Uw voornaam</nl>
+				<en>Your first name, as registered by Facebook</en>
+				<nl>Uw voornaam, zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -43,8 +43,8 @@
 				<nl>Achternaam</nl>
 			</Name>
 			<Description>
-				<en>Your family name</en>
-				<nl>Uw achternaam</nl>
+				<en>Your family name, as registered by Facebook</en>
+				<nl>Uw achternaam, zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="email">
@@ -53,8 +53,8 @@
 				<nl>E-mailadres</nl>
 			</Name>
 			<Description>
-				<en>Your email address as registered by Facebook</en>
-				<nl>Uw e-mailadres zoals geregistreerd bij Facebook</nl>
+				<en>Your email address, as registered by Facebook</en>
+				<nl>Uw e-mailadres, zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth" optional="true">

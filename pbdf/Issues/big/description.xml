@@ -11,8 +11,8 @@
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>big</CredentialID>
 	<Description>
-		<en>BIG attributes from the BIG registration.</en>
-		<nl>BIG-attributen uit het BIG-register.</nl>
+		<en>BIG attributes from the BIG registration</en>
+		<nl>BIG-attributen uit het BIG-register</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 

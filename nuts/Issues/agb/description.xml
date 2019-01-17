@@ -11,8 +11,8 @@
 	<IssuerID>nuts</IssuerID>
 	<CredentialID>agb</CredentialID>
 	<Description>
-		<en>An AGB-code (in Dutch: Algemeen GegevensBeheer-code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registrered in a national database with this code. The database is maintained by Vektis.</en>
-		<nl>Een Algemeen GegevensBeheer-code (kort: AGB-code) is een landelijke code waarmee een zorgaanbieder kan worden herkend. Met deze unieke code staan zorgaanbieders geregistreerd in een landelijke database. Dit systeem wordt beheerd door Vektis.</nl>
+		<en>An AGB-code (in Dutch: Algemeen GegevensBeheer-code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registered in a national database with this code. The database is maintained by Vektis</en>
+		<nl>Een Algemeen GegevensBeheer-code (kort: AGB-code) is een landelijke code waarmee een zorgaanbieder kan worden herkend. Met deze unieke code staan zorgaanbieders geregistreerd in een landelijke database. Dit systeem wordt beheerd door Vektis</nl>
 	</Description>
 
 	<Attributes>
@@ -22,7 +22,7 @@
 				<nl>AGB-code</nl>
 			</Name>
 			<Description>
-				<en>Uniquely identifying key for individual care providers and care organisations</en>
+				<en>Uniquely identifying key for individual care providers and care organizations</en>
 				<nl>Uniek identificerende sleutel van individuele zorgverleners en zorgorganisaties</nl>
 			</Description>
 		</Attribute>

@@ -11,8 +11,8 @@
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>linkedin</CredentialID>
 	<Description>
-		<en>LinkedIn attributes from your LinkedIn account.</en>
-		<nl>LinkedIn attributen uit uw LinkedIn account.</nl>
+		<en>LinkedIn attributes from your LinkedIn account</en>
+		<nl>LinkedIn attributen uit uw LinkedIn account</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -23,8 +23,8 @@
 				<nl>Volledige naam</nl>
 			</Name>
 			<Description>
-				<en>Your full name</en>
-				<nl>Uw volledige naam</nl>
+				<en>Your full name, as registered by LinkedIn</en>
+				<nl>Uw volledige naam, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstname">
@@ -33,8 +33,8 @@
 				<nl>Voornaam</nl>
 			</Name>
 			<Description>
-				<en>Your first name</en>
-				<nl>Uw voornaam</nl>
+				<en>Your first name, as registered by LinkedIn</en>
+				<nl>Uw voornaam, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -43,8 +43,8 @@
 				<nl>Achternaam</nl>
 			</Name>
 			<Description>
-				<en>Your family name</en>
-				<nl>Uw achternaam</nl>
+				<en>Your family name, as registered by LinkedIn</en>
+				<nl>Uw achternaam, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="email">
@@ -53,14 +53,14 @@
 				<nl>E-mailadres</nl>
 			</Name>
 			<Description>
-				<en>Your email address as registered by LinkedIn</en>
-				<nl>Uw e-mailadres zoals geregistreerd bij LinkedIn</nl>
+				<en>Your email address, as registered by LinkedIn</en>
+				<nl>Uw e-mailadres, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="profileurl">
 			<Name>
 				<en>Profile</en>
-				<nl>Profile</nl>
+				<nl>Profiel</nl>
 			</Name>
 			<Description>
 				<en>URL to your LinkedIn profile</en>

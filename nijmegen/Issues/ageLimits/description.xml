@@ -23,7 +23,7 @@
 				<nl>Ouder dan 12</nl>
 			</Name>
 			<Description>
-				<en>If you are over 12</en>
+				<en>Whether you are over 12</en>
 				<nl>Of u ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
@@ -33,7 +33,7 @@
 				<nl>Ouder dan 16</nl>
 			</Name>
 			<Description>
-				<en>If you are over 16</en>
+				<en>Whether you are over 16</en>
 				<nl>Of u ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
@@ -43,7 +43,7 @@
 				<nl>Ouder dan 18</nl>
 			</Name>
 			<Description>
-				<en>If you are over 18</en>
+				<en>Whether you are over 18</en>
 				<nl>Of u ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
@@ -53,7 +53,7 @@
 				<nl>Ouder dan 21</nl>
 			</Name>
 			<Description>
-				<en>If you are over 21</en>
+				<en>Whether you are over 21</en>
 				<nl>Of u ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
@@ -63,7 +63,7 @@
 				<nl>Ouder dan 65</nl>
 			</Name>
 			<Description>
-				<en>If you are over 65</en>
+				<en>Whether you are over 65</en>
 				<nl>Of u ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>

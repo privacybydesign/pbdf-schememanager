@@ -11,8 +11,8 @@
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>surfnet-2</CredentialID>
 	<Description>
-		<en>Your Surfnet credential obtained through SURFconext</en>
-		<nl>Uw Surfnet credential, verkregen met SURFconext</nl>
+		<en>Your Surfnet attributes obtained through SURFconext</en>
+		<nl>Uw Surfnet-attributen, verkregen via SURFconext</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -53,8 +53,8 @@
 				<nl>Volledig ID</nl>
 			</Name>
 			<Description>
-				<en>Your ID number at your institute</en>
-				<nl>Uw ID-nummer bij uw instantie</nl>
+				<en>Your full ID number at your institute</en>
+				<nl>Uw volledig ID-nummer bij uw instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="fullname" optional="true">
@@ -63,8 +63,8 @@
 				<nl>Volledige naam</nl>
 			</Name>
 			<Description>
-				<en>Your full name</en>
-				<nl>Uw volledige naam</nl>
+				<en>Your full name, as registered by your institute</en>
+				<nl>Uw volledige naam, zoals geregistreerd bij uw instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstname" optional="true">
@@ -73,8 +73,8 @@
 				<nl>Voornaam</nl>
 			</Name>
 			<Description>
-				<en>Your first name</en>
-				<nl>Uw voornaam</nl>
+				<en>Your first name, as registered by your institute</en>
+				<nl>Uw voornaam, zoals geregistreerd bij uw instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname" optional="true">
@@ -83,8 +83,8 @@
 				<nl>Achternaam</nl>
 			</Name>
 			<Description>
-				<en>Your family name</en>
-				<nl>Uw achternaam</nl>
+				<en>Your family name, as registered by your institute</en>
+				<nl>Uw achternaam, zoals geregistreerd bij uw instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="email" optional="true">

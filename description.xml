@@ -6,8 +6,8 @@
 		<nl>Stichting Privacy by Design</nl>
 	</Name>
 	<Description>
-		<en>The Privacy by Design Foundation develops the IRMA app and the IRMA infrastructure, and issues basic attributes for free.</en>
-		<nl>De stichting Privacy by Design ontwikkelt de IRMA app en de IRMA infrastructuur, en geeft gratis een set basisattributen uit.</nl>
+		<en>The Privacy by Design Foundation develops the IRMA app and the IRMA infrastructure, and issues basic attributes for free</en>
+		<nl>De stichting Privacy by Design ontwikkelt de IRMA app en de IRMA infrastructuur, en geeft gratis een set basisattributen uit</nl>
 	</Description>
 	<KeyshareServer>https://privacybydesign.foundation/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
 	<KeyshareWebsite>https://privacybydesign.foundation/mijnirma/</KeyshareWebsite>

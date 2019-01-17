@@ -11,8 +11,8 @@
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>twitter</CredentialID>
 	<Description>
-		<en>Twitter attributes from your Twitter account.</en>
-		<nl>Twitter attributen uit uw Twitter account.</nl>
+		<en>Twitter attributes from your Twitter account</en>
+		<nl>Twitter attributen uit uw Twitter account</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -23,8 +23,8 @@
 				<nl>Gebruikersnaam</nl>
 			</Name>
 			<Description>
-				<en>Your username at Twitter</en>
-				<nl>Uw gebruikersnaam bij Twitter</nl>
+				<en>Your username at Twitter, as registered by Twitter</en>
+				<nl>Uw gebruikersnaam bij Twitter, zoals geregistreerd bij Twitter</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="fullname">
@@ -33,8 +33,8 @@
 				<nl>Volledige naam</nl>
 			</Name>
 			<Description>
-				<en>Your full name</en>
-				<nl>Uw volledige naam</nl>
+				<en>Your full name, as registered by Twitter</en>
+				<nl>Uw volledige naam, zoals geregistreerd bij Twitter</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="email">
@@ -43,14 +43,14 @@
 				<nl>E-mailadres</nl>
 			</Name>
 			<Description>
-				<en>Your email address as registered by Twitter</en>
-				<nl>Uw e-mailadres zoals geregistreerd bij Twitter</nl>
+				<en>Your email address, as registered by Twitter</en>
+				<nl>Uw e-mailadres, zoals geregistreerd bij Twitter</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="profileurl">
 			<Name>
 				<en>Profile</en>
-				<nl>Profile</nl>
+				<nl>Profiel</nl>
 			</Name>
 			<Description>
 				<en>URL to your Twitter profile</en>

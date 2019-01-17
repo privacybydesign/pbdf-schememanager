@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>iDeal</en>
-		<nl>iDeal</nl>
+		<en>iDEAL</en>
+		<nl>iDEAL</nl>
 	</Name>
 	<ShortName>
-		<en>iDeal</en>
-		<nl>iDeal</nl>
+		<en>iDEAL</en>
+		<nl>iDEAL</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>ideal</CredentialID>
 	<Description>
-		<en>Your personal data, provided by your bank, obtained through iDeal</en>
-		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDeal.</nl>
+		<en>Your personal data, provided by your bank, obtained through iDEAL</en>
+		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDEAL</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

@@ -11,8 +11,8 @@
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>mobilenumber</CredentialID>
 	<Description>
-		<en>Verified mobile phone number</en>
-		<nl>Geverifieerd mobiel telefoonnummer</nl>
+		<en>Your verified mobile phone number</en>
+		<nl>Uw geverifieerde mobiel telefoonnummer</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -20,11 +20,11 @@
 		<Attribute id="mobilenumber">
 			<Name>
 				<en>Phone number</en>
-				<nl>Telefoonnnumer</nl>
+				<nl>Telefoonnummer</nl>
 			</Name>
 			<Description>
 				<en>Your verified mobile phone number</en>
-				<nl>Uw geverifiëerde telefoonnummer</nl>
+				<nl>Uw geverifieerde mobiel telefoonnummer</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
