@@ -1,0 +1,16 @@
+<Issuer version="4">
+	<ID>sidn-pbdf</ID>
+	<ShortName>
+		<en>PbDF via SIDN</en>
+		<nl>PbDF via SIDN</nl>
+	</ShortName>
+	<Name>
+		<en>Privacy by Design Foundation via SIDN</en>
+		<nl>Stichting Privacy by Design via SIDN</nl>
+	</Name>
+	<SchemeManager>pbdf</SchemeManager>
+	<ContactAddress>https://www.sidn.nl</ContactAddress>
+	<ContactEMail>support@sidn.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
+

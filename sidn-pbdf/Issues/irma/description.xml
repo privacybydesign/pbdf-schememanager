@@ -1,0 +1,31 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>MyIRMA</en>
+		<nl>MijnIRMA</nl>
+	</Name>
+	<ShortName>
+		<en>MyIRMA</en>
+		<nl>MijnIRMA</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>sidn-pbdf</IssuerID>
+	<CredentialID>irma</CredentialID>
+	<Description>
+		<en>Your MyIRMA attribute</en>
+		<nl>Uw MijnIRMA-attribuut</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="pseudonym">
+			<Name>
+				<en>Username</en>
+				<nl>Gebruikersnaam</nl>
+			</Name>
+			<Description>
+				<en>Your MyIRMA username</en>
+				<nl>Uw MijnIRMA-gebruikersnaam</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
