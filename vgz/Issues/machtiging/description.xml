@@ -1,0 +1,51 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Mandate</en>
+		<nl>Machtiging</nl>
+	</Name>
+	<ShortName>
+		<en>Mandate</en>
+		<nl>Machtiging</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>vgz</IssuerID>
+	<CredentialID>machtiging</CredentialID>
+	<Description>
+		<en>With this mandate you can submit claims to VGZ on behalf of the person who mandated you</en>
+		<nl>Met deze machtiging kunt u declaraties indienen bij VGZ namens de verzekerde die u deze machtiging gegeven heeft</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="clientnumber">
+			<Name>
+				<en>VGZ Customer number</en>
+				<nl>VGZ Klantnummer</nl>
+			</Name>
+			<Description>
+				<en>The VGZ customer number of the VGZ client who mandated you</en>
+				<nl>Het VGZ klantnummer van de VGZ verzekerde die deze machtiging aan u gegeven heeft</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="clientfullname">
+			<Name>
+				<en>Insured person</en>
+				<nl>Verzekerde</nl>
+			</Name>
+			<Description>
+				<en>The name of the VGZ customer who mandated you</en>
+				<nl>De naam van de VGZ verzekerde die deze machtiging aan u gegevens heeft</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mandateid">
+			<Name>
+				<en>MandateID</en>
+				<nl>MachtigingID</nl>
+			</Name>
+			<Description>
+				<en>A unique ID for this mandate</en>
+				<nl>Een uniek ID voor deze machtiging</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
