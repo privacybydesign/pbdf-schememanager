@@ -1,0 +1,57 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Working area</en>
+		<nl>Werkgebied</nl>
+	</Name>
+	<ShortName>
+		<en>Working area</en>
+		<nl>Werkgebied</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>gebiedonline</IssuerID>
+	<CredentialID>workingarea</CredentialID>
+	<Description>
+		<en>The area where I work</en>
+		<nl>Het gebied waar ik werk</nl>
+	</Description>
+	<IssueURL>
+		<en>https://gebiedonline.nl/irma-uitleg</en>
+		<nl>https://gebiedonline.nl/irma-uitleg</nl>
+	</IssueURL>
+
+	<Attributes>
+		<Attribute id="zipcode">
+			<Name>
+				<en>Zip code in 4 digits</en>
+				<nl>Postcode in 4 cijfers</nl>
+			</Name>
+			<Description>
+				<en>Zip code (4 digits) of the area(s) where I work</en>
+				<nl>Postcode (4 cijfers) van de gebied(en) waar ik werk</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="district">
+			<Name>
+				<en>District</en>
+				<nl>Wijk</nl>
+			</Name>
+			<Description>
+				<en>The district(s) where I work</en>
+				<nl>De wijk(en) waar ik werk</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="city">
+			<Name>
+				<en>City</en>
+				<nl>Plaats</nl>
+			</Name>
+			<Description>
+				<en>The city/cities where I work</en>
+				<nl>De plaats(en) waar ik werk</nl>
+			</Description>
+		</Attribute>
+
+	</Attributes>
+</IssueSpecification>

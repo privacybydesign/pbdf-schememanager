@@ -1,0 +1,37 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>User identification</en>
+		<nl>Gebruikersidentificatie</nl>
+	</Name>
+	<ShortName>
+		<en>User identification</en>
+		<nl>Gebruikersidentificatie</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>gebiedonline</IssuerID>
+	<CredentialID>useridentification</CredentialID>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Description>
+		<en>My identification for Gebiedonline community websites</en>
+		<nl>Mijn identificatie voor Gebiedonline community websites</nl>
+	</Description>
+	<IssueURL>
+		<en>https://gebiedonline.nl/irma-uitleg</en>
+		<nl>https://gebiedonline.nl/irma-uitleg</nl>
+	</IssueURL>
+
+	<Attributes>
+
+		<Attribute id="logincode">
+			<Name>
+				<en>Login code</en>
+				<nl>Logincode</nl>
+			</Name>
+			<Description>
+				<en>My personal code to get access to my user account</en>
+				<nl>Mijn persoonlijke code om toegang te krijgen tot mijn gebruikersaccount</nl>
+			</Description>
+		</Attribute>
+
+	</Attributes>
+</IssueSpecification>

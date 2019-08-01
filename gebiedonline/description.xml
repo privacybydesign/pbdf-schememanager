@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>gebiedonline</ID>
+	<Name>
+		<en>Gebiedonline</en>
+		<nl>Gebiedonline</nl>
+	</Name>
+	<ShortName>
+		<en>Gebiedonline</en>
+		<nl>Gebiedonline</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<ContactAddress>https://gebiedonline.nl/</ContactAddress>
+	<ContactEMail>info@gebiedonline.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
