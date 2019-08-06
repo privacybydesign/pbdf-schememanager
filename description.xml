@@ -16,5 +16,6 @@
 	<KeyshareServer>https://keyshare.privacybydesign.foundation/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
 	<KeyshareWebsite>https://privacybydesign.foundation/mijnirma/</KeyshareWebsite>
 	<KeyshareAttribute>pbdf.pbdf.mijnirma.email</KeyshareAttribute>
+	<TimestampServer>https://keyshare.privacybydesign.foundation/atumd/</TimestampServer>
 	<Contact>https://privacybydesign.foundation/</Contact>
 </SchemeManager>
