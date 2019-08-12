@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>chipsoft</ID>
+	<ShortName>
+		<en>ChipSoft</en>
+		<nl>ChipSoft</nl>
+	</ShortName>
+	<Name>
+		<en>ChipSoft</en>
+		<nl>ChipSoft</nl>
+	</Name>
+	<SchemeManager>pbdf</SchemeManager>
+	<ContactAddress>https://www.chipsoft.nl</ContactAddress>
+	<ContactEMail>eerstelijn@chipsoft.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
