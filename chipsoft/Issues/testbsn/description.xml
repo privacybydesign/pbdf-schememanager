@@ -1,0 +1,81 @@
+<IssueSpecification version="4">
+  <Name>
+    <en>Test BSN from healthcare</en>
+    <nl>Test BSN vanuit de zorg</nl>
+  </Name>
+  <ShortName>
+    <en>Test BSN healthcare</en>
+    <nl>Test BSN zorg</nl>
+  </ShortName>
+  <SchemeManager>pbdf</SchemeManager>
+  <IssuerID>chipsoft</IssuerID>
+  <CredentialID>testbsn</CredentialID>
+  <Description>
+    <en>Test BSN from healthcare</en>
+    <nl>Test BSN vanuit de zorg</nl>
+  </Description>
+  <ShouldBeSingleton>true</ShouldBeSingleton>
+
+  <Attributes>
+    <Attribute id="bsn" displayIndex="0">
+      <Name>
+        <en>Test BSN from healthcare</en>
+        <nl>Test BSN vanuit de zorg</nl>
+      </Name>
+      <Description>
+        <en>Test BSN from healthcare</en>
+        <nl>Test BSN vanuit de zorg</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="initials" displayIndex="1">
+      <Name>
+        <en>Initials</en>
+        <nl>Voorletters</nl>
+      </Name>
+      <Description>
+        <en>Your initials, abbreviating your first names</en>
+        <nl>Uw voorletters, een afkorting van uw voornamen</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="firstnames" displayIndex="2">
+      <Name>
+        <en>First names</en>
+        <nl>Voornamen</nl>
+      </Name>
+      <Description>
+        <en>Your first names</en>
+        <nl>Uw voornamen</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="prefix" optional="true" displayIndex="3">
+      <Name>
+        <en>Prefix</en>
+        <nl>Voorvoegsel</nl>
+      </Name>
+      <Description>
+        <en>Prefix of your family name</en>
+        <nl>Voorvoegsel van uw achternaam</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="familyname" displayIndex="4">
+      <Name>
+        <en>Family name</en>
+        <nl>Geslachtsnaam</nl>
+      </Name>
+      <Description>
+        <en>Your family name, as given to you at birth</en>
+        <nl>Uw achternaam, zoals aan u toegekend bij uw geboorte</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="dateofbirth" displayIndex="5">
+      <Name>
+        <en>Date of birth</en>
+        <nl>Geboortedatum</nl>
+      </Name>
+      <Description>
+        <en>Your date of birth</en>
+        <nl>Uw geboortedatum</nl>
+      </Description>
+    </Attribute>
+  </Attributes>
+</IssueSpecification>
