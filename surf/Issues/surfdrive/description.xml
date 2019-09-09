@@ -1,30 +1,30 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>SURFDrive entitlement</en>
-		<nl>SURFDrive entitlement</nl>
+		<en>SURFDrive license</en>
+		<nl>SURFDrive licentie</nl>
 	</Name>
 	<ShortName>
-		<en>SURFDrive entitlement</en>
-		<nl>SURFDrive entitlement</nl>
+		<en>SURFDrive license</en>
+		<nl>SURFDrive licentie</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>surf</IssuerID>
 	<CredentialID>surfdrive</CredentialID>
 	<Description>
-		<en>Your SURFDrive entitlement, for logging in at SURFDrive</en>
-		<nl>Uw SURFDrive entitlement, waarmee u in kunt loggen op SURFDrive</nl>
+		<en>Your SURFDrive licence, for logging in at SURFDrive</en>
+		<nl>Uw SURFDrive licentie, waarmee u in kunt loggen op SURFDrive</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>
 		<Attribute id="eppn">
 			<Name>
-				<en>EPPN</en>
-				<nl>EPPN</nl>
+				<en>Institution user ID</en>
+				<nl>Instelling gebruikers-ID</nl>
 			</Name>
 			<Description>
-				<en>Your Educational Person Principal Name</en>
-				<nl>Uw Educational Person Principal Name</nl>
+				<en>Your ID at your institute</en>
+				<nl>Uw ID bij uw instelling</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="emailadres">
@@ -45,16 +45,6 @@
 			<Description>
 				<en>Your name</en>
 				<nl>Uw naam</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="entitlement">
-			<Name>
-				<en>Entitlement</en>
-				<nl>Entitlement</nl>
-			</Name>
-			<Description>
-				<en>Your SURFDrive entitlement</en>
-				<nl>Uw SURFDrive entitlement</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
