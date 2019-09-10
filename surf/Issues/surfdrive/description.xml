@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>SURFDrive license</en>
-		<nl>SURFDrive licentie</nl>
+		<en>SURFdrive license</en>
+		<nl>SURFdrive licentie</nl>
 	</Name>
 	<ShortName>
-		<en>SURFDrive license</en>
-		<nl>SURFDrive licentie</nl>
+		<en>SURFdrive license</en>
+		<nl>SURFdrive licentie</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>surf</IssuerID>
 	<CredentialID>surfdrive</CredentialID>
 	<Description>
-		<en>Your SURFDrive licence, for logging in at SURFDrive</en>
-		<nl>Uw SURFDrive licentie, waarmee u in kunt loggen op SURFDrive</nl>
+		<en>Your SURFdrive licence, for logging in at SURFdrive</en>
+		<nl>Uw SURFdrive licentie, waarmee u in kunt loggen op SURFdrive</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
