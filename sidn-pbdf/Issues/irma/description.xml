@@ -15,6 +15,7 @@
 		<nl>Uw MijnIRMA-attribuut</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<DisallowDelete>true</DisallowDelete>
 
 	<Attributes>
 		<Attribute id="pseudonym">
