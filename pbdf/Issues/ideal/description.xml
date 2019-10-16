@@ -14,7 +14,6 @@
 		<en>Your personal data, provided by your bank, obtained through iDEAL</en>
 		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDEAL</nl>
 	</Description>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
 		<en>https://privacybydesign.foundation/issuance/ideal-idin/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/ideal-idin/</nl>
