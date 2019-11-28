@@ -22,7 +22,6 @@
 
 	<BackgroundColor>#ffc000</BackgroundColor>
 	<IsInCredentialStore>true</IsInCredentialStore>
-	
 	<ForegroundColor>#ffffff</ForegroundColor>
 	<BackgroundColor>#00000</BackgroundColor>	
 	<Category>
@@ -32,7 +31,7 @@
 	<FAQIntro>
 		<en></en>
 		<nl>Zet je SURFnet-gegevens in je IRMA-app.</nl>
-    </FAQIntro>
+	</FAQIntro>
 	<FAQPurpose>
 		<en></en>
 		<nl>Met jouw SURFnet gegevens in de IRMA-app kun je bewijzen dat je bij een hogere onderwijsinstelling werkt of studeert.</nl>

@@ -17,7 +17,11 @@ d192fff4f3a65a48925439259db7d9b12fdb4ef8bacead87df8e0999aea85557 pbdf/gebiedonli
 ac40221c70af712b514cd23a55ad806c79ac1d006f834da1bf7ab44fbab0ce42 pbdf/gebiedonline/logo.png
 de18f9bb9f0bf29a7db6dee09b3dbd71dd9f6d7178b6689a139e37e5d84e28ad pbdf/gemeente/Issues/address/description.xml
 373a1c08a6db0c1f589a3131d1ecd85d678d3d8702a163738620ae8a2fc69221 pbdf/gemeente/Issues/address/logo.png
+<<<<<<< HEAD
 5ff48d52ebc3dbe8893597fb4ab08b0a487734dd7602b944fc08f597af4d9182 pbdf/gemeente/Issues/personalData/description.xml
+=======
+a0d56046d027202a3a30611b7383a2491c9ba61d0a3e9404cbd0148027e0467c pbdf/gemeente/Issues/personalData/description.xml
+>>>>>>> chore: Add preliminary entries for new app to scheme
 28ed5fc6ff62ecaba93b6eb00fc21abfe47102c8e8535c5e495882b728f29bfd pbdf/gemeente/Issues/personalData/logo.png
 80b907ebbfb1da663fe2c0f631c2d345ca4b1f0557274d914d44299fd8f29208 pbdf/gemeente/PublicKeys/0.xml
 3962a7a8da21e3d03d3edf6520da6c22757c80ee7b4f67c9d8f553206673c7b9 pbdf/gemeente/description.xml
@@ -55,7 +59,11 @@ bc4906c1ddedce2876eeef17ab0f31db89a8cde80e799cd2fdb968041f0333db pbdf/pbdf/Issue
 295b78203cc0988645be92fc160dfac297e8f1e0f7f1a20708f61a6360d357c3 pbdf/pbdf/Issues/diploma/description.xml
 922e1aa9b43f9aad04562b745d9000671dbe32cbaad9e88c9401ce5a224f7acd pbdf/pbdf/Issues/diploma/logo.png
 181b6628a9acd78132ba950de96da13e675f6cc94ba2d4dd2a25451c163e0c90 pbdf/pbdf/Issues/email/description.xml
+<<<<<<< HEAD
 3bd5b0281e5630f8b89e679f791be0576c01db2ebcbc6b73eeab8ae91941457d pbdf/pbdf/Issues/email/logo.png
+=======
+e1bfc292fbb1cf4086477f9f9d384e89742802e56c7f042bbc22f1b8a11e4720 pbdf/pbdf/Issues/email/logo.png
+>>>>>>> chore: Add preliminary entries for new app to scheme
 1b9b00d382ebec25efb81669b421d22036c686e316be8130e8caa1a674732fea pbdf/pbdf/Issues/facebook/description.xml
 1bc867630086f7988878fc9a213f21c3752636f67dd0fbd52e0e362d5845817d pbdf/pbdf/Issues/facebook/logo.png
 4d8dcf190cbb94e58f31761f1ec999cae0f9588052bf72114c6c8ba357ae124e pbdf/pbdf/Issues/ideal/description.xml
@@ -69,7 +77,11 @@ f3c65a8b5cb3ecdfe963b3b5d22f1340334fddd0861c270b2780ce33771a053b pbdf/pbdf/Issue
 c20a970a38e5eb631bf8712a81b8e300658bcb77c5342bf286770ef542f9a74f pbdf/pbdf/Issues/mijnirma/description.xml
 1a1078dcd7d22e4a30ab34d53a7509256196a470baa883a92c99c073c40690af pbdf/pbdf/Issues/mijnirma/logo.png
 d4f4226390a66d471bc36c7db5b43e7ca7ecc2fbda42178331446406e8b18b99 pbdf/pbdf/Issues/mobilenumber/description.xml
+<<<<<<< HEAD
 8aed5653af7f2e2957873f67ec39481f4a9ff6935f738aaa119d2d8bef6db169 pbdf/pbdf/Issues/mobilenumber/logo.png
+=======
+f5de839bc6a951300e48dd3d18c621cc09ea3c082a184cef2f3b4445c5d25291 pbdf/pbdf/Issues/mobilenumber/logo.png
+>>>>>>> chore: Add preliminary entries for new app to scheme
 c598bdbfb9c2386c4100cb53b2bb274a977aa420c7ee7f4a810d9a40b5703356 pbdf/pbdf/Issues/surfnet-2/description.xml
 3f9d50878b93006f7e71aa86c61b175764180e59a236141f1623097dcd42f5ad pbdf/pbdf/Issues/surfnet-2/logo.png
 fbc8aad16c1a31f0c2d45ea22c984c581463575d51129703c8c042b64ec135d6 pbdf/pbdf/Issues/surfnet/description.xml
@@ -95,7 +107,11 @@ f373a2735a695d0fc7f88e0c55891da9e906020047a90c56791cb170b5e6e880 pbdf/surf/Issue
 aa58cb8b1618971c865d904a45f30704cb5f0d21bde788de33a2fae1b2dca971 pbdf/surf/PublicKeys/0.xml
 7df5fc06899a9a501a46b394d4af22abe9e510c61da83de39da0584285142554 pbdf/surf/description.xml
 3f9d50878b93006f7e71aa86c61b175764180e59a236141f1623097dcd42f5ad pbdf/surf/logo.png
+<<<<<<< HEAD
 0834b244afe02bfb0fd7b408f6278c9f3d8316097081676c51d9a43e1e9b8c11 pbdf/timestamp
+=======
+90321236bd79653234b2ad2c9a7caaaebeb4c3bedb7677d0c9a6366f48336255 pbdf/timestamp
+>>>>>>> chore: Add preliminary entries for new app to scheme
 5ff2c71fbfcf9f18c56a20d09394d3de943e62a135e3b02a56b9b5610dda8dba pbdf/vgz/Issues/machtiging/description.xml
 28101078c16721b80c7427dcd154f6a0a9c55fb2b31bf674f03e8c526de235bf pbdf/vgz/Issues/machtiging/logo.png
 1788199bbf3bfca2ec1c6dbe8fbe1680862881e1421c5c6124fd94098f911047 pbdf/vgz/PublicKeys/0.xml
