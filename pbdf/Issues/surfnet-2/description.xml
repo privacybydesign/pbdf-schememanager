@@ -20,6 +20,29 @@
 		<nl>https://privacybydesign.foundation/uitgifte/surfnet/surfnet/</nl>
 	</IssueURL>
 
+	<BackgroundColor>#ffc000</BackgroundColor>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Onderwijs</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>TODO</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>TODO</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>TODO</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>TODO</nl>
+	</FAQHowto>
+
 	<Attributes>
 		<Attribute id="institute" optional="true">
 			<Name>

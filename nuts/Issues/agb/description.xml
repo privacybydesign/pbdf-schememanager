@@ -19,6 +19,29 @@
 		<nl>https://irma-agb.nuts.nl/</nl>
 	</IssueURL>
 
+	<BackgroundColor>#ff0000</BackgroundColor>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Zorg</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>TODO</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>TODO</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>TODO</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>TODO</nl>
+	</FAQHowto>
+
 	<Attributes>
 		<Attribute id="agbcode">
 			<Name>
