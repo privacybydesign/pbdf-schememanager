@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Personal data</en>
-		<nl>Persoonsgegevens</nl>
+		<en>Citizen data</en>
+		<nl>Inwonersgegevens</nl>
 	</Name>
 	<ShortName>
-		<en>Personal data</en>
-		<nl>Persoonsgegevens</nl>
+		<en>Citizen data</en>
+		<nl>Inwonersgegevens</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gemeente</IssuerID>
@@ -19,6 +19,29 @@
 		<nl>https://services.nijmegen.nl/irma/gemeente/start</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<BackgroundColor>#2f5597</BackgroundColor>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je officiële naam, adres, geboortedatum en BSN in IRMA met je DigiD. Met je officiële gegevens in IRMA, is online identificeren veilig en eenvoudig.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met IRMA kun je deze persoonsgegevens gebruiken om jezelf online bekend te maken. Je kunt bijvoorbeeld bewijzen hoe oud je bent, of waar je woont zonder je naam prijs te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt o.a. de volgende gegevens op bij je gemeente:\n\n• initialen\n• achternaam\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• geslacht\n• adres\n• postcode\n• plaats\n• Burgerservicenummer (BSN)</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Je haalt je gegevens op bij je gemeente in twee stappen:\n\n1. Log in met DigiD.\n2. Bevestig de gegevens in IRMA.\n\nNu kun je je met IRMA online bekend maken.\nLet op: je gegevens in IRMA zijn geldig tot de aangegeven datum. Daarna moet je ze vernieuwen.</nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="initials">

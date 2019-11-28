@@ -20,6 +20,29 @@
 		<nl>https://privacybydesign.foundation/uitgifte/ideal-idin/</nl>
 	</IssueURL>
 
+	<BackgroundColor>#00b0f0</BackgroundColor>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Voeg je iDIN-gegevens toe aan IRMA.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met IRMA kun je je iDIN-gegevens gebruiken om jezelf online bekend te maken. Je kunt bijvoorbeeld bewijzen hoe je heet zonder je adres prijs te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt o.a. de volgende iDIN-gegevens op:\n\n• initialen\n• achternaam\n• geboortedatum\n• geslacht\n• adres\n• postcode\n• plaats</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Je voegt je iDIN-gegevens toe in vijf stappen:\n\n1. Kies je bank. \n2. Log in op de bankieren app van jouw bank.\n3. Je ziet de gegevens die je van jouw bank in IRMA haalt.\n4. Bevestig dat je deze gegevens in IRMA wilt halen.\n5. Je iDIN-gegevens staan nu in IRMA.\n\nNu kun je je met IRMA online bekend maken. \n\nLet op: je gegevens in IRMA zijn geldig tot de aangegeven datum. Daarna moet je ze vernieuwen.</nl>
+	</FAQHowto>
+
 	<Attributes>
 		<Attribute id="initials">
 			<Name>

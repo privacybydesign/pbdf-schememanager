@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Telephone number</en>
-		<nl>Telefoonnummer</nl>
+		<nl>Telefoongegevens</nl>
 	</Name>
 	<ShortName>
 		<en>Phone</en>
-		<nl>Telefoon</nl>
+		<nl>Telefoongegevens</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
@@ -19,6 +19,29 @@
 		<en>https://privacybydesign.foundation/issuance/phonenumber/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/telefoonnummer/</nl>
 	</IssueURL>
+
+	<BackgroundColor>#00b050</BackgroundColor>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Voeg je telefoonnummer(s) toe aan IRMA. Met je telefoonnummer in IRMA, laat je online zien dat jij bij dit telefoonnummer hoort.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met IRMA kun je laten zien dat dit telefoonnummer echt van jou is. Je kunt bijvoorbeeld je telefoonnummer opgeven om teruggebeld te worden. Als je je telefoonnummer uit IRMA gebruikt, weet de ander zeker dat jij bij dit telefoonnummer hoort.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je telefoonnummer</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Je voegt je telefoonnummer toe in vier stappen:\n\n1. Vul je telefoonnummer in.\n2. Open de sms met de bevestigingscode.\n3. Vul de bevestigingscode in in IRMA.\n4. Je telefoonnummer staat nu in IRMA.\n\nNu kun je je met IRMA online bekend maken.\n\nLet op: je gegevens in IRMA zijn geldig tot de aangegeven datum. Daarna moet je ze vernieuwen.</nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="mobilenumber">

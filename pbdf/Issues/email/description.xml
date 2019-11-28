@@ -20,6 +20,29 @@
 		<nl>https://privacybydesign.foundation/uitgifte/email/</nl>
 	</IssueURL>
 
+	<BackgroundColor>#00b050</BackgroundColor>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Voeg je e-mailadres(sen) toe aan IRMA. Met je e-mailadres in IRMA, laat je online zien dat jij bij dit e-mailadres hoort.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met IRMA kun je laten zien dat dit e-mailadres echt van jou is. Je kunt bijvoorbeeld je e-mailadres gebruiken om in te loggen. Als je je e-mailadres uit IRMA gebruikt, weet de ander zeker dat jij bij dit e-mailadres hoort.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je emailadres</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Je voegt je e-mailadres(sen) toe in vier stappen:\n\n1. Vul je e-mailadres in.\n 2. Open de bevestigingsmail met de bevestigingscode in je inbox.\n 3. Vul de bevestigingscode in in IRMA.\n 4. Je e-mailadres staat nu in IRMA.\n\nNu kun je je met IRMA online bekend maken.\n\nLet op: je gegevens in IRMA zijn geldig tot de aangegeven datum. Daarna moet je ze vernieuwen.</nl>
+	</FAQHowto>
+
 	<Attributes>
 		<Attribute id="email">
 			<Name>
