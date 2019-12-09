@@ -1,0 +1,35 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Ivido Login</en>
+		<nl>Ivido Login</nl>
+	</Name>
+	<ShortName>
+		<en>Ivido Login</en>
+		<nl>Ivido Login</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>ivido</IssuerID>
+	<CredentialID>login</CredentialID>
+	<Description>
+		<en>Attributen benodigd voor het inloggen bij Ivido</en>
+		<nl>Attributes required for logging in at Ivido</nl>
+	</Description>
+	<IssueURL>
+		<en>https://platform.ivido.nl/auth/irma/refresh_attribute.php</en>
+		<nl>https://platform.ivido.nl/auth/irma/refresh_attribute.php</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="identifier">
+			<Name>
+				<en>Identifier</en>
+				<nl>Identificatiecode</nl>
+			</Name>
+			<Description>
+				<en>Unique identifier for Ivido</en>
+				<nl>Unieke identificatiecode voor Ivido</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
