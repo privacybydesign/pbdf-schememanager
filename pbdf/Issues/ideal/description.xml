@@ -15,8 +15,8 @@
 		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDEAL</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/ideal-idin/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/ideal-idin/</nl>
+		<en>https://privacybydesign.foundation/uitgifte/ideal/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/ideal/</nl>
 	</IssueURL>
 
 	<Attributes>
