@@ -61,7 +61,7 @@
 				<nl>Uw e-mailadres, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="profileurl">
+		<Attribute id="profileurl" optional="true">
 			<Name>
 				<en>Profile</en>
 				<nl>Profiel</nl>
