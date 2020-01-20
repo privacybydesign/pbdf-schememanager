@@ -21,7 +21,7 @@
 	</IssueURL>
 
 	<Attributes>
-		<Attribute id="fullname">
+		<Attribute id="fullname" optional="true">
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
