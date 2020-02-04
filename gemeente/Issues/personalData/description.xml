@@ -20,8 +20,8 @@
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<ForegroundColor>#000000</ForegroundColor>
-	<BackgroundColor>#E17001</BackgroundColor>
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundColor>#01689b</BackgroundColor>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en></en>
