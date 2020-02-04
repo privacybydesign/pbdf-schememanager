@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Citizen data</en>
-		<nl>Inwonersgegevens</nl>
+		<nl>Persoonsgegevens</nl>
 	</Name>
 	<ShortName>
 		<en>Citizen data</en>
-		<nl>Inwonersgegevens</nl>
+		<nl>Persoonsgegevens</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gemeente</IssuerID>
@@ -20,7 +20,8 @@
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<BackgroundColor>#2f5597</BackgroundColor>
+	<ForegroundColor>#000000</ForegroundColor>
+	<BackgroundColor>#E17001</BackgroundColor>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en></en>
@@ -28,19 +29,19 @@
 	</Category>
 	<FAQIntro>
 		<en></en>
-		<nl>Zet je officiële naam, adres, geboortedatum en BSN in IRMA met je DigiD. Met je officiële gegevens in IRMA, is online identificeren veilig en eenvoudig.</nl>
+		<nl>Zet je persoonsgegevens uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
     </FAQIntro>
 	<FAQPurpose>
 		<en></en>
-		<nl>Met IRMA kun je deze persoonsgegevens gebruiken om jezelf online bekend te maken. Je kunt bijvoorbeeld bewijzen hoe oud je bent, of waar je woont zonder je naam prijs te geven.</nl>
+		<nl>Met jouw persoonsgegevens in de IRMA-app kun jij jezelf online bekendmaken.\nDan kun je bijvoorbeeld bewijzen dat je ouder bent dan 18 jaar, zonder je geboortedatum prijs te geven.</nl>
 	</FAQPurpose>
 	<FAQContent>
 		<en></en>
-		<nl>Je haalt o.a. de volgende gegevens op bij je gemeente:\n\n• initialen\n• achternaam\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• geslacht\n• adres\n• postcode\n• plaats\n• Burgerservicenummer (BSN)</nl>
+		<nl>Je haalt de volgende gegevens op:\n\n• volledige naam\n• voorletters\n• voornamen\n• achternaam\n• geslachtsnaam\n• geslacht\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• nationaliteit\n• geboorteland\n• burgerservicenummer (BSN)</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Je haalt je gegevens op bij je gemeente in twee stappen:\n\n1. Log in met DigiD.\n2. Bevestig de gegevens in IRMA.\n\nNu kun je je met IRMA online bekend maken.\nLet op: je gegevens in IRMA zijn geldig tot de aangegeven datum. Daarna moet je ze vernieuwen.</nl>
+		<nl>Doorloop de volgende stappen:\n\n1. Voer je pincode in in de DigiD Proef-app.\n2. Kies in de DigiD Proef-app voor 'Gegevens delen' en kies voor 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n4. Je wordt teruggestuurd naar de IRMA-app\n\nJe ontvangt twee kaartjes:\n\n• een kaartje met je persoonsgegevens\n• een een kaartje met je woonadres</nl>
 	</FAQHowto>
 
 	<Attributes>
