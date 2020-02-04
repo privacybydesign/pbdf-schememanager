@@ -20,6 +20,8 @@
 		<nl>https://privacybydesign.foundation/uitgifte/social/twitter/</nl>
 	</IssueURL>
 
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundColor>#1ea0f2</BackgroundColor>	
 	<Attributes>
 		<Attribute id="username">
 			<Name>
