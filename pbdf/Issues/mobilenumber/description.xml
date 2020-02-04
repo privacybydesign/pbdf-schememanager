@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Telephone number</en>
-		<nl>Telefoongegevens</nl>
+		<nl>Telefoonnummer</nl>
 	</Name>
 	<ShortName>
 		<en>Phone</en>
-		<nl>Telefoongegevens</nl>
+		<nl>Telefoonnummer</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
