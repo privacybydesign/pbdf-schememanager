@@ -19,7 +19,30 @@
 		<nl>https://services.nijmegen.nl/irma/gemeente/start</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
-
+	
+	<ForegroundColor>#FFFFFF</ForegroundColor>
+	<BackgroundColor>#01689b</BackgroundColor>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Woonadres</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je woonadres uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
+    	</FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw woonadres in de IRMA-app kun jij bewijzen waar je woont.\nDan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres prijs te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n\n• straat\n• huisnummer\n• postcode\n• woonplaats\n• gemeente</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Doorloop de volgende stappen:\n\n1. Voer je pincode in in de DigiD Proef-app.\n2. Kies in de DigiD Proef-app voor 'Gegevens delen' en kies voor 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n4. Je wordt teruggestuurd naar de IRMA-app.\n\nJe ontvangt twee kaartjes:\n\n• een kaartje met je woonadres\n• een een kaartje met je persoonsgegevens</nl>
+	</FAQHowto>
 	<Attributes>
 		<Attribute id="street">
 			<Name>
