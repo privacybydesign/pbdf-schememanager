@@ -16,7 +16,10 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<DisallowDelete>true</DisallowDelete>
-
+	
+	<ForegroundColor>#15222e</ForegroundColor>
+	<BackgroundColor>#ffbb58</BackgroundColor>
+	
 	<Attributes>
 		<Attribute id="email">
 			<Name>
