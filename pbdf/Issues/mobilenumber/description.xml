@@ -20,7 +20,9 @@
 		<nl>https://privacybydesign.foundation/uitgifte/telefoonnummer/</nl>
 	</IssueURL>
 
-	<BackgroundColor>#00b050</BackgroundColor>
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundColor>#d44454</BackgroundColor>
+
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en></en>
@@ -28,19 +30,19 @@
 	</Category>
 	<FAQIntro>
 		<en></en>
-		<nl>Voeg je telefoonnummer(s) toe aan IRMA. Met je telefoonnummer in IRMA, laat je online zien dat jij bij dit telefoonnummer hoort.</nl>
+		<nl>Zet je telefoonnummer in je IRMA-app.\nJe kunt meerdere telefoonnummers toevoegen.</nl>
     </FAQIntro>
 	<FAQPurpose>
 		<en></en>
-		<nl>Met IRMA kun je laten zien dat dit telefoonnummer echt van jou is. Je kunt bijvoorbeeld je telefoonnummer opgeven om teruggebeld te worden. Als je je telefoonnummer uit IRMA gebruikt, weet de ander zeker dat jij bij dit telefoonnummer hoort.</nl>
+		<nl>Met jouw telefoonnummer in de IRMA-app kun je laten zien dat dit telefoonnummer echt van jou is.\n\nJe kunt bijvoorbeeld je telefoonnummer doorgeven om teruggebeld te worden. Als je je telefoonnummer uit je IRMA-app gebruikt, weet de ander zeker dat jij bij dit telefoonnummer hoort.</nl>
 	</FAQPurpose>
 	<FAQContent>
 		<en></en>
-		<nl>Je telefoonnummer</nl>
+		<nl>Je haalt de volgende gegevens op:\n\n• telefoonnummer</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Je voegt je telefoonnummer toe in vier stappen:\n\n1. Vul je telefoonnummer in.\n2. Open de sms met de bevestigingscode.\n3. Vul de bevestigingscode in in IRMA.\n4. Je telefoonnummer staat nu in IRMA.\n\nNu kun je je met IRMA online bekend maken.\n\nLet op: je gegevens in IRMA zijn geldig tot de aangegeven datum. Daarna moet je ze vernieuwen.</nl>
+		<nl>Doorloop de volgende stappen:\n\n1. Vul je telefoonnummer in.\n2. Open het SMS-bericht afkomstig van 06-51953392.\n3. Kies de link in het SMS bericht.\n4. Je wordt teruggestuurd naar de IRMA-app.\n\nJe ontvangt voor elk telefoonnummer een apart kaartje.</nl>
 	</FAQHowto>
 
 	<Attributes>
