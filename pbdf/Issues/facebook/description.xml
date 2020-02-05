@@ -20,6 +20,9 @@
 		<nl>https://privacybydesign.foundation/uitgifte/social/facebook/</nl>
 	</IssueURL>
 
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundColor>#4267B2</BackgroundColor>	
+
 	<Attributes>
 		<Attribute id="fullname">
 			<Name>

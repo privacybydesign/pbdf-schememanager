@@ -18,6 +18,30 @@
 		<en>https://privacybydesign.foundation/uitgifte/ideal/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/ideal/</nl>
 	</IssueURL>
+	
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundColor>#d50372</BackgroundColor>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je bankrekening in je IRMA-app.\nJe kunt meerdere bankrekeningen toevoegen.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw bankrekening in de IRMA-app kun je bewijzen dat jij een bankrekening hebt en dat jij de rekeninghouder bent van een bepaalde rekening.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n\n• BIC-code\n• rekeninghouder\n• IBAN\</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Doorloop de volgende stappen:\n\n1. Kies je bank.\n2. Betaal € 0,50 via een iDeal-betaling.\n3.  Log in op de bankieren app van jouw bank.\n4. Bevestig het overzetten van je rekeninggegevens naar IRMA.\n5. Je wordt teruggestuurd naar de IRMA-app.\n\nJe ontvangt voor elk rekeningnummer een apart kaartje.</nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="fullname">

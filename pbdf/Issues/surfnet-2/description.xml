@@ -22,25 +22,27 @@
 
 	<BackgroundColor>#ffc000</BackgroundColor>
 	<IsInCredentialStore>true</IsInCredentialStore>
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundColor>#00000</BackgroundColor>	
 	<Category>
 		<en></en>
 		<nl>Onderwijs</nl>
 	</Category>
 	<FAQIntro>
 		<en></en>
-		<nl>TODO</nl>
-    </FAQIntro>
+		<nl>Zet je SURFnet-gegevens in je IRMA-app.</nl>
+	</FAQIntro>
 	<FAQPurpose>
 		<en></en>
-		<nl>TODO</nl>
+		<nl>Met jouw SURFnet gegevens in de IRMA-app kun je bewijzen dat je bij een hogere onderwijsinstelling werkt of studeert.</nl>
 	</FAQPurpose>
 	<FAQContent>
 		<en></en>
-		<nl>TODO</nl>
+		<nl>Je haalt de volgende gegevens op:\n\n• voornaam\n• achternaam\n• e-mailadres\n• instelling\n• medewerker/student\n• lokaal registratienummer</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>TODO</nl>
+		<nl>Doorloop de volgende stappen:\n\n1. Kies je onderwijsinstelling.\n2. Log in op website van de onderwijsinstelling.\n3. Kies voor het overzetten van je gegevens naar IRMA.\n4. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nJe ontvangt een kaartje met je SURFnet-gegevens.</nl>
 	</FAQHowto>
 
 	<Attributes>
