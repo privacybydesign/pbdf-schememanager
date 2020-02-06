@@ -20,7 +20,7 @@
 		<nl>https://privacybydesign.foundation/uitgifte/email/</nl>
 	</IssueURL>
 
-	<ForegroundColor>#ffffff</ForegroundColor>
+	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
 	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
