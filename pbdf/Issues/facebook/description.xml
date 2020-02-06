@@ -21,7 +21,8 @@
 	</IssueURL>
 
 	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundColor>#4267B2</BackgroundColor>	
+	<BackgroundGradientStart>#4267B2</BackgroundGradientStart>
+	<BackgroundGradientEnd>#19397B</BackgroundGradientEnd>
 
 	<Attributes>
 		<Attribute id="fullname">
