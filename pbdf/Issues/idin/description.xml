@@ -20,7 +20,7 @@
 		<nl>https://privacybydesign.foundation/uitgifte/ideal-idin/</nl>
 	</IssueURL>
 
-	<ForegroundColor>#000000</ForegroundColor>
+	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#00B1E5</BackgroundGradientStart>
 	<BackgroundGradientEnd>#9DDCE5</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
