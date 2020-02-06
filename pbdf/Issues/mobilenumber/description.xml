@@ -20,9 +20,9 @@
 		<nl>https://privacybydesign.foundation/uitgifte/telefoonnummer/</nl>
 	</IssueURL>
 
-	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundColor>#d44454</BackgroundColor>
-
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
+	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en></en>
@@ -42,7 +42,7 @@
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Doorloop de volgende stappen:\n\n1. Vul je telefoonnummer in.\n2. Open het SMS-bericht afkomstig van 06-51953392.\n3. Kies de link in het SMS bericht.\n4. Je wordt teruggestuurd naar de IRMA-app.\n\nJe ontvangt voor elk telefoonnummer een apart kaartje.</nl>
+		<nl>Doorloop de volgende stappen:\n1. Vul je telefoonnummer in.\n2. Open het SMS-bericht afkomstig van 06-51953392.\n3. Kies de link in het SMS bericht.\n4. Je wordt teruggestuurd naar de IRMA-app.\n\nJe ontvangt voor elk telefoonnummer een apart kaartje.</nl>
 	</FAQHowto>
 
 	<Attributes>

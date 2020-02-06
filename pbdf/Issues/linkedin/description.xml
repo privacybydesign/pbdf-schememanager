@@ -20,6 +20,10 @@
 		<nl>https://privacybydesign.foundation/uitgifte/social/linkedin/</nl>
 	</IssueURL>
 
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#0277B5</BackgroundGradientStart>
+	<BackgroundGradientEnd>#196E9F</BackgroundGradientEnd>
+	
 	<Attributes>
 		<Attribute id="fullname" optional="true">
 			<Name>

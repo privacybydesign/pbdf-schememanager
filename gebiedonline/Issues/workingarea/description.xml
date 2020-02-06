@@ -19,6 +19,10 @@
 		<nl>https://gebiedonline.nl/irma-uitleg</nl>
 	</IssueURL>
 
+	<ForegroundColor>#C81619</ForegroundColor>
+	<BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
+	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
+	
 	<Attributes>
 		<Attribute id="zipcode">
 			<Name>

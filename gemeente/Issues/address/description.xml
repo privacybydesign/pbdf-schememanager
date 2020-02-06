@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Address</en>
-		<nl>Adres</nl>
+		<en>Home address</en>
+		<nl>Woonadres</nl>
 	</Name>
 	<ShortName>
 		<en>Address</en>
-		<nl>Adres</nl>
+		<nl>Woonadres</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gemeente</IssuerID>
@@ -21,11 +21,12 @@
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	
 	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundColor>#01689b</BackgroundColor>
+	<BackgroundGradientStart>#014483</BackgroundGradientStart>
+	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en></en>
-		<nl>Woonadres</nl>
+		<nl>Persoonsgegevens</nl>
 	</Category>
 	<FAQIntro>
 		<en></en>
@@ -37,14 +38,14 @@
 	</FAQPurpose>
 	<FAQContent>
 		<en></en>
-		<nl>Je haalt de volgende gegevens op:\n\n• straat\n• huisnummer\n• postcode\n• woonplaats\n• gemeente</nl>
+		<nl>Je haalt de volgende gegevens op:\n• straat\n• huisnummer\n• postcode\n• woonplaats\n• gemeente</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Doorloop de volgende stappen:\n\n1. Voer je pincode in in de DigiD Proef-app.\n2. Kies in de DigiD Proef-app voor 'Gegevens delen' en kies voor 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n4. Je wordt teruggestuurd naar de IRMA-app.\n\nJe ontvangt twee kaartjes:\n\n• een kaartje met je woonadres\n• een een kaartje met je persoonsgegevens</nl>
+		<nl>Doorloop de volgende stappen:\n1. Voer je pincode in in de DigiD Proef-app.\n2. Kies in de DigiD Proef-app voor 'Gegevens delen' en kies voor 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n4. Je wordt teruggestuurd naar de IRMA-app.\n\nJe ontvangt twee kaartjes:\n• een kaartje met je woonadres\n• een een kaartje met je persoonsgegevens</nl>
 	</FAQHowto>
 	<Attributes>
-		<Attribute id="street">
+		<Attribute id="street" displayIndex="1">
 			<Name>
 				<en>Street</en>
 				<nl>Straat</nl>
@@ -54,7 +55,7 @@
 				<nl>Uw straat</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="houseNumber" optional="true">
+		<Attribute id="houseNumber" optional="true" displayIndex="2">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
@@ -64,7 +65,7 @@
 				<nl>Uw huisnummer, letter en/of toevoeging</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="zipcode">
+		<Attribute id="zipcode" displayIndex="3">
 			<Name>
 				<en>Zip code</en>
 				<nl>Postcode</nl>
@@ -74,7 +75,7 @@
 				<nl>Uw postcode</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="municipality">
+		<Attribute id="municipality" displayIndex="5">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
@@ -84,7 +85,7 @@
 				<nl>Uw gemeente</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="city">
+		<Attribute id="city" displayIndex="4">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>

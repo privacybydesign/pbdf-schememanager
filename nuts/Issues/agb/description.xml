@@ -19,8 +19,10 @@
 		<nl>https://irma-agb.nuts.nl/</nl>
 	</IssueURL>
 
-	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundColor>#4b2a24</BackgroundColor>
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#014483</BackgroundGradientStart>
+	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
+
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en></en>
@@ -40,7 +42,7 @@
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Doorloop de volgende stappen:\n\n1. Geef je initialen, achternaam en geboortedatum vrij aan NUTS.\n2. Vul je AGB-code in.\n3. Bevestig het overzetten van je AGB-code naar je IRMA-app.\n\nJe ontvangt een kaartje met je AGB-code.
+		<nl>Doorloop de volgende stappen:\n1. Geef je initialen, achternaam en geboortedatum vrij aan NUTS.\n2. Vul je AGB-code in.\n3. Bevestig het overzetten van je AGB-code naar je IRMA-app.\n\nJe ontvangt een kaartje met je AGB-code.
 </nl>
 	</FAQHowto>
 

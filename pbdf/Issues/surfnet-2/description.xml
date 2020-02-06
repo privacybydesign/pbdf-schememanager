@@ -20,10 +20,10 @@
 		<nl>https://privacybydesign.foundation/uitgifte/surfnet/surfnet/</nl>
 	</IssueURL>
 
-	<BackgroundColor>#ffc000</BackgroundColor>
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
+	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
-	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundColor>#00000</BackgroundColor>	
 	<Category>
 		<en></en>
 		<nl>Onderwijs</nl>
@@ -38,11 +38,11 @@
 	</FAQPurpose>
 	<FAQContent>
 		<en></en>
-		<nl>Je haalt de volgende gegevens op:\n\n• voornaam\n• achternaam\n• e-mailadres\n• instelling\n• medewerker/student\n• lokaal registratienummer</nl>
+		<nl>Je haalt de volgende gegevens op:\n• voornaam\n• achternaam\n• e-mailadres\n• instelling\n• medewerker/student\n• lokaal registratienummer</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Doorloop de volgende stappen:\n\n1. Kies je onderwijsinstelling.\n2. Log in op website van de onderwijsinstelling.\n3. Kies voor het overzetten van je gegevens naar IRMA.\n4. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nJe ontvangt een kaartje met je SURFnet-gegevens.</nl>
+		<nl>Doorloop de volgende stappen:\n1. Kies je onderwijsinstelling.\n2. Log in op website van de onderwijsinstelling.\n3. Kies voor het overzetten van je gegevens naar IRMA.\n4. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nJe ontvangt een kaartje met je SURFnet-gegevens.</nl>
 	</FAQHowto>
 
 	<Attributes>

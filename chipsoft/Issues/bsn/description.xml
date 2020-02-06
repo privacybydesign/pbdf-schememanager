@@ -15,6 +15,10 @@
     <nl>Uw Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens, fysiek geverifieerd</nl>
   </Description>
   <ShouldBeSingleton>true</ShouldBeSingleton>
+  
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#0E4B8F</BackgroundGradientStart>
+	<BackgroundGradientEnd>#023269</BackgroundGradientEnd>
 
   <Attributes>
     <Attribute id="bsn" displayIndex="0">

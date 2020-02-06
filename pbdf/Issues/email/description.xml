@@ -20,8 +20,9 @@
 		<nl>https://privacybydesign.foundation/uitgifte/email/</nl>
 	</IssueURL>
 
-	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundColor>#2bc194</BackgroundColor>
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
+	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en></en>
@@ -41,7 +42,7 @@
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Je haalt de volgende gegevens op:\n\n1. Vul je e-mailadres in.\n 2. Open je e-mailprogramma en ga naar 'inkomende berichten'.\n 3. Open de link in het e-mailbericht van Stichting Privacy by Design.\n 4. Je wordt teruggestuurd naar de IRMA-app.\n\nLet op:\nAls je de e-mail op een computer opent, krijg je een QR-code te zien.\nDoorloop dan de volgende stappen:\n\n1. Open de link in het e-mailbericht van Stichting Privacy by Design.2. Start de QR-scanner in de IRMA-app.\n3. Scan de QR-code die op het scherm van je computer staat.</nl>
+		<nl>Je haalt de volgende gegevens op:\n1. Vul je e-mailadres in.\n 2. Open je e-mailprogramma en ga naar 'inkomende berichten'.\n 3. Open de link in het e-mailbericht van Stichting Privacy by Design.\n 4. Je wordt teruggestuurd naar de IRMA-app.\n\nLet op:\nAls je de e-mail op een computer opent, krijg je een QR-code te zien.\nDoorloop dan de volgende stappen:\n1. Open de link in het e-mailbericht van Stichting Privacy by Design.2. Start de QR-scanner in de IRMA-app.\n3. Scan de QR-code die op het scherm van je computer staat.</nl>
 	</FAQHowto>
 
 	<Attributes>

@@ -21,7 +21,8 @@
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
-	<BackgroundColor>#00b0ef</BackgroundColor>
+	<BackgroundGradientStart>#00B1E5</BackgroundGradientStart>
+	<BackgroundGradientEnd>#9DDCE5</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en></en>
@@ -37,11 +38,11 @@
 	</FAQPurpose>
 	<FAQContent>
 		<en></en>
-		<nl>Je haalt de volgende gegevens op:\n\n• initialen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• adres\n• postcode\n• plaats</nl>
+		<nl>Je haalt de volgende gegevens op:\n• initialen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• adres\n• postcode\n• plaats</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Doorloop de volgende stappen:\n\n1. Kies je bank. \n2. Log in op de bankieren-app van jouw bank.\n3. Je ziet de gegevens die je van jouw bank naar je IRMA-app overzet.\n4. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nJe ontvangt een kaartje met je persoonsgegevens uit iDIN.</nl>
+		<nl>Doorloop de volgende stappen:\n1. Kies je bank. \n2. Log in op de bankieren-app van jouw bank.\n3. Je ziet de gegevens die je van jouw bank naar je IRMA-app overzet.\n4. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nJe ontvangt een kaartje met je persoonsgegevens uit iDIN.</nl>
 	</FAQHowto>
 
 	<Attributes>
