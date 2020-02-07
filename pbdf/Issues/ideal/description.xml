@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Bankrekening</en>
-		<nl>Bank account</nl>
+		<en>Bank account</en>
+		<nl>Bankrekening</nl>
 	</Name>
 	<ShortName>
 		<en>iDEAL</en>
