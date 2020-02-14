@@ -4,7 +4,7 @@
 		<nl>Woonadres</nl>
 	</Name>
 	<ShortName>
-		<en>Address</en>
+		<en>Home address</en>
 		<nl>Woonadres</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
@@ -25,7 +25,7 @@
 	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
-		<en></en>
+		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
 	</Category>
 	<FAQIntro>
