@@ -1,6 +1,6 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>AGB-code</en>
+		<en>AGB code</en>
 		<nl>AGB-code</nl>
 	</Name>
 	<ShortName>
@@ -25,7 +25,7 @@
 
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
-		<en></en>
+		<en>Healthcare</en>
 		<nl>Zorg</nl>
 	</Category>
 	<FAQIntro>
