@@ -4,8 +4,8 @@
 		<nl>SURFnet</nl>
 	</Name>
 	<ShortName>
-		<en>Surfnet</en>
-		<nl>Surfnet</nl>
+		<en>SURFnet</en>
+		<nl>SURFnet</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
@@ -25,7 +25,7 @@
 	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
-		<en></en>
+		<en>Education</en>
 		<nl>Onderwijs</nl>
 	</Category>
 	<FAQIntro>
