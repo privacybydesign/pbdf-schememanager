@@ -25,11 +25,11 @@ ona<IssueSpecification version="4">
 	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
-		<en></en>
+		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
 	</Category>
 	<FAQIntro>
-		<en></en>
+		<en>Personal data</en>
 		<nl>Zet je persoonsgegevens uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
 	</FAQIntro>
 	<FAQPurpose>
