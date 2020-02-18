@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>iDIN</en>
-		<nl>iDIN</nl>
+		<en>iDIN personal data</en>
+		<nl>iDIN persoonsgegevens</nl>
 	</Name>
 	<ShortName>
 		<en>iDIN</en>
@@ -25,7 +25,7 @@
 	<BackgroundGradientEnd>#9DDCE5</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
-		<en></en>
+		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
 	</Category>
 	<FAQIntro>
@@ -42,7 +42,7 @@
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Doorloop de volgende stappen:\n1. Kies je bank. \n2. Log in op de bankieren-app van jouw bank.\n3. Je ziet de gegevens die je van jouw bank naar je IRMA-app overzet.\n4. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nJe ontvangt een kaartje met je persoonsgegevens uit iDIN.</nl>
+		<nl>Als je een Nederlandse bankrekening hebt, kun je je naam, adres en geboortedatum toevoegen via iDIN (een dienst van de banken).\n\nDoorloop de volgende stappen:\n1. Log in bij je eigen bank\n2. Je ziet de gegevens die je van jouw bank naar je IRMA-app overzet.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nDe Privacy by Design Foundation ontvangt je bankgegevens van iDIN en geeft deze door aan je IRMA-app.\n\nJe ontvangt een kaartje met je persoonsgegevens uit iDIN.</nl>
 	</FAQHowto>
 
 	<Attributes>

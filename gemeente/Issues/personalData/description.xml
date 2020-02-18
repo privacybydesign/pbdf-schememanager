@@ -1,10 +1,10 @@
-<IssueSpecification version="4">
+ona<IssueSpecification version="4">
 	<Name>
-		<en>Citizen data</en>
+		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
 	</Name>
 	<ShortName>
-		<en>Citizen data</en>
+		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
@@ -25,11 +25,11 @@
 	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
-		<en></en>
+		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
 	</Category>
 	<FAQIntro>
-		<en></en>
+		<en>Personal data</en>
 		<nl>Zet je persoonsgegevens uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
 	</FAQIntro>
 	<FAQPurpose>
@@ -42,7 +42,8 @@
 	</FAQContent>
 	<FAQHowto>
 		<en></en>
-		<nl>Doorloop de volgende stappen:\n1. Voer je pincode in in de DigiD Proef-app.\n2. Kies in de DigiD Proef-app voor 'Gegevens delen' en kies voor 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n4. Je wordt teruggestuurd naar de IRMA-app\n\nJe ontvangt twee kaartjes:\n• een kaartje met je persoonsgegevens\n• een een kaartje met je woonadres</nl>
+		<nl>Als je in Nederland woont, kun je je persoonsgegevens uit de basisregistratie personen (BRP) toevoegen.
+Je hebt de DigiD Proef-app nodig.\n\nDoorloop de volgende stappen:\n1. Start de DigiD Proef-app.\n2. Kies in de DigiD Proef-app voor 'Gegevens delen' en kies voor 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n4. Je wordt teruggestuurd naar de IRMA-app.\n\nRijksoverheid  geeft je gegevens door aan je IRMA-app.\n\nJe ontvangt twee kaartjes:\n• een kaartje met je persoonsgegevens\n• een een kaartje met je woonadres</nl>
 	</FAQHowto>
 
 	<Attributes>
