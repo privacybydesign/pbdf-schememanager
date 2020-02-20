@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/ideal-idin/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/ideal-idin/</nl>
+		<en>https://privacybydesign.foundation/issuance/idin/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
