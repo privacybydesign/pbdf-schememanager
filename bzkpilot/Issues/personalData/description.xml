@@ -178,17 +178,7 @@
 				<nl>Of u de Nederlandse nationaliteit bezit</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="cityofbirth" optional="true" displayIndex="13">
-			<Name>
-				<en>City of birth</en>
-				<nl>Geboortestad</nl>
-			</Name>
-			<Description>
-				<en>Your city of birth</en>
-				<nl>Uw geboortestad</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="countryofbirth" displayIndex="14">
+		<Attribute id="countryofbirth" displayIndex="13">
 			<Name>
 				<en>Country of birth</en>
 				<nl>Geboorteland</nl>
@@ -198,7 +188,7 @@
 				<nl>Uw geboorteland</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="bsn" displayIndex="15" displayHint="sensitive">
+		<Attribute id="bsn" displayIndex="14" displayHint="sensitive">
 			<Name>
 				<en>BSN</en>
 				<nl>BSN</nl>
@@ -208,7 +198,7 @@
 				<nl>Uw Burgerservicenummer (BSN)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="photo" displayIndex="16" displayHint="portraitPhoto">
+		<Attribute id="photo" displayIndex="15" displayHint="portraitPhoto">
 			<Name>
 				<en>Photo</en>
 				<nl>Foto</nl>
