@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>bzkpilot</ID>
+	<ShortName>
+		<en>Rijksoverheid Pilot</en>
+		<nl>Rijksoverheid Pilot</nl>
+	</ShortName>
+	<Name>
+		<en>Rijksoverheid Pilot</en>
+		<nl>Rijksoverheid Pilot</nl>
+	</Name>
+	<SchemeManager>pbdf</SchemeManager>
+	<ContactAddress>https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties</ContactAddress>
+	<ContactEMail>noreply+seecontactform@rijksoverheid.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
