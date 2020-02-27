@@ -15,8 +15,8 @@
 		<nl>Uw persoonsgegevens, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://mmi-mul-ota.azurewebsites.net</en>
-		<nl>https://mmi-mul-ota.azurewebsites.net</nl>
+		<en>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</en>
+		<nl>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</nl>
 	</IssueURL>
 	<IsULIssueURL>true</IsULIssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
