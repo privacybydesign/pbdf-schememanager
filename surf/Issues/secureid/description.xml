@@ -12,7 +12,7 @@
 	<CredentialID>secureid</CredentialID>
 	<Description>
 		<en>Your SURFsecureID 2nd factor</en>
-		<nl>Uw SURFsecureID tweede factor</nl>
+		<nl>Je SURFsecureID tweede factor</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
@@ -28,7 +28,7 @@
 			</Name>
 			<Description>
 				<en>Your SURFsecureID identifier</en>
-				<nl>Uw SURFsecureID identifier</nl>
+				<nl>Je SURFsecureID identifier</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="environment" optional="true">

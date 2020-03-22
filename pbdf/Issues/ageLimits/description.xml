@@ -12,7 +12,7 @@
 	<CredentialID>ageLimits</CredentialID>
 	<Description>
 		<en>Your age attributes, issued after revealing your birthdate, from your iDIN bank attributes</en>
-		<nl>Uw leeftijdsgrenzen zoals berekend uit uw geboortedatum, uit uw iDIN bank attributen</nl>
+		<nl>Je leeftijdsgrenzen zoals berekend uit je geboortedatum, uit je iDIN bank attributen</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
@@ -31,7 +31,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 12</en>
-				<nl>Of u ouder dan 12 bent</nl>
+				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over16">
@@ -41,7 +41,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 16</en>
-				<nl>Of u ouder dan 16 bent</nl>
+				<nl>Of je ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over18">
@@ -51,7 +51,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 18</en>
-				<nl>Of u ouder dan 18 bent</nl>
+				<nl>Of je ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over21">
@@ -61,7 +61,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 21</en>
-				<nl>Of u ouder dan 21 bent</nl>
+				<nl>Of je ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over65">
@@ -71,7 +71,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 65</en>
-				<nl>Of u ouder dan 65 bent</nl>
+				<nl>Of je ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

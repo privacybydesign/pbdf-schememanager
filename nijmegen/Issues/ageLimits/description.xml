@@ -12,7 +12,7 @@
 	<CredentialID>ageLimits</CredentialID>
 	<Description>
 		<en>Your age limits, derived from your birthdate from the Dutch population register</en>
-		<nl>Uw leeftijdsgrenzen, afgeleid uit uw geboortedatum afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<nl>Je leeftijdsgrenzen, afgeleid uit je geboortedatum afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
@@ -28,7 +28,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 12</en>
-				<nl>Of u ouder dan 12 bent</nl>
+				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over16">
@@ -38,7 +38,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 16</en>
-				<nl>Of u ouder dan 16 bent</nl>
+				<nl>Of je ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over18">
@@ -48,7 +48,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 18</en>
-				<nl>Of u ouder dan 18 bent</nl>
+				<nl>Of je ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over21">
@@ -58,7 +58,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 21</en>
-				<nl>Of u ouder dan 21 bent</nl>
+				<nl>Of je ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over65">
@@ -68,7 +68,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 65</en>
-				<nl>Of u ouder dan 65 bent</nl>
+				<nl>Of je ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

@@ -12,7 +12,7 @@
 	<CredentialID>diploma</CredentialID>
 	<Description>
 		<en>Data extracted from your diploma provided by DUO</en>
-		<nl>Gegevens uit uw diploma, verkregen via DUO</nl>
+		<nl>Gegevens uit je diploma, verkregen via DUO</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
@@ -28,7 +28,7 @@
 			</Name>
 			<Description>
 				<en>Your first name from your diploma</en>
-				<nl>Uw voornaam uit uw diploma</nl>
+				<nl>Je voornaam uit je diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="prefix" optional="true">
@@ -38,7 +38,7 @@
 			</Name>
 			<Description>
 				<en>Your family name prefix from your diploma</en>
-				<nl>Uw tussenvoegsel uit uw diploma</nl>
+				<nl>Je tussenvoegsel uit je diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -48,7 +48,7 @@
 			</Name>
 			<Description>
 				<en>Your family name from your diploma</en>
-				<nl>Uw achternaam uit uw diploma</nl>
+				<nl>Je achternaam uit je diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth">
@@ -58,7 +58,7 @@
 			</Name>
 			<Description>
 				<en>Your date of birth from your diploma</en>
-				<nl>Uw geboortedatum uit uw diploma</nl>
+				<nl>Je geboortedatum uit je diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="gender">
@@ -68,7 +68,7 @@
 			</Name>
 			<Description>
 				<en>Your gender from your diploma</en>
-				<nl>Uw geslacht uit uw diploma</nl>
+				<nl>Je geslacht uit je diploma</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="education">

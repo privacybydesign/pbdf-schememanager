@@ -11,8 +11,8 @@
 	<IssuerID>bzkpilot</IssuerID>
 	<CredentialID>personalData</CredentialID>
 	<Description>
-		<en>Your personal data, from the Dutch population register</en>
-		<nl>Uw persoonsgegevens, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<en>Your personal data, from the Dutch population register (BRP)</en>
+		<nl>Je persoonsgegevens, afkomstig uit de Basisregistratie Persoonsgegevens (BRP)</nl>
 	</Description>
 	<IssueURL>
 		<en>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</en>
@@ -27,24 +27,24 @@
 	<IsInCredentialStore>true</IsInCredentialStore>
 
 	<Category>
-		<en>Personal data</en>
-		<nl>Persoonsgegevens</nl>
+		<en>Personal</en>
+		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-		<en></en>
-		<nl>Zet je persoonsgegevens uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
+		<en>Add your personal data from the Dutch population register (BRP) to your IRMA app.</en>
+		<nl>Laad je persoonsgegevens uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
 	</FAQIntro>
 	<FAQPurpose>
-		<en></en>
-		<nl>Met jouw persoonsgegevens in de IRMA-app kun jij jezelf online bekendmaken.\nDan kun je bijvoorbeeld bewijzen dat je ouder bent dan 18 jaar, zonder je geboortedatum prijs te geven.</nl>
+		<en>With your personal data in your IRMA app, you can make yourself known online. For instance, you can disclose your name or prove that you are over 18 years of age (without revealing your date of birth).</en>
+		<nl>Met jouw persoonsgegevens in de IRMA-app kun jij jezelf online bekendmaken. Dan kun je bijvoorbeeld je naam tonen of bewijzen dat je ouder bent dan 18 jaar (zonder je geboortedatum te onthullen).</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en></en>
-		<nl>Je haalt de volgende gegevens op:\n• volledige naam\n• voorletters\n• voornamen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• nationaliteit\n• geboorteland\n• burgerservicenummer (BSN)</nl>
+		<en>You will add the following data.\n•full name\n• initials\n• surname\n• gender\n• date of birth\n• age (older than 12, 16, 18, 21 or 65)\n• nationality\n• country of birth\n• citizen registration number (BSN)</en>
+		<nl>Je laadt de volgende gegevens.\n• volledige naam\n• voorletters\n• voornamen\n• achternaam\n• geslachtsnaam\n• geslacht\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• nationaliteit\n• geboorteland\n• burgerservicenummer (BSN)</nl>
 	</FAQContent>
 	<FAQHowto>
-		<en></en>
-		<nl>Doorloop de volgende stappen:\n1. Open de Sesam ID-app en voer je pincode in.\n2. Kies in de Sesam ID-app voor 'Gegevens delen' en kies voor 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nJe ontvangt twee kaartjes:\n• een kaartje met je persoonsgegevens\n• een een kaartje met je adres</nl>
+		<en>Complete the following steps.\n1. Open the Sesame ID app and enter your PIN code.\n2. In the Sesame app, choose 'Sharing data' and select 'IRMA'.\n3. Confirm that you wish to add your data to your IRMA app. The Sesame ID app copies your data into your IRMA-app.\n\nYou now receive two cards: one card with your personal details and automatically also one card with your home address.</en>
+		<nl>Doorloop de volgende stappen.\n1. Open de Sesam ID-app en voer je pincode in.\n2. Kies in de Sesam app voor 'Gegevens delen' en selecteer 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app. De Sesam ID-app voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je persoonsgegevens, en automatisch ook een kaartje met je woonadres.</nl>
 	</FAQHowto>
 
 	<Attributes>
@@ -54,8 +54,8 @@
 				<nl>Volledige naam</nl>
 			</Name>
 			<Description>
-				<en>Your full name</en>
-				<nl>Uw volledige naam</nl>
+				<en>Your full family name: your family name or (a combination with) the name of your partner</en>
+				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) de naam van je partner</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="initials" displayIndex="1">
@@ -65,7 +65,7 @@
 			</Name>
 			<Description>
 				<en>Your initials, abbreviating your first names</en>
-				<nl>Uw voorletters, een afkorting van uw voornamen</nl>
+				<nl>Je voorletters, als afkorting van je voornamen</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstnames" displayIndex="2">
@@ -75,7 +75,7 @@
 			</Name>
 			<Description>
 				<en>Your first names</en>
-				<nl>Uw voornamen</nl>
+				<nl>Je voornamen</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="prefix" optional="true" displayIndex="3">
@@ -85,7 +85,7 @@
 			</Name>
 			<Description>
 				<en>Prefix of your family name</en>
-				<nl>Voorvoegsel van uw achternaam</nl>
+				<nl>Voorvoegsel van je achternaam</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname" displayIndex="4">
@@ -95,7 +95,7 @@
 			</Name>
 			<Description>
 				<en>Your family name, as given to you at birth</en>
-				<nl>Uw achternaam, zoals aan u toegekend bij uw geboorte</nl>
+				<nl>Je achternaam, zoals bij je geboorte toegekend</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="gender" displayIndex="5">
@@ -105,7 +105,7 @@
 			</Name>
 			<Description>
 				<en>Your gender</en>
-				<nl>Uw geslacht</nl>
+				<nl>Je geslacht</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth" displayIndex="6">
@@ -115,7 +115,7 @@
 			</Name>
 			<Description>
 				<en>Your date of birth</en>
-				<nl>Uw geboortedatum</nl>
+				<nl>Je geboortedatum</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over12" displayIndex="7" displayHint="yesno">
@@ -125,7 +125,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 12</en>
-				<nl>Of u ouder dan 12 bent</nl>
+				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over16" displayIndex="8" displayHint="yesno">
@@ -135,7 +135,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 16</en>
-				<nl>Of u ouder dan 16 bent</nl>
+				<nl>Of je ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over18" displayIndex="9" displayHint="yesno">
@@ -145,7 +145,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 18</en>
-				<nl>Of u ouder dan 18 bent</nl>
+				<nl>Of je ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over21" displayIndex="10" displayHint="yesno">
@@ -155,7 +155,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 21</en>
-				<nl>Of u ouder dan 21 bent</nl>
+				<nl>Of je ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over65" displayIndex="11" displayHint="yesno">
@@ -165,7 +165,7 @@
 			</Name>
 			<Description>
 				<en>Whether you are over 65</en>
-				<nl>Of u ouder dan 65 bent</nl>
+				<nl>Of je ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
 				<Attribute id="nationality" optional="true" displayIndex="12" displayHint="yesno">
@@ -175,7 +175,7 @@
 			</Name>
 			<Description>
 				<en>Whether you have the dutch nationality</en>
-				<nl>Of u de Nederlandse nationaliteit bezit</nl>
+				<nl>Of je de Nederlandse nationaliteit bezit</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="countryofbirth" displayIndex="13">
@@ -185,7 +185,7 @@
 			</Name>
 			<Description>
 				<en>Your country of birth</en>
-				<nl>Uw geboorteland</nl>
+				<nl>Je geboorteland</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="bsn" displayIndex="14" displayHint="sensitive">
@@ -194,8 +194,8 @@
 				<nl>BSN</nl>
 			</Name>
 			<Description>
-				<en>Your Dutch Citizen service number (BSN)</en>
-				<nl>Uw Burgerservicenummer (BSN)</nl>
+				<en>Your Dutch Citizen registration number (BSN)</en>
+				<nl>Je Burgerservicenummer (BSN)</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="photo" displayIndex="15" displayHint="portraitPhoto">
@@ -204,8 +204,8 @@
 				<nl>Foto</nl>
 			</Name>
 			<Description>
-				<en></en>
-				<nl></nl>
+				<en>Your picture</en>
+				<nl>Je foto</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

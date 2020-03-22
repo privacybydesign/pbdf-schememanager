@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>iDIN personal data</en>
-		<nl>iDIN persoonsgegevens</nl>
+		<en>Personal data from the bank</en>
+		<nl>Persoonsgegevens van de bank</nl>
 	</Name>
 	<ShortName>
-		<en>iDIN</en>
-		<nl>iDIN</nl>
+		<en>Personal data bank</en>
+		<nl>Persoonsgegevens bank</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>idin</CredentialID>
 	<Description>
 		<en>Your personal data, provided by your bank, obtained through iDIN</en>
-		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDIN</nl>
+		<nl>Je persoonsgegevens volgens je bank, verkregen met iDIN</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
@@ -25,24 +25,24 @@
 	<BackgroundGradientEnd>#9DDCE5</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
-		<en>Personal data</en>
-		<nl>Persoonsgegevens</nl>
+		<en>Personal</en>
+		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-		<en></en>
-		<nl>Zet je persoonsgegevens uit iDIN in je IRMA-app.</nl>
+		<en>Add your personal data from your bank to your IRMA app.</en>
+		<nl>Laad je persoonsgegevens van je bank in je IRMA-app.</nl>
     </FAQIntro>
 	<FAQPurpose>
-		<en></en>
-		<nl>Met jouw persoonsgegevens uit iDIN in de IRMA-app kun jij bewijzen hoe je heet, hoe oud je bent en waar je woont.</nl>
+		<en>With your personal data from your bank in your IRMA app, you can, for instance, prove what your name is, what your date of birth is, and where you live.</en>
+		<nl>Met jouw persoonsgegevens van je bank in de IRMA-app kun jij bewijzen hoe je heet, wat je geboortedatum is en waar je woont.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en></en>
-		<nl>Je haalt de volgende gegevens op:\n• initialen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• adres\n• postcode\n• plaats</nl>
+		<en>You will add the following data.\n• initials\n• last name\n• gender\n• date of birth\n• age limits (older than 12, 16, 18, 21 or 65)\n• address\n• postal code\n• city.</en>
+		<nl>Je laadt de volgende gegevens.\n• initialen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65)\n• adres\n• postcode\n• woonplaats</nl>
 	</FAQContent>
 	<FAQHowto>
-		<en></en>
-		<nl>Als je een Nederlandse bankrekening hebt, kun je je naam, adres en geboortedatum toevoegen via iDIN (een dienst van de banken).\n\nDoorloop de volgende stappen:\n1. Log in bij je eigen bank\n2. Je ziet de gegevens die je van jouw bank naar je IRMA-app overzet.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nDe Privacy by Design Foundation ontvangt je bankgegevens van iDIN en geeft deze door aan je IRMA-app.\n\nJe ontvangt een kaartje met je persoonsgegevens uit iDIN.</nl>
+		<en>If you have a Dutch bank account, you can personal data from the bank to your IRMA app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your IRMA app.\n3. Confirm that you wish to do so.\nThe Privacy by Design foundation receives your personal data from iDIN and passes them on to your IRMA app.\n\nYou now receive a card with your personal details from your bank.</en>
+		<nl>Als je een Nederlandse bankrekening hebt kun je de persoonsgegevens bij die rekening in je IRMA app laden.\n\nDoorloop de volgende stappen.\n1. Log in bij je eigen bank via de inlogdienst iDIN van de bank.\n2. Je ziet de persoonsgegevens die je van je bank in je IRMA-app laadt.\n3. Bevestig dit laden.\nDe stichting Privacy by Design ontvangt je bankgegevens van iDIN en geeft deze door aan je IRMA-app.\n\nJe ontvangt nu een kaartje met je persoonsgegevens van je bank.</nl>
 	</FAQHowto>
 
 	<Attributes>
@@ -53,7 +53,7 @@
 			</Name>
 			<Description>
 				<en>First letters of your given name(s), as registered at your bank</en>
-				<nl>Uw initialen, zoals geregistreerd bij uw bank</nl>
+				<nl>Je initialen, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -63,7 +63,7 @@
 			</Name>
 			<Description>
 				<en>Your family name, as registered at your bank</en>
-				<nl>Uw achternaam, zoals geregistreerd bij uw bank</nl>
+				<nl>Je achternaam, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth">
@@ -73,7 +73,7 @@
 			</Name>
 			<Description>
 				<en>Your date of birth, as registered at your bank</en>
-				<nl>Uw geboortedatum, zoals geregistreerd bij uw bank</nl>
+				<nl>Je geboortedatum, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="gender">
@@ -83,7 +83,7 @@
 			</Name>
 			<Description>
 				<en>Your gender, as registered at your bank</en>
-				<nl>Uw geslacht, zoals geregistreerd bij uw bank</nl>
+				<nl>Je geslacht, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="address">
@@ -93,27 +93,27 @@
 			</Name>
 			<Description>
 				<en>Your address, as registered at your bank</en>
-				<nl>Uw adres, zoals geregistreerd bij uw bank</nl>
+				<nl>Je adres, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode">
 			<Name>
-				<en>Zip code</en>
+				<en>Postal code</en>
 				<nl>Postcode</nl>
 			</Name>
 			<Description>
 				<en>Your postal code, as registered at your bank</en>
-				<nl>Uw postcode, zoals geregistreerd bij uw bank</nl>
+				<nl>Je postcode, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="city">
 			<Name>
 				<en>City</en>
-				<nl>Stad</nl>
+				<nl>Woonplaats</nl>
 			</Name>
 			<Description>
 				<en>Your city of residence, as registered at your bank</en>
-				<nl>Uw stad, zoals geregistreerd bij uw bank</nl>
+				<nl>Je woonplaats, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="country">
@@ -123,7 +123,7 @@
 			</Name>
 			<Description>
 				<en>Your country of residence, as registered at your bank</en>
-				<nl>Uw woonland, zoals geregistreerd bij uw bank</nl>
+				<nl>Het land waar je woont, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over12" optional="true">
@@ -132,8 +132,8 @@
 				<nl>Ouder dan 12</nl>
 			</Name>
 			<Description>
-				<en>If you are over 12</en>
-				<nl>Of u ouder dan 12 bent</nl>
+        <en>Whether you are over 12</en>
+				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over16" optional="true">
@@ -142,8 +142,8 @@
 				<nl>Ouder dan 16</nl>
 			</Name>
 			<Description>
-				<en>If you are over 16</en>
-				<nl>Of u ouder dan 16 bent</nl>
+				<en>Whether you are over 16</en>
+				<nl>Of je ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over18" optional="true">
@@ -152,8 +152,8 @@
 				<nl>Ouder dan 18</nl>
 			</Name>
 			<Description>
-				<en>If you are over 18</en>
-				<nl>Of u ouder dan 18 bent</nl>
+				<en>Whether you are over 18</en>
+				<nl>Of je ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over21" optional="true">
@@ -162,8 +162,8 @@
 				<nl>Ouder dan 21</nl>
 			</Name>
 			<Description>
-				<en>If you are over 21</en>
-				<nl>Of u ouder dan 21 bent</nl>
+				<en>Whether you are over 21</en>
+				<nl>Of je ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over65" optional="true">
@@ -172,8 +172,8 @@
 				<nl>Ouder dan 65</nl>
 			</Name>
 			<Description>
-				<en>If you are over 65</en>
-				<nl>Of u ouder dan 65 bent</nl>
+				<en>Whether you are over 65</en>
+				<nl>Of je ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

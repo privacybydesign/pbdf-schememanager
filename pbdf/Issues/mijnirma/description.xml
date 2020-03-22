@@ -12,7 +12,7 @@
 	<CredentialID>mijnirma</CredentialID>
 	<Description>
 		<en>Your MyIRMA attribute</en>
-		<nl>Uw MijnIRMA-attribuut</nl>
+		<nl>Je MijnIRMA-attribuut</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<DisallowDelete>true</DisallowDelete>
@@ -29,7 +29,7 @@
 			</Name>
 			<Description>
 				<en>Your MyIRMA username</en>
-				<nl>Uw MijnIRMA-gebruikersnaam</nl>
+				<nl>Je MijnIRMA-gebruikersnaam</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

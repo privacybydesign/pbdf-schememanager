@@ -2,11 +2,11 @@
 	<ID>gemeente</ID>
 	<ShortName>
 		<en>Your Municipality</en>
-		<nl>Uw Gemeente</nl>
+		<nl>Je Gemeente</nl>
 	</ShortName>
 	<Name>
 		<en>Your Municipality</en>
-		<nl>Uw Gemeente</nl>
+		<nl>Je Gemeente</nl>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://www.nijmegen.nl</ContactAddress>

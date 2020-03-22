@@ -12,7 +12,7 @@
 	<CredentialID>travelDocument</CredentialID>
 	<Description>
 		<en>Your Dutch passport or identity card, from the Dutch population register</en>
-		<nl>Uw Nederlandse paspoort of identiteitskaart, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<nl>Je Nederlandse paspoort of identiteitskaart, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
