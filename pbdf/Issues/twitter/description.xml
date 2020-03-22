@@ -12,7 +12,7 @@
 	<CredentialID>twitter</CredentialID>
 	<Description>
 		<en>Twitter attributes from your Twitter account</en>
-		<nl>Twitter attributen uit uw Twitter account</nl>
+		<nl>Twitter attributen uit je Twitter account</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
@@ -31,7 +31,7 @@
 			</Name>
 			<Description>
 				<en>Your username at Twitter, as registered by Twitter</en>
-				<nl>Uw gebruikersnaam bij Twitter, zoals geregistreerd bij Twitter</nl>
+				<nl>Je gebruikersnaam bij Twitter, zoals geregistreerd bij Twitter</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="fullname">
@@ -41,7 +41,7 @@
 			</Name>
 			<Description>
 				<en>Your full name, as registered by Twitter</en>
-				<nl>Uw volledige naam, zoals geregistreerd bij Twitter</nl>
+				<nl>Je volledige naam, zoals geregistreerd bij Twitter</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="email">
@@ -51,7 +51,7 @@
 			</Name>
 			<Description>
 				<en>Your email address, as registered by Twitter</en>
-				<nl>Uw e-mailadres, zoals geregistreerd bij Twitter</nl>
+				<nl>Je e-mailadres, zoals geregistreerd bij Twitter</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="profileurl">
@@ -61,7 +61,7 @@
 			</Name>
 			<Description>
 				<en>URL to your Twitter profile</en>
-				<nl>URL naar uw Twitter-profiel</nl>
+				<nl>URL naar je Twitter-profiel</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
