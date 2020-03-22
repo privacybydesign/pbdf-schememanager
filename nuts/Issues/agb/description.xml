@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>AGB</en>
-		<nl>AGB</nl>
+		<en>AGB code</en>
+		<nl>AGB-code</nl>
 	</Name>
 	<ShortName>
 		<en>AGB</en>
@@ -18,6 +18,33 @@
 		<en>https://irma-agb.nuts.nl/</en>
 		<nl>https://irma-agb.nuts.nl/</nl>
 	</IssueURL>
+
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#014483</BackgroundGradientStart>
+	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
+
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Healthcare</en>
+		<nl>Zorg</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je AGB-code in je IRMA-app.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw AGB-code in de IRMA-app kun je bewijzen wat je code is als zorgverlener in het AGB-register.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n• AGB-code</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Doorloop de volgende stappen:\n1. Geef je initialen, achternaam en geboortedatum vrij aan NUTS.\n2. Vul je AGB-code in.\n3. Bevestig het overzetten van je AGB-code naar je IRMA-app.\n\nJe ontvangt een kaartje met je AGB-code.
+</nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="agbcode">

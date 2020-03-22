@@ -19,9 +19,33 @@
 		<nl>https://services.nijmegen.nl/irma/gemeente/start</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
-
+	
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#014483</BackgroundGradientStart>
+	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Personal data</en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je woonadres uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
+    	</FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw woonadres in de IRMA-app kun jij bewijzen waar je woont.\nDan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres prijs te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n• straat\n• huisnummer\n• postcode\n• woonplaats\n• gemeente</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Als je in Nederland woont, kun je je woonadres uit de basisregistratie personen (BRP) toevoegen.\nJe hebt je DigiD nodig. \n\nDoorloop de volgende stappen:\n1. Log in met je DigiD.\n2. Je logt dan in bij de gemeente Nijmegen. Zij stelt de gegevens uit de basisregistratie personen (BRP) beschikbaar.\n3. Doorloop de stappen die worden aangeboden.\n\nDe gemeente Nijmegen geeft je gegevens door aan je IRMA-app.\n\nJe ontvangt twee kaartjes:\n• een kaartje met je woonadres\n• een een kaartje met je persoonsgegevens</nl>
+	</FAQHowto>
 	<Attributes>
-		<Attribute id="street">
+		<Attribute id="street" displayIndex="1">
 			<Name>
 				<en>Street</en>
 				<nl>Straat</nl>
@@ -31,7 +55,7 @@
 				<nl>Uw straat</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="houseNumber" optional="true">
+		<Attribute id="houseNumber" optional="true" displayIndex="2">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
@@ -41,7 +65,7 @@
 				<nl>Uw huisnummer, letter en/of toevoeging</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="zipcode">
+		<Attribute id="zipcode" displayIndex="3">
 			<Name>
 				<en>Zip code</en>
 				<nl>Postcode</nl>
@@ -51,7 +75,7 @@
 				<nl>Uw postcode</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="municipality">
+		<Attribute id="municipality" displayIndex="5">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
@@ -61,7 +85,7 @@
 				<nl>Uw gemeente</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="city">
+		<Attribute id="city" displayIndex="4">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
@@ -73,3 +97,4 @@
 		</Attribute>
 	</Attributes>
 </IssueSpecification>
+

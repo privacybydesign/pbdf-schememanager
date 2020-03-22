@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>iDEAL</en>
-		<nl>iDEAL</nl>
+		<en>Bank account</en>
+		<nl>Bankrekening</nl>
 	</Name>
 	<ShortName>
 		<en>iDEAL</en>
@@ -18,6 +18,32 @@
 		<en>https://privacybydesign.foundation/uitgifte/ideal/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/ideal/</nl>
 	</IssueURL>
+	
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#053F58</BackgroundGradientStart>
+	<BackgroundGradientEnd>#165B78</BackgroundGradientEnd>
+
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Financial</en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je bankrekening in je IRMA-app.\nJe kunt meerdere bankrekeningen toevoegen.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw bankrekening in de IRMA-app kun je bewijzen dat jij een bankrekening hebt en dat jij de rekeninghouder bent van een bepaalde rekening.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n• BIC-code\n• rekeninghouder\n• IBAN</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Als je een Nederlandse bankrekening hebt, kun je dit kaartje toevoegen.\n\nDoorloop de volgende stappen:\n1. Kies voor de iDeal betaling.\n2. Log in bij je eigen bank\n3. Maak een bedrag van minimaal 50 cent over aan de Privacy by Design Foundation. De Privacy by Design Foundation ontvangt je bankgegevens van iDEAL en geeft deze door aan je IRMA-app.\n\nJe ontvangt voor elk rekeningnummer een apart kaartje.</nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="fullname">

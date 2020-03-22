@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>MyIRMA</en>
-		<nl>MijnIRMA</nl>
+		<nl>IRMA</nl>
 	</Name>
 	<ShortName>
 		<en>MyIRMA</en>
@@ -16,7 +16,11 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<DisallowDelete>true</DisallowDelete>
-
+	
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#FFB54C</BackgroundGradientStart>
+	<BackgroundGradientEnd>#FFE8CD</BackgroundGradientEnd>
+	
 	<Attributes>
 		<Attribute id="email">
 			<Name>

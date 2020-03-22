@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>iDIN</en>
-		<nl>iDIN</nl>
+		<en>iDIN personal data</en>
+		<nl>iDIN persoonsgegevens</nl>
 	</Name>
 	<ShortName>
 		<en>iDIN</en>
@@ -16,9 +16,34 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/ideal-idin/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/ideal-idin/</nl>
+		<en>https://privacybydesign.foundation/issuance/idin/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
 	</IssueURL>
+
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#00B1E5</BackgroundGradientStart>
+	<BackgroundGradientEnd>#9DDCE5</BackgroundGradientEnd>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Personal data</en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je persoonsgegevens uit iDIN in je IRMA-app.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw persoonsgegevens uit iDIN in de IRMA-app kun jij bewijzen hoe je heet, hoe oud je bent en waar je woont.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n• initialen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijd (ouder dan 12, 16, 18, 21 of 65)\n• adres\n• postcode\n• plaats</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Als je een Nederlandse bankrekening hebt, kun je je naam, adres en geboortedatum toevoegen via iDIN (een dienst van de banken).\n\nDoorloop de volgende stappen:\n1. Log in bij je eigen bank\n2. Je ziet de gegevens die je van jouw bank naar je IRMA-app overzet.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app.\n\nDe Privacy by Design Foundation ontvangt je bankgegevens van iDIN en geeft deze door aan je IRMA-app.\n\nJe ontvangt een kaartje met je persoonsgegevens uit iDIN.</nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="initials">

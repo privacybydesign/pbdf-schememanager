@@ -5,7 +5,7 @@
 	</Name>
 	<ShortName>
 		<en>Phone</en>
-		<nl>Telefoon</nl>
+		<nl>Telefoonnummer</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
@@ -19,6 +19,31 @@
 		<en>https://privacybydesign.foundation/issuance/phonenumber/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/telefoonnummer/</nl>
 	</IssueURL>
+
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
+	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je telefoonnummer in je IRMA-app.\nJe kunt meerdere telefoonnummers toevoegen.</nl>
+    </FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw telefoonnummer in de IRMA-app kun je laten zien dat dit telefoonnummer echt van jou is.\n\nJe kunt bijvoorbeeld je telefoonnummer doorgeven om teruggebeld te worden. Als je je telefoonnummer uit je IRMA-app gebruikt, weet de ander zeker dat jij bij dit telefoonnummer hoort.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n• telefoonnummer</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Doorloop de volgende stappen:\n1. Vul je telefoonnummer in.\n2. Open het SMS-bericht afkomstig van 06-51953392.\n3. Kies de link in het SMS bericht.\n4. Je wordt teruggestuurd naar de IRMA-app.\n\nJe ontvangt voor elk telefoonnummer een apart kaartje.</nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="mobilenumber">

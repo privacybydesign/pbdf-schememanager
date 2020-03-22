@@ -20,6 +20,31 @@
 		<nl>https://privacybydesign.foundation/uitgifte/email/</nl>
 	</IssueURL>
 
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
+	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Personal data</en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je e-mailadres in je IRMA-app.\nJe kunt meerdere e-mailadressen toevoegen.</nl>
+    	</FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw e-mailadres in de IRMA-app kun je laten zien dat dit e-mailadres echt van jou is.\n\nJe kunt bijvoorbeeld je e-mailadres gebruiken om op een website in te loggen. Of je kunt je e-mailadres aan een organisatie doorgeven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n• e-mailadres\n• e-mail domeinnaam</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Doorloop de volgende stappen:\n1. Vul je e-mailadres in.\n 2. Open je e-mailprogramma en ga naar 'inkomende berichten'.\n 3. Open de link in het e-mailbericht van Stichting Privacy by Design.\n 4. Je wordt teruggestuurd naar de IRMA-app.\n\nLet op\nAls je de e-mail op een computer opent, krijg je een QR-code te zien.\nDoorloop dan de volgende stappen:\n1. Open de link in het e-mailbericht van Stichting Privacy by Design.\n 2. Start de QR-scanner in de IRMA-app.\n 3. Scan de QR-code die op het scherm van je computer staat.</nl>
+	</FAQHowto>
+
 	<Attributes>
 		<Attribute id="email">
 			<Name>

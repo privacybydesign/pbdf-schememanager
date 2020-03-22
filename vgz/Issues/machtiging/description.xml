@@ -15,6 +15,10 @@
 		<nl>Met deze machtiging kunt u declaraties indienen bij VGZ namens de verzekerde die u deze machtiging gegeven heeft</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
+	
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#016E3D</BackgroundGradientStart>
+	<BackgroundGradientEnd>#22C4B4</BackgroundGradientEnd>
 
 	<Attributes>
 		<Attribute id="clientnumber">
@@ -40,7 +44,7 @@
 		<Attribute id="mandateid">
 			<Name>
 				<en>MandateID</en>
-				<nl>MachtigingID</nl>
+				<nl>Machtiging ID</nl>
 			</Name>
 			<Description>
 				<en>A unique ID for this mandate</en>

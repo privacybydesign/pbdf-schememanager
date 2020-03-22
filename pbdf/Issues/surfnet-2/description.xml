@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Surfnet</en>
-		<nl>Surfnet</nl>
+		<en>SURFnet</en>
+		<nl>SURFnet</nl>
 	</Name>
 	<ShortName>
-		<en>Surfnet</en>
-		<nl>Surfnet</nl>
+		<en>SURFnet</en>
+		<nl>SURFnet</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
@@ -19,6 +19,31 @@
 		<en>https://privacybydesign.foundation/issuance/surfnet/surfnet/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/surfnet/surfnet/</nl>
 	</IssueURL>
+
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
+	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Education</en>
+		<nl>Onderwijs</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl>Zet je SURFnet-gegevens in je IRMA-app.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl>Met jouw SURFnet gegevens in de IRMA-app kun je bewijzen dat je bij een hogere onderwijsinstelling werkt of studeert.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl>Je haalt de volgende gegevens op:\n• voornaam\n• achternaam\n• e-mailadres\n• instelling\n• medewerker/student\n• lokaal registratienummer</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl>Als je bij een hogere onderwijsinstelling werkt of studeert, kun je dit kaartje toevoegen.\n\nDoorloop de volgende stappen:\n1. Kies je onderwijsinstelling.\n2. Log in op website van de onderwijsinstelling.\n3. Kies voor het overzetten van je gegevens naar IRMA.\n4. Doorloop de aangeboden stappen.\n\nJe ontvangt een kaartje met je SURFnet-gegevens.</nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="institute" optional="true">
