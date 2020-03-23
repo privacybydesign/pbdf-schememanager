@@ -18,7 +18,7 @@
 		<en>https://privacybydesign.foundation/uitgifte/ideal/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/ideal/</nl>
 	</IssueURL>
-	
+
 	<ForegroundColor>#ffffff</ForegroundColor>
 	<BackgroundGradientStart>#053F58</BackgroundGradientStart>
 	<BackgroundGradientEnd>#165B78</BackgroundGradientEnd>
@@ -31,7 +31,7 @@
 	<FAQIntro>
 		<en>Add your bank account to your IRMA app. You can add multiple bank accounts.</en>
 		<nl>Laad je bankrekening in je IRMA-app. Je kunt meerdere bankrekeningen toevoegen.</nl>
-    </FAQIntro>
+	</FAQIntro>
 	<FAQPurpose>
 		<en>With your bank account in your IRMA app you can disclose that you are the account holder of this verified bank account.</en>
 		<nl>Met jouw bankrekening in de IRMA-app kun je onthullen dat jij de rekeninghouder bent van deze geverifieerde bankrekening.</nl>

@@ -15,11 +15,11 @@
     <nl>Test BSN vanuit de zorg</nl>
   </Description>
   <ShouldBeSingleton>true</ShouldBeSingleton>
-  
-	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundGradientStart>#0E4B8F</BackgroundGradientStart>
-	<BackgroundGradientEnd>#023269</BackgroundGradientEnd>
-  
+
+  <ForegroundColor>#ffffff</ForegroundColor>
+  <BackgroundGradientStart>#0E4B8F</BackgroundGradientStart>
+  <BackgroundGradientEnd>#023269</BackgroundGradientEnd>
+
   <Attributes>
     <Attribute id="bsn" displayIndex="0">
       <Name>

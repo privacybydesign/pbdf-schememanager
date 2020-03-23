@@ -206,7 +206,7 @@
 				<nl>Of je ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="bsn"displayIndex="17">
+		<Attribute id="bsn" displayIndex="17">
 			<Name>
 				<en>BSN</en>
 				<nl>BSN</nl>
@@ -223,8 +223,7 @@
 			</Name>
 			<Description>
 				<en>The DigiD assurance level with which your identity was verified</en>
-        <nl>Het DigiD betrouwbaarheidsniveau waarmee je identiteit is vastgesteld</nl>
-				
+				<nl>Het DigiD betrouwbaarheidsniveau waarmee je identiteit is vastgesteld</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

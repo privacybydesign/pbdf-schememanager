@@ -31,7 +31,7 @@
 	<FAQIntro>
 		<en>Add your personal data from your bank to your IRMA app.</en>
 		<nl>Laad je persoonsgegevens van je bank in je IRMA-app.</nl>
-    </FAQIntro>
+	</FAQIntro>
 	<FAQPurpose>
 		<en>With your personal data from your bank in your IRMA app, you can, for instance, prove what your name is, what your date of birth is, and where you live.</en>
 		<nl>Met jouw persoonsgegevens van je bank in de IRMA-app kun jij bewijzen hoe je heet, wat je geboortedatum is en waar je woont.</nl>
@@ -132,7 +132,7 @@
 				<nl>Ouder dan 12</nl>
 			</Name>
 			<Description>
-        <en>Whether you are over 12</en>
+				<en>Whether you are over 12</en>
 				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>

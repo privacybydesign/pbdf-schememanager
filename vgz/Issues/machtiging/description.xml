@@ -15,7 +15,7 @@
 		<nl>Met deze machtiging kunt je declaraties indienen bij VGZ namens de verzekerde die je deze machtiging gegeven heeft</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	
+
 	<ForegroundColor>#ffffff</ForegroundColor>
 	<BackgroundGradientStart>#016E3D</BackgroundGradientStart>
 	<BackgroundGradientEnd>#22C4B4</BackgroundGradientEnd>

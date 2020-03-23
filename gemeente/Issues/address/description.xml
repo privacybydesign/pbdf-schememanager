@@ -19,7 +19,7 @@
 		<nl>https://services.nijmegen.nl/irma/gemeente/start</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
-	
+
 	<ForegroundColor>#ffffff</ForegroundColor>
 	<BackgroundGradientStart>#014483</BackgroundGradientStart>
 	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
@@ -31,9 +31,9 @@
 	<FAQIntro>
 		<en>Add your home address from the Dutch population register (BRP) to your IRMA app.</en>
 		<nl>Laad je woonadres uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
-    	</FAQIntro>
+	</FAQIntro>
 	<FAQPurpose>
-    <en>With your home address in your IRMA app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
+		<en>With your home address in your IRMA app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
 		<nl>Met jouw woonadres in de IRMA-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>	
 	</FAQPurpose>
 	<FAQContent>
@@ -41,7 +41,7 @@
 		<nl>Je laadt de volgende gegevens.\n• straat\n• huisnummer\n• postcode\n• woonplaats\n• gemeente</nl>
 	</FAQContent>
 	<FAQHowto>
-    <en>If you live in the Netherlands, you can add your home address from the Dutch population register (BRP) to your IRMA app. You need your DigiD for this.\n Complete the following steps.\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\n2. The municipality of Nijmegen copies your data into your IRMA app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
+		<en>If you live in the Netherlands, you can add your home address from the Dutch population register (BRP) to your IRMA app. You need your DigiD for this.\n Complete the following steps.\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\n2. The municipality of Nijmegen copies your data into your IRMA app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
 		<nl>Als je in Nederland woont, kun je je woonadres uit de basisregistratie personen (BRP) toevoegen in je IRMA app.\nJe hebt je DigiD daarvoor nodig. \n\nDoorloop de volgende stappen.\n1. Log in met je DigiD bij de gemeente Nijmegen (dit werkt voor iedereen in Nederland, niet alleen voor inwoners van Nijmegen).\n2. De gemeente Nijmegen voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
 	</FAQHowto>
 	<Attributes>
