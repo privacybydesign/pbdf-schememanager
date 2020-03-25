@@ -69,11 +69,11 @@
 		<Attribute id="id" optional="true">
 			<Name>
 				<en>Registration number</en>
-				<nl>Registratie nummer</nl>
+				<nl>Registratienummer</nl>
 			</Name>
 			<Description>
 				<en>Your registration number at your institution</en>
-				<nl>Je registratie nummer bij je instelling</nl>
+				<nl>Je registratienummer bij je instelling</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="fullid" optional="true">

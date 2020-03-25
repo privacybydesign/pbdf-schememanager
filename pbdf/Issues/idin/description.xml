@@ -41,7 +41,7 @@
 		<nl>Je laadt de volgende gegevens.\n• initialen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65)\n• adres\n• postcode\n• woonplaats</nl>
 	</FAQContent>
 	<FAQHowto>
-		<en>If you have a Dutch bank account, you can personal data from the bank to your IRMA app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your IRMA app.\n3. Confirm that you wish to do so.\nThe Privacy by Design foundation receives your personal data from iDIN and passes them on to your IRMA app.\n\nYou now receive a card with your personal details from your bank.</en>
+		<en>If you have a Dutch bank account, you can add personal data from the bank to your IRMA app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your IRMA app.\n3. Confirm that you wish to do so.\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your IRMA app.\n\nYou now receive a card with your personal details from your bank.</en>
 		<nl>Als je een Nederlandse bankrekening hebt kun je de persoonsgegevens bij die rekening in je IRMA app laden.\n\nDoorloop de volgende stappen.\n1. Log in bij je eigen bank via de inlogdienst iDIN van de bank.\n2. Je ziet de persoonsgegevens die je van je bank in je IRMA-app laadt.\n3. Bevestig dit laden.\nDe stichting Privacy by Design ontvangt je bankgegevens van iDIN en geeft deze door aan je IRMA-app.\n\nJe ontvangt nu een kaartje met je persoonsgegevens van je bank.</nl>
 	</FAQHowto>
 
