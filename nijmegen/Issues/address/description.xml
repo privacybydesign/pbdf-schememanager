@@ -12,7 +12,7 @@
 	<CredentialID>address</CredentialID>
 	<Description>
 		<en>Your address, from the Dutch population register</en>
-		<nl>Uw adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
@@ -28,7 +28,7 @@
 			</Name>
 			<Description>
 				<en>Your street</en>
-				<nl>Uw straat</nl>
+				<nl>Je straat</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="houseNumber" optional="true">
@@ -38,7 +38,7 @@
 			</Name>
 			<Description>
 				<en>Your house number, letter and/or addition</en>
-				<nl>Uw huisnummer, letter en/of toevoeging</nl>
+				<nl>Je huisnummer, letter en/of toevoeging</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode">
@@ -48,7 +48,7 @@
 			</Name>
 			<Description>
 				<en>Your zip code</en>
-				<nl>Uw postcode</nl>
+				<nl>Je postcode</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="municipality">
@@ -58,7 +58,7 @@
 			</Name>
 			<Description>
 				<en>Your municipality</en>
-				<nl>Uw gemeente</nl>
+				<nl>Je gemeente</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="city">
@@ -68,7 +68,7 @@
 			</Name>
 			<Description>
 				<en>Your city of residence</en>
-				<nl>Uw woonplaats</nl>
+				<nl>Je woonplaats</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

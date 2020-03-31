@@ -12,7 +12,7 @@
 	<CredentialID>linkedin</CredentialID>
 	<Description>
 		<en>LinkedIn attributes from your LinkedIn account</en>
-		<nl>LinkedIn attributen uit uw LinkedIn account</nl>
+		<nl>LinkedIn attributen uit je LinkedIn account</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
@@ -23,7 +23,7 @@
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#0277B5</BackgroundGradientStart>
 	<BackgroundGradientEnd>#196E9F</BackgroundGradientEnd>
-	
+
 	<Attributes>
 		<Attribute id="fullname" optional="true">
 			<Name>
@@ -32,7 +32,7 @@
 			</Name>
 			<Description>
 				<en>Your full name, as registered by LinkedIn</en>
-				<nl>Uw volledige naam, zoals geregistreerd bij LinkedIn</nl>
+				<nl>Je volledige naam, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstname">
@@ -42,7 +42,7 @@
 			</Name>
 			<Description>
 				<en>Your first name, as registered by LinkedIn</en>
-				<nl>Uw voornaam, zoals geregistreerd bij LinkedIn</nl>
+				<nl>Je voornaam, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -52,7 +52,7 @@
 			</Name>
 			<Description>
 				<en>Your family name, as registered by LinkedIn</en>
-				<nl>Uw achternaam, zoals geregistreerd bij LinkedIn</nl>
+				<nl>Je achternaam, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="email">
@@ -62,7 +62,7 @@
 			</Name>
 			<Description>
 				<en>Your email address, as registered by LinkedIn</en>
-				<nl>Uw e-mailadres, zoals geregistreerd bij LinkedIn</nl>
+				<nl>Je e-mailadres, zoals geregistreerd bij LinkedIn</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="profileurl" optional="true">
@@ -72,7 +72,7 @@
 			</Name>
 			<Description>
 				<en>URL to your LinkedIn profile</en>
-				<nl>URL naar uw LinkedIn-profiel</nl>
+				<nl>URL naar je LinkedIn-profiel</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

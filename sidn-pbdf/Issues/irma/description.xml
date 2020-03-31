@@ -12,11 +12,11 @@
 	<CredentialID>irma</CredentialID>
 	<Description>
 		<en>Your MyIRMA attribute</en>
-		<nl>Uw MijnIRMA-attribuut</nl>
+		<nl>Je MijnIRMA-attribuut</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<DisallowDelete>true</DisallowDelete>
-	
+
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#FFB54C</BackgroundGradientStart>
 	<BackgroundGradientEnd>#FFE8CD</BackgroundGradientEnd>
@@ -29,7 +29,7 @@
 			</Name>
 			<Description>
 				<en>Your MyIRMA username</en>
-				<nl>Uw MijnIRMA-gebruikersnaam</nl>
+				<nl>Je MijnIRMA-gebruikersnaam</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

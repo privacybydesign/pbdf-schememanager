@@ -12,7 +12,7 @@
 	<CredentialID>surfdrive</CredentialID>
 	<Description>
 		<en>Your SURFdrive licence, for logging in at SURFdrive</en>
-		<nl>Uw SURFdrive licentie, waarmee u in kunt loggen op SURFdrive</nl>
+		<nl>Je SURFdrive licentie, waarmee je in kunt loggen op SURFdrive</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -24,7 +24,7 @@
 			</Name>
 			<Description>
 				<en>Your ID at your institute</en>
-				<nl>Uw ID bij uw instelling</nl>
+				<nl>Je ID bij je instelling</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="emailadres">
@@ -34,7 +34,7 @@
 			</Name>
 			<Description>
 				<en>Your email address</en>
-				<nl>Uw e-mailadres</nl>
+				<nl>Je e-mailadres</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="displayname">
@@ -44,7 +44,7 @@
 			</Name>
 			<Description>
 				<en>Your name</en>
-				<nl>Uw naam</nl>
+				<nl>Je naam</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

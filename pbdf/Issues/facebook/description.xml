@@ -32,7 +32,7 @@
 			</Name>
 			<Description>
 				<en>Your full name, as registered by Facebook</en>
-				<nl>Uw volledige naam, zoals geregistreerd bij Facebook</nl>
+				<nl>Je volledige naam, zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstname">
@@ -42,7 +42,7 @@
 			</Name>
 			<Description>
 				<en>Your first name, as registered by Facebook</en>
-				<nl>Uw voornaam, zoals geregistreerd bij Facebook</nl>
+				<nl>Je voornaam, zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -52,7 +52,7 @@
 			</Name>
 			<Description>
 				<en>Your family name, as registered by Facebook</en>
-				<nl>Uw achternaam, zoals geregistreerd bij Facebook</nl>
+				<nl>Je achternaam, zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="email">
@@ -62,7 +62,7 @@
 			</Name>
 			<Description>
 				<en>Your email address, as registered by Facebook</en>
-				<nl>Uw e-mailadres, zoals geregistreerd bij Facebook</nl>
+				<nl>Je e-mailadres, zoals geregistreerd bij Facebook</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth" optional="true">
@@ -72,7 +72,7 @@
 			</Name>
 			<Description>
 				<en>Your date of birth, as registered in Facebook</en>
-				<nl>Uw geboortedatum, zoals opgegeven bij Facebook</nl>
+				<nl>Je geboortedatum, zoals opgegeven bij Facebook</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

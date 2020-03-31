@@ -28,7 +28,7 @@
 			</Name>
 			<Description>
 				<en>Your BIG code</en>
-				<nl>Uw BIG-nummer</nl>
+				<nl>Je BIG-nummer</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="startdate">
@@ -38,7 +38,7 @@
 			</Name>
 			<Description>
 				<en>Start date of this registration</en>
-				<nl>Startdatum van uw registratie</nl>
+				<nl>Startdatum van je registratie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="profession">
@@ -48,7 +48,7 @@
 			</Name>
 			<Description>
 				<en>The profession you have</en>
-				<nl>Uw beroep</nl>
+				<nl>Je beroep</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="specialism">
@@ -58,7 +58,7 @@
 			</Name>
 			<Description>
 				<en>The specialty you have as part of your profession</en>
-				<nl>De specialisatie binnen uw beroep</nl>
+				<nl>De specialisatie binnen je beroep</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

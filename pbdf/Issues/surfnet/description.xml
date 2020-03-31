@@ -12,7 +12,7 @@
 	<CredentialID>surfnet</CredentialID>
 	<Description>
 		<en>Your Surfnet attributes obtained through SURFconext</en>
-		<nl>Uw Surfnet-attributen, verkregen via SURFconext</nl>
+		<nl>Je Surfnet-attributen, verkregen via SURFconext</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
@@ -38,7 +38,7 @@
 			</Name>
 			<Description>
 				<en>Your position at your institute</en>
-				<nl>Uw positie bij uw instantie</nl>
+				<nl>Je positie bij je instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="id">
@@ -48,7 +48,7 @@
 			</Name>
 			<Description>
 				<en>Your ID number at your institute</en>
-				<nl>Uw ID-nummer bij uw instantie</nl>
+				<nl>Je ID-nummer bij je instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="fullname">
@@ -58,7 +58,7 @@
 			</Name>
 			<Description>
 				<en>Your full name, as registered by your institute</en>
-				<nl>Uw volledige naam, zoals geregistreerd bij uw instantie</nl>
+				<nl>Je volledige naam, zoals geregistreerd bij je instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstname">
@@ -68,7 +68,7 @@
 			</Name>
 			<Description>
 				<en>Your first name, as registered by your institute</en>
-				<nl>Uw voornaam, zoals geregistreerd bij uw instantie</nl>
+				<nl>Je voornaam, zoals geregistreerd bij je instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -78,7 +78,7 @@
 			</Name>
 			<Description>
 				<en>Your family name, as registered by your institute</en>
-				<nl>Uw achternaam, zoals geregistreerd bij uw instantie</nl>
+				<nl>Je achternaam, zoals geregistreerd bij je instantie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="email">
@@ -88,7 +88,7 @@
 			</Name>
 			<Description>
 				<en>Your email address at your institute</en>
-				<nl>Uw e-mailadres bij uw instantie</nl>
+				<nl>Je e-mailadres bij je instantie</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

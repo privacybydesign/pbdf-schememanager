@@ -15,11 +15,11 @@
     <nl>Test BSN vanuit de zorg</nl>
   </Description>
   <ShouldBeSingleton>true</ShouldBeSingleton>
-  
-	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundGradientStart>#0E4B8F</BackgroundGradientStart>
-	<BackgroundGradientEnd>#023269</BackgroundGradientEnd>
-  
+
+  <ForegroundColor>#ffffff</ForegroundColor>
+  <BackgroundGradientStart>#0E4B8F</BackgroundGradientStart>
+  <BackgroundGradientEnd>#023269</BackgroundGradientEnd>
+
   <Attributes>
     <Attribute id="bsn" displayIndex="0">
       <Name>
@@ -38,7 +38,7 @@
       </Name>
       <Description>
         <en>Your initials, abbreviating your first names</en>
-        <nl>Uw voorletters, een afkorting van uw voornamen</nl>
+        <nl>Je voorletters, een afkorting van je voornamen</nl>
       </Description>
     </Attribute>
     <Attribute id="firstnames" displayIndex="2">
@@ -48,7 +48,7 @@
       </Name>
       <Description>
         <en>Your first names</en>
-        <nl>Uw voornamen</nl>
+        <nl>Je voornamen</nl>
       </Description>
     </Attribute>
     <Attribute id="prefix" optional="true" displayIndex="3">
@@ -58,7 +58,7 @@
       </Name>
       <Description>
         <en>Prefix of your family name</en>
-        <nl>Voorvoegsel van uw achternaam</nl>
+        <nl>Voorvoegsel van je achternaam</nl>
       </Description>
     </Attribute>
     <Attribute id="familyname" displayIndex="4">
@@ -68,7 +68,7 @@
       </Name>
       <Description>
         <en>Your family name, as given to you at birth</en>
-        <nl>Uw achternaam, zoals aan u toegekend bij uw geboorte</nl>
+        <nl>Je achternaam, zoals aan je toegekend bij je geboorte</nl>
       </Description>
     </Attribute>
     <Attribute id="dateofbirth" displayIndex="5">
@@ -78,7 +78,7 @@
       </Name>
       <Description>
         <en>Your date of birth</en>
-        <nl>Uw geboortedatum</nl>
+        <nl>Je geboortedatum</nl>
       </Description>
     </Attribute>
   </Attributes>

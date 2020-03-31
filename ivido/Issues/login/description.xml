@@ -19,7 +19,7 @@
 		<nl>https://platform.ivido.nl/auth/irma/refresh_attribute.php</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
-	
+
 	<ForegroundColor>#C81619</ForegroundColor>
 	<BackgroundGradientStart>#5C12FF</BackgroundGradientStart>
 	<BackgroundGradientEnd>#430AC1</BackgroundGradientEnd>
