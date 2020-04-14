@@ -24,7 +24,7 @@
 	<ForegroundColor>#ffffff</ForegroundColor>
 	<BackgroundGradientStart>#014483</BackgroundGradientStart>
 	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
-	<IsInCredentialStore>true</IsInCredentialStore>
+	<IsInCredentialStore>false</IsInCredentialStore>
 
 	<Category>
 		<en>Personal</en>
