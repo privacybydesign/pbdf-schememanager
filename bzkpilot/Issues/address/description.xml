@@ -39,8 +39,8 @@
 		<nl>Met jouw woonadres in de IRMA-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data.\n• street\n• street number\n• postal code\n• city\n• municipality</en>
-		<nl>Je laadt de volgende gegevens.\n• straat\n• huisnummer\n• postcode\n• woonplaats\n• gemeente</nl>
+		<en>You will add the following data:\n• street,\n• street number,\n• postal code,\n• city,\n• municipality.</en>
+		<nl>Je laadt de volgende gegevens:\n• straat,\n• huisnummer,\n• postcode,\n• woonplaats,\n• gemeente.</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en>Complete the following steps.\n1. Open the Sesame ID app and enter your PIN code.\n2. In the Sesame app, choose 'Sharing data' and select 'IRMA'.\n3. Confirm that you wish to add your data to your IRMA app. The Sesame ID app copies your data into your IRMA-app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>

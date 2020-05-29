@@ -29,7 +29,7 @@
 		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-		<en>Add your mobile phone number to your IRMA app.\You can add multiple phone numbers.</en>
+		<en>Add your mobile phone number to your IRMA app.\nYou can add multiple phone numbers.</en>
 		<nl>Laad je mobiele telefoonnummer in je IRMA-app.\nJe kunt meerdere telefoonnummers toevoegen.</nl>
 	</FAQIntro>
 	<FAQPurpose>
@@ -37,8 +37,8 @@
 		<nl>Met jouw mobiele telefoonnummer in de IRMA-app kun je laten zien dat dit nummer echt bij jou hoort. Je kunt bijvoorbeeld je mobiele nummer in een formulier toevoegen of gebruiken om op een website in te loggen.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data.\n• mobile phone number</en>
-		<nl>Je laadt de volgende gegevens.\n• mobiele telefoonnummer</nl>
+		<en>You will add the following data:\n• mobile phone number.</en>
+		<nl>Je laadt de volgende gegevens:\n• mobiele telefoonnummer.</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en>Complete the following steps.\n1. Enter your mobile phone number.\n2. Check the IRMA SMS message on your phone.\n3. Use either the verification code in the message, or use the link in the message. After filling in the verification on the webpage for issuing phone numbers you will see a QR code that you can scan with the IRMA app on your phone. If you use the direct link in the SMS message you are sent back automatically to the IRMA app.\n\nYou now receive a card with your mobile phone number. Repeat this process for other mobile phone numbers that you wish to add.</en>
