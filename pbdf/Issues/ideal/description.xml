@@ -37,8 +37,8 @@
 		<nl>Met jouw bankrekening in de IRMA-app kun je onthullen dat jij de rekeninghouder bent van deze geverifieerde bankrekening.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data.\n• IBAN \n•  BIC code\n•  account holder</en>
-		<nl>Je laadt de volgende gegevens.\n• IBAN \n• BIC-code\n• rekeninghouder</nl>
+		<en>You will add the following data:\n• IBAN,\n• BIC code,\n• account holder.</en>
+		<nl>Je laadt de volgende gegevens:\n• IBAN,\n• BIC-code,\n• rekeninghouder.</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en>In case you have a Dutch bank account, you can add its account details to your IRMA app. To do so, complete the following steps.\n1. Select iDeal payment.\n2. Transfer an amount of at least 50 cents to the Privacy by Design Foundation via an ordinary iDEAL payment.\n3. The Privacy by Design Foundation receives your bank details from iDEAL and passes them on to your IRMA app.\n\nYou now receive a card with the bank details of the account that you used for the payment. Repeat this process for other bank accounts that you wish to load into IRMA.</en>

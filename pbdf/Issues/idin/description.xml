@@ -37,8 +37,8 @@
 		<nl>Met jouw persoonsgegevens van je bank in de IRMA-app kun jij bewijzen hoe je heet, wat je geboortedatum is en waar je woont.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data.\n• initials\n• last name\n• gender\n• date of birth\n• age limits (older than 12, 16, 18, 21 or 65)\n• address\n• postal code\n• city.</en>
-		<nl>Je laadt de volgende gegevens.\n• initialen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65)\n• adres\n• postcode\n• woonplaats</nl>
+		<en>You will add the following data:\n• initials,\n• last name,\n• gender,\n• date of birth,\n• age limits (older than 12, 16, 18, 21 or 65),\n• address,\n• postal code,\n• city.</en>
+		<nl>Je laadt de volgende gegevens:\n• initialen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65),\n• adres,\n• postcode,\n• woonplaats.</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en>If you have a Dutch bank account, you can add personal data from the bank to your IRMA app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your IRMA app.\n3. Confirm that you wish to do so.\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your IRMA app.\n\nYou now receive a card with your personal details from your bank.</en>
