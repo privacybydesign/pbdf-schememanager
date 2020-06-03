@@ -10,6 +10,7 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>mijnirma</CredentialID>
+	<DeprecatedSince>1591183626</DeprecatedSince>
 	<Description>
 		<en>Your MyIRMA attribute</en>
 		<nl>Je MijnIRMA-attribuut</nl>
