@@ -16,7 +16,7 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/idin/</en>
+		<en>https://privacybydesign.foundation/uitgifte/idin/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
 	</IssueURL>
 
