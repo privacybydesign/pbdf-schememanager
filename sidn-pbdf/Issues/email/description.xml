@@ -16,8 +16,6 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en></en>
-		<nl></nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
