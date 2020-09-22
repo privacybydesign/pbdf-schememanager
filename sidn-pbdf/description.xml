@@ -5,8 +5,8 @@
 		<nl>PbDF via SIDN</nl>
 	</ShortName>
 	<Name>
-		<en>Privacy by Design Foundation via SIDN</en>
-		<nl>Stichting Privacy by Design via SIDN</nl>
+		<en>SIDN on behalf of Privacy by Design Foundation</en>
+		<nl>SIDN namens Stichting Privacy by Design</nl>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://www.sidn.nl</ContactAddress>
