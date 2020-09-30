@@ -15,10 +15,7 @@
 		<nl>Facebook-attributen verkregen via Facebook Connect</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/social/facebook/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/social/facebook/</nl>
-	</IssueURL>
+	<DeprecatedSince>1601458332</DeprecatedSince>
 
 	<ForegroundColor>#ffffff</ForegroundColor>
 	<BackgroundGradientStart>#4267B2</BackgroundGradientStart>
