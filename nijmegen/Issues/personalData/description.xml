@@ -101,7 +101,7 @@
 				<nl>Je geslacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="nationality" optional="true">
+		<Attribute id="nationality" optional="true" displayHint="yesno">
 			<Name>
 				<en>Dutch nationality</en>
 				<nl>Nederlandse nationaliteit</nl>

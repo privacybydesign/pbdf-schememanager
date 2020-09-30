@@ -126,7 +126,7 @@
 				<nl>Het land waar je woont, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over12" optional="true">
+		<Attribute id="over12" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
@@ -136,7 +136,7 @@
 				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over16" optional="true">
+		<Attribute id="over16" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
@@ -146,7 +146,7 @@
 				<nl>Of je ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over18" optional="true">
+		<Attribute id="over18" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
@@ -156,7 +156,7 @@
 				<nl>Of je ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over21" optional="true">
+		<Attribute id="over21" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
@@ -166,7 +166,7 @@
 				<nl>Of je ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over65" optional="true">
+		<Attribute id="over65" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
