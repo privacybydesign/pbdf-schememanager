@@ -21,7 +21,7 @@
 	</IssueURL>
 
 	<Attributes>
-		<Attribute id="over12">
+		<Attribute id="over12" displayHint="yesno">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
@@ -31,7 +31,7 @@
 				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over16">
+		<Attribute id="over16" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
@@ -41,7 +41,7 @@
 				<nl>Of je ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over18">
+		<Attribute id="over18" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
@@ -51,7 +51,7 @@
 				<nl>Of je ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over21">
+		<Attribute id="over21" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
@@ -61,7 +61,7 @@
 				<nl>Of je ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over65">
+		<Attribute id="over65" displayHint="yesno">
 			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
