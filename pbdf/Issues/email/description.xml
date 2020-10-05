@@ -23,7 +23,7 @@
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
 	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
-	<IsInCredentialStore>true</IsInCredentialStore>
+	<IsInCredentialStore>false</IsInCredentialStore>
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
