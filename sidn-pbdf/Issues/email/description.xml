@@ -16,6 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
+		<en>https://sidnemailissuer.irmaconnect.nl/issuance/email</en>
+		<nl>https://sidnemailissuer.irmaconnect.nl/uitgifte/email</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
