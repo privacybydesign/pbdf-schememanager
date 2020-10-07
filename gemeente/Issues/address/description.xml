@@ -45,7 +45,7 @@
 		<nl>Als je in Nederland woont, kun je je woonadres uit de basisregistratie personen (BRP) toevoegen in je IRMA app.\nJe hebt je DigiD daarvoor nodig. \n\nDoorloop de volgende stappen.\n1. Log in met je DigiD bij de gemeente Nijmegen (dit werkt voor iedereen in Nederland, niet alleen voor inwoners van Nijmegen).\n2. De gemeente Nijmegen voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
 	</FAQHowto>
 	<Attributes>
-		<Attribute id="street" displayIndex="1">
+		<Attribute id="street" displayIndex="0">
 			<Name>
 				<en>Street</en>
 				<nl>Straat</nl>
@@ -55,7 +55,7 @@
 				<nl>Je straat</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="houseNumber" optional="true" displayIndex="2">
+		<Attribute id="houseNumber" optional="true" displayIndex="1">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
@@ -65,7 +65,7 @@
 				<nl>Je huisnummer, met eventuele toevoeging</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="zipcode" displayIndex="3">
+		<Attribute id="zipcode" displayIndex="2">
 			<Name>
 				<en>Postal code</en>
 				<nl>Postcode</nl>
@@ -75,7 +75,7 @@
 				<nl>Je postcode</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="municipality" displayIndex="5">
+		<Attribute id="municipality" displayIndex="4">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
@@ -85,7 +85,7 @@
 				<nl>Je gemeente</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="city" displayIndex="4">
+		<Attribute id="city" displayIndex="3">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
