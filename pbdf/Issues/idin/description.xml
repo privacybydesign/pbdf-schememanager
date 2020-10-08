@@ -37,8 +37,8 @@
 		<nl>Met jouw persoonsgegevens van je bank in de IRMA-app kun jij bewijzen hoe je heet, wat je geboortedatum is en waar je woont.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data.\n• initials\n• last name\n• gender\n• date of birth\n• age limits (older than 12, 16, 18, 21 or 65)\n• address\n• postal code\n• city.</en>
-		<nl>Je laadt de volgende gegevens.\n• initialen\n• achternaam\n• geslacht\n• geboortedatum\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65)\n• adres\n• postcode\n• woonplaats</nl>
+		<en>You will add the following data:\n• initials,\n• last name,\n• gender,\n• date of birth,\n• age limits (older than 12, 16, 18, 21 or 65),\n• address,\n• postal code,\n• city.</en>
+		<nl>Je laadt de volgende gegevens:\n• initialen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65),\n• adres,\n• postcode,\n• woonplaats.</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en>If you have a Dutch bank account, you can add personal data from the bank to your IRMA app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your IRMA app.\n3. Confirm that you wish to do so.\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your IRMA app.\n\nYou now receive a card with your personal details from your bank.</en>
@@ -126,7 +126,7 @@
 				<nl>Het land waar je woont, zoals geregistreerd bij je bank</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over12" optional="true">
+		<Attribute id="over12" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
@@ -136,7 +136,7 @@
 				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over16" optional="true">
+		<Attribute id="over16" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
@@ -146,7 +146,7 @@
 				<nl>Of je ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over18" optional="true">
+		<Attribute id="over18" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
@@ -156,7 +156,7 @@
 				<nl>Of je ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over21" optional="true">
+		<Attribute id="over21" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
@@ -166,7 +166,7 @@
 				<nl>Of je ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over65" optional="true">
+		<Attribute id="over65" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
