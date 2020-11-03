@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo Passport data</en>
-		<nl>Demo Paspoortgegevens</nl>
+		<en>Pilot Passport data</en>
+		<nl>Pilot Paspoortgegevens</nl>
 	</Name>
 	<ShortName>
-		<en>Demo Passport data</en>
-		<nl>Demo Paspoortgegevens</nl>
+		<en>Pilot Passport data</en>
+		<nl>Pilot Paspoortgegevens</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pilot-amsterdam</IssuerID>
