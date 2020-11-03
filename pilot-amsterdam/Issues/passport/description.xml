@@ -8,7 +8,7 @@
 		<nl>Demo Paspoortgegevens</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>demo-amsterdam</IssuerID>
+	<IssuerID>pilot-amsterdam</IssuerID>
 	<CredentialID>passport</CredentialID>
 	<Description>
 		<en>Your Dutch passport read from the IRMA desk</en>

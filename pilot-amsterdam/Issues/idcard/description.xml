@@ -8,7 +8,7 @@
 		<nl>Demo ID-kaartgegevens</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>demo-amsterdam</IssuerID>
+	<IssuerID>pilot-amsterdam</IssuerID>
 	<CredentialID>idcard</CredentialID>
 	<Description>
 		<en>Your ID card read from the IRMA desk</en>
