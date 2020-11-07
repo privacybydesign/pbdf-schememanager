@@ -25,34 +25,14 @@
 	</Category>
 
 	<Attributes>
-		<Attribute id="documentnumber">
+		<Attribute id="surname">
 			<Name>
-				<en>Document number</en>
-				<nl>Documentnummer</nl>
+				<en>Surname</en>
+				<nl>Achternaam</nl>
 			</Name>
 			<Description>
-				<en>The document number of your ID card</en>
-				<nl>Het documentnummer van je ID-kaart</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="personalnumber">
-			<Name>
-				<en>Personal Identification Number</en>
-				<nl>Persoonlijk identificatienummer</nl>
-			</Name>
-			<Description>
-				<en>Your Personal Identification Number. For Dutch travel documents your Dutch Citizen service number (BSN)</en>
-				<nl>Je persoonlijk identificatienummber. Voor Nederlandse reisdocumenten je Burgerservicenummer (BSN)</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="assurancelevel">
-			<Name>
-				<en>Assurance level</en>
-				<nl>Betrouwbaarheidsniveau</nl>
-			</Name>
-			<Description>
-				<en>The level of assurance according to eIDAS </en>
-				<nl>Het betrouwbaarheidsniveau volgens eIDAS</nl>
+				<en>Your full family name: your family name or (a combination with) the name of your partner</en>
+				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) de naam van je partner</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstnames">
@@ -65,14 +45,14 @@
 				<nl>Al je voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="surname">
+		<Attribute id="gender">
 			<Name>
-				<en>Surname</en>
-				<nl>Achternaam</nl>
+				<en>Gender</en>
+				<nl>Geslacht</nl>
 			</Name>
 			<Description>
-				<en>Your full family name: your family name or (a combination with) the name of your partner</en>
-				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) de naam van je partner</nl>
+				<en>Your gender</en>
+				<nl>Je geslacht</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth">
@@ -83,26 +63,6 @@
 			<Description>
 				<en>Your date of birth</en>
 				<nl>Je geboortedatum</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="nationality">
-			<Name>
-				<en>Nationality</en>
-				<nl>Nationaliteit</nl>
-			</Name>
-			<Description>
-				<en>Your nationality</en>
-				<nl>Je nationaliteit</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="gender">
-			<Name>
-				<en>Gender</en>
-				<nl>Geslacht</nl>
-			</Name>
-			<Description>
-				<en>Your gender</en>
-				<nl>Je geslacht</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over12">
@@ -153,6 +113,46 @@
 			<Description>
 				<en>Whether you are over 65</en>
 				<nl>Of je ouder dan 65 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="nationality">
+			<Name>
+				<en>Nationality</en>
+				<nl>Nationaliteit</nl>
+			</Name>
+			<Description>
+				<en>Your nationality</en>
+				<nl>Je nationaliteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="personalnumber">
+			<Name>
+				<en>Personal Identification Number</en>
+				<nl>Persoonlijk identificatienummer</nl>
+			</Name>
+			<Description>
+				<en>Your Personal Identification Number. For Dutch travel documents your Dutch Citizen service number (BSN)</en>
+				<nl>Je persoonlijk identificatienummber. Voor Nederlandse reisdocumenten je Burgerservicenummer (BSN)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="assurancelevel">
+			<Name>
+				<en>Assurance level</en>
+				<nl>Betrouwbaarheidsniveau</nl>
+			</Name>
+			<Description>
+				<en>The level of assurance according to eIDAS </en>
+				<nl>Het betrouwbaarheidsniveau volgens eIDAS</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="documentnumber">
+			<Name>
+				<en>Document number</en>
+				<nl>Documentnummer</nl>
+			</Name>
+			<Description>
+				<en>The document number of your ID card</en>
+				<nl>Het documentnummer van je ID-kaart</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="photo" displayHint="portraitPhoto">
