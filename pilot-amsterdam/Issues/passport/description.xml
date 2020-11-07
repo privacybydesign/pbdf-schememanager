@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<ForegroundColor>#15222E</ForegroundColor>
-	<BackgroundGradientStart>#D9E5EB</BackgroundGradientStart>
-	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
+	<BackgroundGradientStart>#C4BADA</BackgroundGradientStart>
+	<BackgroundGradientEnd>#F5E19C</BackgroundGradientEnd>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en>Personal</en>
