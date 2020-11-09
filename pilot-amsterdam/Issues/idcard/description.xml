@@ -18,7 +18,6 @@
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#C5E6D3</BackgroundGradientStart>
 	<BackgroundGradientEnd>#F5E19C</BackgroundGradientEnd>
-	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
