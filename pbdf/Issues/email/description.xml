@@ -10,6 +10,7 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>email</CredentialID>
+	<DeprecatedSince>1606694400</DeprecatedSince>
 	<Description>
 		<en>Your verified email address</en>
 		<nl>Je geverifieerde e-mailadres</nl>
