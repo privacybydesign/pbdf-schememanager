@@ -16,15 +16,10 @@
 		<nl>Je geverifieerde e-mailadres</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/email/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/email/</nl>
-	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
 	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
-	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
