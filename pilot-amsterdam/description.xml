@@ -1,9 +1,5 @@
 <Issuer version="4">
 	<ID>pilot-amsterdam</ID>
-	<ShortName>
-		<en>Pilot Municipality of Amsterdam</en>
-		<nl>Pilot Gemeente Amsterdam</nl>
-	</ShortName>
 	<Name>
 		<en>Pilot Municipality of Amsterdam</en>
 		<nl>Pilot Gemeente Amsterdam</nl>
@@ -11,5 +7,4 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://amsterdam.nl</ContactAddress>
 	<ContactEMail>teamdi@amsterdam.nl</ContactEMail>
-	<baseURL></baseURL>
 </Issuer>

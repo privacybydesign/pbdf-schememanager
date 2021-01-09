@@ -3,10 +3,6 @@
 		<en>Twitter</en>
 		<nl>Twitter</nl>
 	</Name>
-	<ShortName>
-		<en>Twitter</en>
-		<nl>Twitter</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>twitter</CredentialID>

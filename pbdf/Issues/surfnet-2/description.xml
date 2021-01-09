@@ -3,10 +3,6 @@
 		<en>Education and research</en>
 		<nl>Onderwijs en onderzoek</nl>
 	</Name>
-	<ShortName>
-		<en>Education and research</en>
-		<nl>Onderwijs en onderzoek</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>surfnet-2</CredentialID>

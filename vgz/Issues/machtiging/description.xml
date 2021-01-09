@@ -3,10 +3,6 @@
 		<en>Mandate</en>
 		<nl>Machtiging</nl>
 	</Name>
-	<ShortName>
-		<en>Mandate</en>
-		<nl>Machtiging</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>vgz</IssuerID>
 	<CredentialID>machtiging</CredentialID>

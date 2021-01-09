@@ -4,13 +4,8 @@
 		<en>Gebiedonline</en>
 		<nl>Gebiedonline</nl>
 	</Name>
-	<ShortName>
-		<en>Gebiedonline</en>
-		<nl>Gebiedonline</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<DeprecatedSince>1609459200</DeprecatedSince>
 	<ContactAddress>https://gebiedonline.nl/</ContactAddress>
 	<ContactEMail>info@gebiedonline.nl</ContactEMail>
-	<baseURL></baseURL>
 </Issuer>

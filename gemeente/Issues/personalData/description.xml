@@ -3,10 +3,6 @@
 		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
 	</Name>
-	<ShortName>
-		<en>Personal data</en>
-		<nl>Persoonsgegevens</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gemeente</IssuerID>
 	<CredentialID>personalData</CredentialID>

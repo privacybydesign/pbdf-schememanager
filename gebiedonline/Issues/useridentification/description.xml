@@ -3,10 +3,6 @@
 		<en>User identification</en>
 		<nl>Gebruikersidentificatie</nl>
 	</Name>
-	<ShortName>
-		<en>User identification</en>
-		<nl>Gebruikersidentificatie</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gebiedonline</IssuerID>
 	<CredentialID>useridentification</CredentialID>

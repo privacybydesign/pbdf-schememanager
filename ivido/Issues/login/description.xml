@@ -3,10 +3,6 @@
 		<en>Ivido Login</en>
 		<nl>Ivido Login</nl>
 	</Name>
-	<ShortName>
-		<en>Ivido Login</en>
-		<nl>Ivido Login</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>ivido</IssuerID>
 	<CredentialID>login</CredentialID>

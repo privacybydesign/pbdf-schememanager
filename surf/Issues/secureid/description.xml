@@ -3,10 +3,6 @@
 		<en>SURFsecureID</en>
 		<nl>SURFsecureID</nl>
 	</Name>
-	<ShortName>
-		<en>SURFsecureID</en>
-		<nl>SURFsecureID</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>surf</IssuerID>
 	<CredentialID>secureid</CredentialID>

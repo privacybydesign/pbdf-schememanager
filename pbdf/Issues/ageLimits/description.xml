@@ -3,10 +3,6 @@
 		<en>Age</en>
 		<nl>Leeftijd</nl>
 	</Name>
-	<ShortName>
-		<en>Age</en>
-		<nl>Leeftijd</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>ageLimits</CredentialID>

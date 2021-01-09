@@ -3,10 +3,6 @@
 		<en>Age limits</en>
 		<nl>Leeftijdslimieten</nl>
 	</Name>
-	<ShortName>
-		<en>Age</en>
-		<nl>Leeftijd</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nijmegen</IssuerID>
 	<CredentialID>ageLimits</CredentialID>

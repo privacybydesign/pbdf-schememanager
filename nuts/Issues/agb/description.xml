@@ -3,10 +3,6 @@
 		<en>AGB code</en>
 		<nl>AGB-code</nl>
 	</Name>
-	<ShortName>
-		<en>AGB</en>
-		<nl>AGB</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nuts</IssuerID>
 	<CredentialID>agb</CredentialID>

@@ -3,10 +3,6 @@
 		<en>Mobile phone number</en>
 		<nl>Mobiel telefoonnummer</nl>
 	</Name>
-	<ShortName>
-		<en>Mobile number</en>
-		<nl>Mobiel nummer</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>mobilenumber</CredentialID>

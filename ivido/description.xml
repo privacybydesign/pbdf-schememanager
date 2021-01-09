@@ -1,9 +1,5 @@
 <Issuer version="4">
 	<ID>ivido</ID>
-	<ShortName>
-		<en>Ivido</en>
-		<nl>Ivido</nl>
-	</ShortName>
 	<Name>
 		<en>Ivido</en>
 		<nl>Ivido</nl>
@@ -11,5 +7,4 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://ivido.nl</ContactAddress>
 	<ContactEMail>info@ivido.nl</ContactEMail>
-	<baseURL></baseURL>
 </Issuer>

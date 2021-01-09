@@ -3,10 +3,6 @@
 		<en>Home address</en>
 		<nl>Woonadres</nl>
 	</Name>
-	<ShortName>
-		<en>Address</en>
-		<nl>Adres</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gemeente</IssuerID>
 	<CredentialID>address</CredentialID>

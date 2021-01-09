@@ -3,10 +3,6 @@
 		<en>Living area</en>
 		<nl>Woongebied</nl>
 	</Name>
-	<ShortName>
-		<en>Living area</en>
-		<nl>Woongebied</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gebiedonline</IssuerID>
 	<CredentialID>livingarea</CredentialID>

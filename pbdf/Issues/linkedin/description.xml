@@ -3,10 +3,6 @@
 		<en>LinkedIn</en>
 		<nl>LinkedIn</nl>
 	</Name>
-	<ShortName>
-		<en>LinkedIn</en>
-		<nl>LinkedIn</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>linkedin</CredentialID>

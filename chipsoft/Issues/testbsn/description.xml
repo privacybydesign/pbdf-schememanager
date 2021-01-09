@@ -3,10 +3,6 @@
     <en>Test BSN from healthcare</en>
     <nl>Test BSN vanuit de zorg</nl>
   </Name>
-  <ShortName>
-    <en>Test BSN healthcare</en>
-    <nl>Test BSN zorg</nl>
-  </ShortName>
   <SchemeManager>pbdf</SchemeManager>
   <IssuerID>chipsoft</IssuerID>
   <CredentialID>testbsn</CredentialID>

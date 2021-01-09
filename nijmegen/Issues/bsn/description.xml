@@ -3,10 +3,6 @@
 		<en>BSN</en>
 		<nl>BSN</nl>
 	</Name>
-	<ShortName>
-		<en>BSN</en>
-		<nl>BSN</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nijmegen</IssuerID>
 	<CredentialID>bsn</CredentialID>

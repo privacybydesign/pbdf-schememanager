@@ -3,10 +3,6 @@
 		<en>BIG registration</en>
 		<nl>BIG-registratie</nl>
 	</Name>
-	<ShortName>
-		<en>BIG</en>
-		<nl>BIG</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>big</CredentialID>

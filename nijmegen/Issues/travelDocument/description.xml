@@ -3,10 +3,6 @@
 		<en>Travel Document</en>
 		<nl>Reisdocument</nl>
 	</Name>
-	<ShortName>
-		<en>Travel Document</en>
-		<nl>Reisdocument</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nijmegen</IssuerID>
 	<CredentialID>travelDocument</CredentialID>

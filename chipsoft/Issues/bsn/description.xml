@@ -3,10 +3,6 @@
     <en>BSN from healthcare</en>
     <nl>BSN vanuit de zorg</nl>
   </Name>
-  <ShortName>
-    <en>BSN healthcare</en>
-    <nl>BSN zorg</nl>
-  </ShortName>
   <SchemeManager>pbdf</SchemeManager>
   <IssuerID>chipsoft</IssuerID>
   <CredentialID>bsn</CredentialID>

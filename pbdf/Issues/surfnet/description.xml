@@ -3,10 +3,6 @@
 		<en>Surfnet</en>
 		<nl>Surfnet</nl>
 	</Name>
-	<ShortName>
-		<en>Surfnet</en>
-		<nl>Surfnet</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>surfnet</CredentialID>

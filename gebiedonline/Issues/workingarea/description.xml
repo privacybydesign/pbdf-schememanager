@@ -3,10 +3,6 @@
 		<en>Working area</en>
 		<nl>Werkgebied</nl>
 	</Name>
-	<ShortName>
-		<en>Working area</en>
-		<nl>Werkgebied</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gebiedonline</IssuerID>
 	<CredentialID>workingarea</CredentialID>

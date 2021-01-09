@@ -3,10 +3,6 @@
 		<en>Bank account</en>
 		<nl>Bankrekening</nl>
 	</Name>
-	<ShortName>
-		<en>Bank</en>
-		<nl>Bank</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>ideal</CredentialID>

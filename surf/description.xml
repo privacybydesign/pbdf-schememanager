@@ -1,9 +1,5 @@
 <Issuer version="4">
 	<ID>surf</ID>
-	<ShortName>
-		<en>SURF</en>
-		<nl>SURF</nl>
-	</ShortName>
 	<Name>
 		<en>SURF</en>
 		<nl>SURF</nl>
@@ -11,5 +7,4 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://surfnet.nl</ContactAddress>
 	<ContactEMail>info@surfconext.nl</ContactEMail>
-	<baseURL></baseURL>
 </Issuer>

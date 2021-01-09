@@ -3,10 +3,6 @@
 		<en>MyIRMA</en>
 		<nl>IRMA</nl>
 	</Name>
-	<ShortName>
-		<en>MyIRMA</en>
-		<nl>MijnIRMA</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>sidn-pbdf</IssuerID>
 	<CredentialID>irma</CredentialID>

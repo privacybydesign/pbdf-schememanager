@@ -3,10 +3,6 @@
 		<en>Personal data from the bank</en>
 		<nl>Persoonsgegevens van de bank</nl>
 	</Name>
-	<ShortName>
-		<en>Personal data bank</en>
-		<nl>Persoonsgegevens bank</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>idin</CredentialID>

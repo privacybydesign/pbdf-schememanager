@@ -3,10 +3,6 @@
 		<en>Address</en>
 		<nl>Adres</nl>
 	</Name>
-	<ShortName>
-		<en>Address</en>
-		<nl>Adres</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nijmegen</IssuerID>
 	<CredentialID>address</CredentialID>

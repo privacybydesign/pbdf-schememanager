@@ -3,10 +3,6 @@
 		<en>IRMATube membership</en>
 		<nl>IRMATube lidmaatschap</nl>
 	</Name>
-	<ShortName>
-		<en>IRMATube</en>
-		<nl>IRMATube</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>irmatube</CredentialID>

@@ -3,10 +3,6 @@
 		<en>SURFdrive license</en>
 		<nl>SURFdrive licentie</nl>
 	</Name>
-	<ShortName>
-		<en>SURFdrive license</en>
-		<nl>SURFdrive licentie</nl>
-	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>surf</IssuerID>
 	<CredentialID>surfdrive</CredentialID>
