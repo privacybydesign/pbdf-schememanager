@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/surfnet/surfnet/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/surfnet/surfnet/</nl>
+		<en>https://privacybydesign.foundation/issuance/surfconext/surfconext/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/surfconext/surfconext/</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
