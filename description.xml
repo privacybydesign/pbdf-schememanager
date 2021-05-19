@@ -13,9 +13,9 @@
 		<Android>49</Android>
 		<iOS>33</iOS>
 	</MinimumAppVersion>
-	<KeyshareServer>https://keyshare.privacybydesign.foundation/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
+	<KeyshareServer>https://irma.sidn.nl/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
 	<KeyshareWebsite>https://privacybydesign.foundation/mijnirma/</KeyshareWebsite>
 	<KeyshareAttribute>pbdf.pbdf.mijnirma.email</KeyshareAttribute>
-	<TimestampServer>https://keyshare.privacybydesign.foundation/atumd/</TimestampServer>
+	<TimestampServer>https://irma.sidn.nl/atumd/</TimestampServer>
 	<Contact>https://privacybydesign.foundation/</Contact>
 </SchemeManager>
