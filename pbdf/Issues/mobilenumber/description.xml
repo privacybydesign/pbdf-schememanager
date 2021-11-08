@@ -10,6 +10,7 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>mobilenumber</CredentialID>
+	<DeprecatedSince>1636326000</DeprecatedSince>
 	<Description>
 		<en>Your verified mobile phone number</en>
 		<nl>Je geverifieerde mobiele telefoonnummer</nl>
@@ -23,7 +24,7 @@
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
 	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
-	<IsInCredentialStore>true</IsInCredentialStore>
+	<IsInCredentialStore>false</IsInCredentialStore>
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
