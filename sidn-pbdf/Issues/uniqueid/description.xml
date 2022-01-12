@@ -1,0 +1,41 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Login data</en>
+		<nl>Inloggegevens</nl>
+	</Name>
+	<ShortName>
+		<en>Login data</en>
+		<nl>Inloggegevens</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>sidn-pbdf</IssuerID>
+	<CredentialID>uniqueid</CredentialID>
+	<Description>
+		<en>Your unique login data.</en>
+		<nl>Jouw unieke inloggegevens.</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="uniqueid">
+			<Name>
+				<en>Login code</en>
+				<nl>Inlogcode</nl>
+			</Name>
+			<Description>
+				<en>Your unique login code.</en>
+				<nl>Je unieke inlogcode.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="organization">
+			<Name>
+				<en>Organization</en>
+				<nl>Organisatie</nl>
+			</Name>
+			<Description>
+				<en>The organization that uses this login.</en>
+				<nl>De organisatie die gebruik maakt van deze login.</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
