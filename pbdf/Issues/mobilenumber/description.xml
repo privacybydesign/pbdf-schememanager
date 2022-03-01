@@ -16,10 +16,6 @@
 		<nl>Je geverifieerde mobiele telefoonnummer</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/phonenumber/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/telefoonnummer/</nl>
-	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
