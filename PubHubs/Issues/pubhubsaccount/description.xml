@@ -15,10 +15,6 @@
 		<nl>Je PubHubs account</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/pbdf.PubHubs.pubhubsaccount.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/pbdf.PubHubs.pubhubsaccount.html</nl>
-	</IssueURL>
 
 	<Attributes>
 		<Attribute id="email">
