@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>MyIRMA</en>
-		<nl>IRMA</nl>
+		<en>MyIRMA app ID</en>
+		<nl>MijnIRMA app-ID</nl>
 	</Name>
 	<ShortName>
 		<en>MyIRMA</en>
@@ -11,8 +11,8 @@
 	<IssuerID>sidn-pbdf</IssuerID>
 	<CredentialID>irma</CredentialID>
 	<Description>
-		<en>Your MyIRMA attribute</en>
-		<nl>Je MijnIRMA-attribuut</nl>
+		<en>Your MyIRMA app ID</en>
+		<nl>Je MijnIRMA app-ID</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<DisallowDelete>true</DisallowDelete>
@@ -24,12 +24,12 @@
 	<Attributes>
 		<Attribute id="pseudonym">
 			<Name>
-				<en>Username</en>
-				<nl>Gebruikersnaam</nl>
+				<en>App ID</en>
+				<nl>App-ID</nl>
 			</Name>
 			<Description>
-				<en>Your MyIRMA username</en>
-				<nl>Je MijnIRMA-gebruikersnaam</nl>
+				<en>Your MyIRMA app ID</en>
+				<nl>Je MijnIRMA app-ID</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
