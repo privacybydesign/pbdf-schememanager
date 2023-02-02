@@ -9,7 +9,7 @@
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>signicat</IssuerID>
-	<CredentialID>official</CredentialID>
+	<CredentialID>kvkTradeRegister</CredentialID>
 	<Description>
 		<en>The personal information of an official of a legal entity</en>
 		<nl>The persoonlijke informatie van een functionaris voor een rechtspersoon</nl>
