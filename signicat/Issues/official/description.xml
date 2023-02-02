@@ -26,7 +26,7 @@
 			</Name>
 			<Description>
 				<en>Het KVK number of the organisation</en>
-				<nl>Het KVK nummer van de maatschappelijke activiteit</nl>
+				<nl>Het KVK nummer van de organisatie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="rsin" optional="true">
@@ -46,7 +46,7 @@
 			</Name>
 			<Description>
 				<en>The name of the organisation</en>
-				<nl>De naam van de maatschappelijke activiteit</nl>
+				<nl>De naam van de organisatie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="tradeNames" optional="true">
