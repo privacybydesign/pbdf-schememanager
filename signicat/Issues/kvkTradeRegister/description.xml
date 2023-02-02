@@ -129,7 +129,7 @@
 				<nl>De aanvangsdatum van de registratie van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="dateDeregistration" optional="true">
+		<Attribute id="dateDeregistration" >
 			<Name>
 				<en>Date of deregistration</en>
 				<nl>Datum van uitschrijving</nl>
@@ -139,7 +139,7 @@
 				<nl>De datum van uitschrijving van de eigenaar van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="registrationEnd" optional="true">
+		<Attribute id="registrationEnd">
 			<Name>
 				<en>End date of registration</en>
 				<nl>Einddatum van de registratie</nl>
@@ -149,7 +149,7 @@
 				<nl>De einddatum van de registratie van de eigenaar van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="specialLegalSituation" optional="true">
+		<Attribute id="specialLegalSituation">
 			<Name>
 				<en>Special legal situation</en>
 				<nl>Bijzondere rechtstoestand</nl>
@@ -159,7 +159,7 @@
 				<nl>De bijzondere rechtstoestand van de eigenaar van de maatschappelijke activiteit, zoals: Faillissement, schuldsanering of surseance van betaling</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="restrictionInLegalAction" optional="true">
+		<Attribute id="restrictionInLegalAction">
 			<Name>
 				<en>Restriction in legal action</en>
 				<nl>Beperking in rechtshandeling</nl>
@@ -169,7 +169,7 @@
 				<nl>De beperking in rechtshandeling van de eigenaar van de maatschappelijke activiteit, zoals: Provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="foreignLegalStatus" optional="true">
+		<Attribute id="foreignLegalStatus">
 			<Name>
 				<en>Foreign legal status</en>
 				<nl>Buitenlandse rechtstoestand</nl>
@@ -219,7 +219,7 @@
 				<nl>Geboortedatum van de functionaris</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="dateOfDeath" optional="true">
+		<Attribute id="dateOfDeath">
 			<Name>
 				<en>Date of death</en>
 				<nl>Overlijdensdatum</nl>
@@ -269,7 +269,7 @@
 				<nl>De titel van de functionaris</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="kindOfAuthorization" optional="true">
+		<Attribute id="kindOfAuthorization">
 			<Name>
 				<en>Kind of authorization</en>
 				<nl>Soort bevoegdheid</nl>
@@ -279,7 +279,7 @@
 				<nl>Soort bevoegdheid</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="restrictionInEurosAuthorization" optional="true">
+		<Attribute id="restrictionInEurosAuthorization">
 			<Name>
 				<en>Restriction of the authorization in euros</en>
 				<nl>Beperking van de bevoegdheid in euro's</nl>
@@ -289,7 +289,7 @@
 				<nl>De bevoegdheid van de aansprakelijke is beperkt tot het genoemde bedrag</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="otherRestrictionAuthorization" optional="true">
+		<Attribute id="otherRestrictionAuthorization">
 			<Name>
 				<en>Other restrictions of the authorization</en>
 				<nl>Overige beperking van de bevoegdheid</nl>
@@ -299,7 +299,7 @@
 				<nl>Indicatie of er een andere beperking voor de aansprakelijke geldt</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="isAuthorizedWithOtherPersons" optional="true">
+		<Attribute id="isAuthorizedWithOtherPersons">
 			<Name>
 				<en>Is authorized with other persons</en>
 				<nl>Is bevoegd met andere personen</nl>
@@ -309,7 +309,7 @@
 				<nl>Indicatie die aangeeft dat er een gezamenlijke bevoegdheid is met andere personen (Ja) of met de andere bestuurders (Nee)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="typePowerOfAttorney" optional="true">
+		<Attribute id="typePowerOfAttorney">
 			<Name>
 				<en>Type of power of attorney</en>
 				<nl>Type volmacht</nl>
@@ -319,7 +319,7 @@
 				<nl>Type volmacht, zoals: Volledige volmacht of beperkte volmacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="restrictioninMoneyPowerOfAttorney" optional="true">
+		<Attribute id="restrictioninMoneyPowerOfAttorney">
 			<Name>
 				<en>Restriction in money of the power of attorney</en>
 				<nl>Beperking in geld van de volmacht</nl>
@@ -329,7 +329,7 @@
 				<nl>Indien de gemachtigde tot een bepaald bedrag is gemachtigd</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="restrictionOnActPowerOfAttorney" optional="true">
+		<Attribute id="restrictionOnActPowerOfAttorney">
 			<Name>
 				<en>Restriction on act of the power of attorney</en>
 				<nl>Beperking in handeling van de volmacht</nl>
@@ -339,7 +339,7 @@
 				<nl>Indien de gemachtigde een gestructureerde beperking in handelen heeft</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="hasOtherPowerOfAttorney" optional="true">
+		<Attribute id="hasOtherPowerOfAttorney">
 			<Name>
 				<en>Has other power of attorney</en>
 				<nl>Heeft overige volmacht</nl>
@@ -349,7 +349,7 @@
 				<nl>Indicatie die aangeeft dat de gemachtigde een volmacht heeft die niet gestructureerd als soort handeling opgenomen kan worden</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="descriptionOtherPowerOfAttorney" optional="true">
+		<Attribute id="descriptionOtherPowerOfAttorney">
 			<Name>
 				<en>Description other power of attorney</en>
 				<nl>Omschrijving overige volmacht</nl>
@@ -359,7 +359,7 @@
 				<nl>De inhoud van de niet gestructureerd op te nemen beperking in de volmacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="permissionToChangeTradeRegister" optional="true">
+		<Attribute id="permissionToChangeTradeRegister">
 			<Name>
 				<en>Permission to file changes to the trade register</en>
 				<nl>Mag opgave handelsregister doen</nl>
@@ -369,7 +369,7 @@
 				<nl>Indien de gemachtigde opgave mag doen aan het handelsregister</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="specialLegalSituationOfficial" optional="true">
+		<Attribute id="specialLegalSituationOfficial">
 			<Name>
 				<en>Special legal situation of the official</en>
 				<nl>Bijzondere rechtstoestand functionaris</nl>
@@ -379,7 +379,7 @@
 				<nl>De bijzondere rechtstoestand van de functionaris, zoals: Faillissement, schuldsanering of surseance van betaling</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="restrictionInLegalActionOfficial" optional="true">
+		<Attribute id="restrictionInLegalActionOfficial">
 			<Name>
 				<en>Restriction in legal action of the official</en>
 				<nl>Beperking in rechtshandeling functionaris</nl>
@@ -389,7 +389,7 @@
 				<nl>De beperking in rechtshandeling van de functionaris, zoals: Provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="suspensionStart" optional="true">
+		<Attribute id="suspensionStart">
 			<Name>
 				<en>Start date of suspension</en>
 				<nl>Aanvangsdatum van de schorsing</nl>
@@ -399,7 +399,7 @@
 				<nl>Geeft aan wanneer de schorsing van de functionaris is gestart</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="suspensionEnd" optional="true">
+		<Attribute id="suspensionEnd">
 			<Name>
 				<en>End date of suspension</en>
 				<nl>Einddatum van de schorsing</nl>
@@ -409,7 +409,7 @@
 				<nl>Geeft aan wanneer de schorsing van de functionaris beeindigd is</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="emancipationOfMinor" optional="true">
+		<Attribute id="emancipationOfMinor">
 			<Name>
 				<en>Emancipation of a minor</en>
 				<nl>Handlichting</nl>
