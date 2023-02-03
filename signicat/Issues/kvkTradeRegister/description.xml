@@ -1,4 +1,4 @@
-<IssueSpecification version="1">
+<IssueSpecification version="4">
 	<Name>
 		<en>Official of a legal entity</en>
 		<nl>Functionaris voor een rechtspersoon</nl>
@@ -12,7 +12,7 @@
 	<CredentialID>kvkTradeRegister</CredentialID>
 	<Description>
 		<en>The personal information of an official of a legal entity</en>
-		<nl>The persoonlijke informatie van een functionaris voor een rechtspersoon</nl>
+		<nl>De persoonlijke informatie van een functionaris voor een rechtspersoon</nl>
 	</Description>
 	<IssueURL>
 		<en>https://organisatiegegevens.signicat.nl</en>
@@ -25,7 +25,7 @@
 				<nl>KVK Nummer</nl>
 			</Name>
 			<Description>
-				<en>Het KVK number of the organisation</en>
+				<en>The KVK number of the organisation</en>
 				<nl>Het KVK nummer van de organisatie</nl>
 			</Description>
 		</Attribute>
@@ -76,37 +76,37 @@
 			</Name>
 			<Description>
 				<en>Legal entity of the owner of the organisation</en>
-				<nl>Rechtsvorm van de eigenaar van de maatschappelijke activiteit </nl>
+				<nl>Rechtsvorm van de eigenaar van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="address">
 			<Name>
-				<en>Address</en>
-				<nl>Vestigingsadres</nl>
+				<en>Address of the organisation</en>
+				<nl>Adres van de organisatie</nl>
 			</Name>
 			<Description>
 				<en>Address of the organisation</en>
-				<nl>Vestigingsadres van de maatschappelijke activiteit</nl>
+				<nl>Adres van de organisatie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="emailAddress" optional="true">
 			<Name>
-				<en>Email address of organisation</en>
-				<nl>Emailadres van organisatie</nl>
+				<en>Email address of the organisation</en>
+				<nl>Emailadres van de organisatie</nl>
 			</Name>
 			<Description>
 				<en>Email address of the organisation</en>
-				<nl>Emailadres van een maatschappelijke activiteit</nl>
+				<nl>Emailadres van de organisatie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="phone" optional="true">
 			<Name>
-				<en>Phone of organisation</en>
-				<nl>Telefoon van organisatie</nl>
+				<en>Phone number of the organisation</en>
+				<nl>Telefoonnummer van de organisatie</nl>
 			</Name>
 			<Description>
 				<en>Phone number of the organisation</en>
-				<nl>Telefoonnummer van de maatschappelijke activiteit</nl>
+				<nl>Telefoonnummer van de organisatie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="sbiActivity">
@@ -242,11 +242,11 @@
 		<Attribute id="typeOfficial">
 			<Name>
 				<en>Type of official</en>
-				<nl>Type Functionaris</nl>
+				<nl>Type functionaris</nl>
 			</Name>
 			<Description>
 				<en>Type of official</en>
-				<nl>Type Functionaris</nl>
+				<nl>Type functionaris</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="position" optional="true">
@@ -416,17 +416,17 @@
 			</Name>
 			<Description>
 				<en>Emancipation of a minor</en>
-				<nl>Handlichting houdt in dat een minderjarige door toewijzing van een rechter dezelfde bevoegdheden toegekend krijgt als een meerderjarige.</nl>
+				<nl>Handlichting houdt in dat een minderjarige door toewijzing van een rechter dezelfde bevoegdheden toegekend krijgt als een meerderjarige</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="hasRestriction">
 			<Name>
-				<en>Has restrictions</en>
+				<en>Has restriction</en>
 				<nl>Heeft beperking</nl>
 			</Name>
 			<Description>
-				<en>Indication of whether there is some kind of restriction that affects the determination of an authorization</en>
-				<nl>Indicatie of er sprake is van enige vorm van beperking, die van invloed is op het bepalen van een bevoegdheid ('Ja', 'Nee')</nl>
+				<en>Indication of whether there is some kind of restriction that affects the determination of an authorization (Yes, No)</en>
+				<nl>Indicatie of er sprake is van enige vorm van beperking, die van invloed is op het bepalen van een bevoegdheid (Ja, Nee)</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="isAuthorized">
@@ -435,8 +435,8 @@
 				<nl>Is bevoegd</nl>
 			</Name>
 			<Description>
-				<en>Indication of whether someone is authorized</en>
-				<nl>Indicatie of iemand bevoegd is ('Ja', 'Nee' of 'Niet vastgesteld')</nl>
+				<en>Indication of whether someone is authorized (Yes, No or Not established)</en>
+				<nl>Indicatie of iemand bevoegd is (Ja, Nee of Niet vastgesteld)</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="reason">
