@@ -21,8 +21,8 @@
 	<Attributes>
 		<Attribute id="kvkNumber">
 			<Name>
-				<en>KVK Number</en>
-				<nl>KVK Nummer</nl>
+				<en>KVK number</en>
+				<nl>KVK nummer</nl>
 			</Name>
 			<Description>
 				<en>The KVK number of the organisation</en>
@@ -41,8 +41,8 @@
 		</Attribute>
 		<Attribute id="name">
 			<Name>
-				<en>Name of organisation</en>
-				<nl>Naam van organisatie</nl>
+				<en>Name of the organisation</en>
+				<nl>Naam van de organisatie</nl>
 			</Name>
 			<Description>
 				<en>The name of the organisation</en>
@@ -66,7 +66,7 @@
 			</Name>
 			<Description>
 				<en>The type of owner of the organisation</en>
-				<nl>De type eigenaar van een maatschappelijke activiteit</nl>
+				<nl>De type eigenaar van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="legalEntity">
@@ -165,7 +165,7 @@
 				<nl>Beperking in rechtshandeling</nl>
 			</Name>
 			<Description>
-				<en>The restriction in legal action of the owner of the organisation, eg: Provisional rule, placed under guardianship of placed under administration</en>
+				<en>The restriction in legal action of the owner of the organisation, eg: Provisional rule, placed under guardianship or placed under administration</en>
 				<nl>De beperking in rechtshandeling van de eigenaar van de maatschappelijke activiteit, zoals: Provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
 			</Description>
 		</Attribute>
@@ -385,7 +385,7 @@
 				<nl>Beperking in rechtshandeling functionaris</nl>
 			</Name>
 			<Description>
-				<en>The restriction in legal action of the official, zoals: Provisional rule, placed under guardianship of placed under administration</en>
+				<en>The restriction in legal action of the official, eg: Provisional rule, placed under guardianship or placed under administration</en>
 				<nl>De beperking in rechtshandeling van de functionaris, zoals: Provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
 			</Description>
 		</Attribute>
