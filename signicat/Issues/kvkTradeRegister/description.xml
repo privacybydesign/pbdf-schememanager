@@ -375,8 +375,8 @@
 				<nl>Bijzondere rechtstoestand functionaris</nl>
 			</Name>
 			<Description>
-				<en>Special legal situation of the official, eg: Bankruptcy, debt restructuring or suspension of payment</en>
-				<nl>Bijzondere rechtstoestand van de functionaris, zoals: Faillissement, schuldsanering of surseance van betaling</nl>
+				<en>Special legal situation of the official, eg: bankruptcy, debt restructuring or suspension of payment</en>
+				<nl>Bijzondere rechtstoestand van de functionaris, zoals: faillissement, schuldsanering of surseance van betaling</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="restrictionInLegalActionOfficial">
@@ -385,8 +385,8 @@
 				<nl>Beperking in rechtshandeling functionaris</nl>
 			</Name>
 			<Description>
-				<en>Restriction in legal action of the official, eg: Provisional rule, placed under guardianship or placed under administration</en>
-				<nl>Beperking in rechtshandeling van de functionaris, zoals: Provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
+				<en>Restriction in legal action of the official, eg: provisional rule, placed under guardianship or placed under administration</en>
+				<nl>Beperking in rechtshandeling van de functionaris, zoals: provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="suspensionStart">
