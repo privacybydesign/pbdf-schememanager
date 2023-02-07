@@ -11,8 +11,8 @@
 	<IssuerID>signicat</IssuerID>
 	<CredentialID>kvkTradeRegister</CredentialID>
 	<Description>
-		<en>The personal information of an official of a legal entity</en>
-		<nl>De persoonlijke informatie van een functionaris voor een rechtspersoon</nl>
+		<en>Personal information of an official of a legal entity</en>
+		<nl>Persoonlijke informatie van een functionaris voor een rechtspersoon</nl>
 	</Description>
 	<IssueURL>
 		<en>https://organisatiegegevens.signicat.nl</en>
@@ -25,8 +25,8 @@
 				<nl>KVK nummer</nl>
 			</Name>
 			<Description>
-				<en>The KVK number of the organisation</en>
-				<nl>Het KVK nummer van de organisatie</nl>
+				<en>KVK number of the organisation</en>
+				<nl>KVK nummer van de organisatie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="rsin" optional="true">
@@ -45,8 +45,8 @@
 				<nl>Naam van de organisatie</nl>
 			</Name>
 			<Description>
-				<en>The name of the organisation</en>
-				<nl>De naam van de organisatie</nl>
+				<en>Name of the organisation</en>
+				<nl>Naam van de organisatie</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="tradeNames" optional="true">
@@ -55,8 +55,8 @@
 				<nl>Handelsnamen</nl>
 			</Name>
 			<Description>
-				<en>The trade names under which the company trades</en>
-				<nl>De handelsnamen waar de onderneming onder handelt</nl>
+				<en>Trade names under which the company trades</en>
+				<nl>Handelsnamen waar de onderneming onder handelt</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="typeOwner">
@@ -65,8 +65,8 @@
 				<nl>Type eigenaar</nl>
 			</Name>
 			<Description>
-				<en>The type of owner of the organisation</en>
-				<nl>De type eigenaar van de maatschappelijke activiteit</nl>
+				<en>Type of owner of the organisation</en>
+				<nl>Type eigenaar van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="legalEntity">
@@ -115,8 +115,8 @@
 				<nl>SBI activiteit</nl>
 			</Name>
 			<Description>
-				<en>The SBI code in accordance with the SBI 2008 structure with associated description of the activity</en>
-				<nl>De SBI codering conform de SBI 2008 structuur met bijbehorende omschrijving van de activiteit</nl>
+				<en>SBI code in accordance with the SBI 2008 structure with associated description of the activity</en>
+				<nl>SBI codering conform de SBI 2008 structuur met bijbehorende omschrijving van de activiteit</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="registrationStart">
@@ -125,8 +125,8 @@
 				<nl>Aanvangsdatum van de registratie</nl>
 			</Name>
 			<Description>
-				<en>The start date of the organization's registration</en>
-				<nl>De aanvangsdatum van de registratie van de maatschappelijke activiteit</nl>
+				<en>Start date of the organization's registration</en>
+				<nl>Aanvangsdatum van de registratie van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateDeregistration" >
@@ -135,8 +135,8 @@
 				<nl>Datum van uitschrijving</nl>
 			</Name>
 			<Description>
-				<en>The date of deregistration of the owner of the organization</en>
-				<nl>De datum van uitschrijving van de eigenaar van de maatschappelijke activiteit</nl>
+				<en>Date of deregistration of the owner of the organization</en>
+				<nl>Datum van uitschrijving van de eigenaar van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="registrationEnd">
@@ -145,8 +145,8 @@
 				<nl>Einddatum van de registratie</nl>
 			</Name>
 			<Description>
-				<en>The end date of the organization's registration</en>
-				<nl>De einddatum van de registratie van de eigenaar van de maatschappelijke activiteit</nl>
+				<en>End date of the organization's registration</en>
+				<nl>Einddatum van de registratie van de eigenaar van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="specialLegalSituation">
@@ -155,8 +155,8 @@
 				<nl>Bijzondere rechtstoestand</nl>
 			</Name>
 			<Description>
-				<en>The special legal situation of the owner of the organisation, eg: Bankruptcy, debt restructuring or suspension of payment</en>
-				<nl>De bijzondere rechtstoestand van de eigenaar van de maatschappelijke activiteit, zoals: Faillissement, schuldsanering of surseance van betaling</nl>
+				<en>Special legal situation of the owner of the organisation, eg: bankruptcy, debt restructuring or suspension of payment</en>
+				<nl>Bijzondere rechtstoestand van de eigenaar van de maatschappelijke activiteit, zoals: faillissement, schuldsanering of surseance van betaling</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="restrictionInLegalAction">
@@ -165,8 +165,8 @@
 				<nl>Beperking in rechtshandeling</nl>
 			</Name>
 			<Description>
-				<en>The restriction in legal action of the owner of the organisation, eg: Provisional rule, placed under guardianship or placed under administration</en>
-				<nl>De beperking in rechtshandeling van de eigenaar van de maatschappelijke activiteit, zoals: Provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
+				<en>Restriction in legal action of the owner of the organisation, eg: provisional rule, placed under guardianship or placed under administration</en>
+				<nl>Beperking in rechtshandeling van de eigenaar van de maatschappelijke activiteit, zoals: provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="foreignLegalStatus">
@@ -175,8 +175,8 @@
 				<nl>Buitenlandse rechtstoestand</nl>
 			</Name>
 			<Description>
-				<en>A court decision by a foreign court</en>
-				<nl>Een gerechtelijke uitspraak door een buitenlands gerecht</nl>
+				<en>Court decision by a foreign court</en>
+				<nl>Gerechtelijke uitspraak door een buitenlands gerecht</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="lastName">
@@ -192,7 +192,7 @@
 		<Attribute id="prefix">
 			<Name>
 				<en>Prefix</en>
-				<nl>Voorvoegsel geslachtsnaam</nl>
+				<nl>Voorvoegsel</nl>
 			</Name>
 			<Description>
 				<en>Prefix of the official</en>
@@ -265,8 +265,8 @@
 				<nl>Functietitel</nl>
 			</Name>
 			<Description>
-				<en>The job title of the official</en>
-				<nl>De titel van de functionaris</nl>
+				<en>Job title of the official</en>
+				<nl>Titel van de functionaris</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="kindOfAuthorization">
@@ -285,8 +285,8 @@
 				<nl>Beperking van de bevoegdheid in euro's</nl>
 			</Name>
 			<Description>
-				<en>The authorization of the liable party is limited to the stated amount</en>
-				<nl>De bevoegdheid van de aansprakelijke is beperkt tot het genoemde bedrag</nl>
+				<en>Authorization of the liable party is limited to the stated amount</en>
+				<nl>Bevoegdheid van de aansprakelijke is beperkt tot het genoemde bedrag</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="otherRestrictionAuthorization">
@@ -355,8 +355,8 @@
 				<nl>Omschrijving overige volmacht</nl>
 			</Name>
 			<Description>
-				<en>The content of the restriction not to be included in a structured way in the power of attorney</en>
-				<nl>De inhoud van de niet gestructureerd op te nemen beperking in de volmacht</nl>
+				<en>Content of the restriction not to be included in a structured way in the power of attorney</en>
+				<nl>Inhoud van de niet gestructureerd op te nemen beperking in de volmacht</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="permissionToChangeTradeRegister">
@@ -375,8 +375,8 @@
 				<nl>Bijzondere rechtstoestand functionaris</nl>
 			</Name>
 			<Description>
-				<en>The special legal situation of the official, eg: Bankruptcy, debt restructuring or suspension of payment</en>
-				<nl>De bijzondere rechtstoestand van de functionaris, zoals: Faillissement, schuldsanering of surseance van betaling</nl>
+				<en>Special legal situation of the official, eg: Bankruptcy, debt restructuring or suspension of payment</en>
+				<nl>Bijzondere rechtstoestand van de functionaris, zoals: Faillissement, schuldsanering of surseance van betaling</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="restrictionInLegalActionOfficial">
@@ -385,8 +385,8 @@
 				<nl>Beperking in rechtshandeling functionaris</nl>
 			</Name>
 			<Description>
-				<en>The restriction in legal action of the official, eg: Provisional rule, placed under guardianship or placed under administration</en>
-				<nl>De beperking in rechtshandeling van de functionaris, zoals: Provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
+				<en>Restriction in legal action of the official, eg: Provisional rule, placed under guardianship or placed under administration</en>
+				<nl>Beperking in rechtshandeling van de functionaris, zoals: Provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="suspensionStart">
@@ -445,8 +445,8 @@
 				<nl>Reden van vastgestelde bevoegdheid</nl>
 			</Name>
 			<Description>
-				<en>The reason for (not) being authorized or not being able to determine someone's authorization</en>
-				<nl>De reden voor het niet/wel bevoegd zijn of niet kunnen vastellen van iemands bevoegdheid</nl>
+				<en>Reason for (not) being authorized or not being able to determine someone's authorization</en>
+				<nl>Reden voor het niet/wel bevoegd zijn of niet kunnen vastellen van iemands bevoegdheid</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="referenceMoment">
@@ -455,8 +455,8 @@
 				<nl>Peilmoment (opvraagmoment uit handelsregister)</nl>
 			</Name>
 			<Description>
-				<en>The reference moment is the moment the data is extracted from the trade register</en>
-				<nl>Het peilmoment is het moment dat de gegevens uit het handelsregister zijn onttrokken</nl>
+				<en>Reference moment is the moment the data is extracted from the trade register</en>
+				<nl>Peilmoment is het moment dat de gegevens uit het handelsregister zijn onttrokken</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
