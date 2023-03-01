@@ -1,0 +1,127 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Digital Insurance Passport</en>
+		<nl>Digitaal Paspoort Verzekeren</nl>
+	</Name>
+	<ShortName>
+		<en>Digital Insurance Passport</en>
+		<nl>Digitaal Paspoort Verzekeren</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>cis</IssuerID>
+	<CredentialID>digitalInsurancePassport</CredentialID>
+	<Description>
+		<en>With your Digital Insurance Passport, insurers can see who you are and determine if you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers.</en>
+		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en vaststellen dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://proddfppfademo.azurewebsites.net/</en>
+		<nl>https://proddfppfademo.azurewebsites.net/</nl>
+	</IssueURL>
+
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Finance</en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en>Create a Digital Insurance Passport to easily and securely share data with your insurer.</en>
+		<nl>Maak een Digitaal Paspoort Verzekeren aan om makkelijk en vertrouwd gegevens met je verzekeraar te delen.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With your Digital Insurance Passport, insurers can see who you are and determine you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers.</en>
+		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en kunnen zo vaststellen dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en>We screen your name, date of birth and nationality against national and international sanctions, investigation and incident registers and do not use this data for other purposes. \n• Initials,\n• Prefix,\n• Surname,\n• Gender,\n• Date of birth,\n• Country of birth,\n• Assurance level</en>
+		<nl>We screenen je naam, geboortedatum en nationaliteit tegen nationale en internationale sanctie-, opsporings- en incidentregisters en gebruiken deze gegevens niet voor andere doeleinden. \n• Voorletters,\n• Voorvoegsel,\n• Achternaam,\n• Geslacht,\n• Geboortedatum,\n• Geboorteland,\n• Betrouwbaarheidsniveau</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en>You can add your Digital Insurance Passport to your IRMA app if you follow the steps provided. You will receive a separate card in your IRMA app with your data and the results of the screening against national and international sanctions, investigation and incident registers. Normally that outcome is negative and you receive the card in the app. In the unlikely event that an extra check is necessary, you will be notified and later informed about whether or not the Digital Insurance Passport has been granted.</en>
+		<nl>Je kunt je Digitaal Paspoort Verzekeren aan je IRMA app toevoegen met het doorlopen van de gevraagde stappen. Je ontvangt daarna een apart kaartje in je IRMA app met je gegevens en de uitkomst van de screening tegen nationale en internationale sanctie-, opsporings- en incidentregisters.</nl>
+	</FAQHowto>
+
+	<Attributes>
+		<Attribute id="initials" displayIndex="0">
+			<Name>
+				<en>Initials</en>
+				<nl>Voorletters</nl>
+			</Name>
+			<Description>
+				<en>Your initials, abbreviating your first names</en>
+				<nl>Je voorletters, als afkorting van je voornamen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="prefix" optional="true" displayIndex="1">
+			<Name>
+				<en>Prefix</en>
+				<nl>Voorvoegsel</nl>
+			</Name>
+			<Description>
+				<en>Prefix of your family name</en>
+				<nl>Voorvoegsel van je achternaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="surname" displayIndex="2">
+			<Name>
+				<en>Surname</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your full family name: your family name or (a combination with) that of your partner</en>
+				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="gender" displayIndex="3">
+			<Name>
+				<en>Gender</en>
+				<nl>Geslacht</nl>
+			</Name>
+			<Description>
+				<en>Your gender</en>
+				<nl>Je geslacht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateofbirth"  displayIndex="4">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Your date of birth</en>
+				<nl>Je geboortedatum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="countryofbirth" displayIndex="5">
+			<Name>
+				<en>Country of birth</en>
+				<nl>Geboorteland</nl>
+			</Name>
+			<Description>
+				<en>Your country of birth</en>
+				<nl>Je geboorteland</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="legalInsuranceChecks" displayIndex="6">
+			<Name>
+				<en>Legal Insurance Checks</en>
+				<nl>Wettelijke Controles Verzekeringen</nl>
+			</Name>
+			<Description>
+				<en>No hits</en>
+				<nl>Geen signaleringen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="assuranceLevel" displayIndex="7">
+			<Name>
+				<en>Assurance level</en>
+				<nl>Betrouwbaarheidsniveau</nl>
+			</Name>
+			<Description>
+				<en>The assurance level with which your identity was verified</en>
+				<nl>Het betrouwbaarheidsniveau waarmee je identiteit was vastgesteld</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
