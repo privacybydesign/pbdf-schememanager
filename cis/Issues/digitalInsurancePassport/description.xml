@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://proddfppfademo.azurewebsites.net/</en>
-		<nl>https://proddfppfademo.azurewebsites.net/</nl>
+		<en>https://dfppplaceholder.azurewebsites.net/</en>
+		<nl>https://dfppplaceholder.azurewebsites.net/</nl>
 	</IssueURL>
 
 	<IsInCredentialStore>false</IsInCredentialStore>
