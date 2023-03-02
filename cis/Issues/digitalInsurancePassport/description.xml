@@ -20,7 +20,7 @@
 		<nl>https://proddfppfademo.azurewebsites.net/</nl>
 	</IssueURL>
 
-	<IsInCredentialStore>true</IsInCredentialStore>
+	<IsInCredentialStore>false</IsInCredentialStore>
 	<Category>
 		<en>Finance</en>
 		<nl>Financieel</nl>
