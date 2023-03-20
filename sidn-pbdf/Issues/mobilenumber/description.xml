@@ -8,19 +8,22 @@
 		<nl>Mobiel nummer</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>pbdf</IssuerID>
+	<IssuerID>sidn-pbdf</IssuerID>
 	<CredentialID>mobilenumber</CredentialID>
-	<DeprecatedSince>1636326000</DeprecatedSince>
 	<Description>
 		<en>Your verified mobile phone number</en>
 		<nl>Je geverifieerde mobiele telefoonnummer</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://sidnsmsissuer.irmaconnect.nl/issuance/sms/</en>
+		<nl>https://sidnsmsissuer.irmaconnect.nl/uitgifte/sms/</nl>
+	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
 	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
-	<IsInCredentialStore>false</IsInCredentialStore>
+	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>

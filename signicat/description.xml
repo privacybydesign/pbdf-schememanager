@@ -1,0 +1,14 @@
+<Issuer version="4">
+	<ID>signicat</ID>
+	<ShortName>
+		<en>Signicat</en>
+		<nl>Signicat</nl>
+	</ShortName>
+	<Name>
+		<en>Signicat</en>
+		<nl>Signicat</nl>
+	</Name>
+	<SchemeManager>pbdf</SchemeManager>
+	<ContactAddress>https://www.signicat.com</ContactAddress>
+	<ContactEMail>technicalsupport@signicat.com</ContactEMail>
+</Issuer>

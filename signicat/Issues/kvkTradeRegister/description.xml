@@ -1,0 +1,466 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>KVK authorization info</en>
+		<nl>KVK bevoegdheidsgegevens</nl>
+	</Name>
+	<ShortName>
+		<en>KVK authorization</en>
+		<nl>KVK bevoegdheid</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>signicat</IssuerID>
+	<CredentialID>kvkTradeRegister</CredentialID>
+	<Description>
+		<en>KVK authorization information of an official of a legal entity</en>
+		<nl>KVK bevoegdheidsgegevens van een functionaris voor een rechtspersoon</nl>
+	</Description>
+	<IssueURL>
+		<en>https://organisatiegegevens.signicat.nl</en>
+		<nl>https://organisatiegegevens.signicat.nl</nl>
+	</IssueURL>
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#aa418c</BackgroundGradientStart>
+	<BackgroundGradientEnd>#aa418c</BackgroundGradientEnd>
+	<Attributes>
+		<Attribute id="kvkNumber">
+			<Name>
+				<en>KVK number</en>
+				<nl>KVK nummer</nl>
+			</Name>
+			<Description>
+				<en>KVK number of the organisation</en>
+				<nl>KVK nummer van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="rsin" optional="true">
+			<Name>
+				<en>RSIN number</en>
+				<nl>RSIN nummer</nl>
+			</Name>
+			<Description>
+				<en>Legal Entity or Partnership Identification Number</en>
+				<nl>Rechtspersoon of Samenwerkingsverband Identificatie Nummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="name">
+			<Name>
+				<en>Name of the organisation</en>
+				<nl>Naam van de organisatie</nl>
+			</Name>
+			<Description>
+				<en>Name of the organisation</en>
+				<nl>Naam van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="tradeNames" optional="true">
+			<Name>
+				<en>Trade names</en>
+				<nl>Handelsnamen</nl>
+			</Name>
+			<Description>
+				<en>Trade names under which the company trades</en>
+				<nl>Handelsnamen waar de onderneming onder handelt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="typeOwner">
+			<Name>
+				<en>Type of owner</en>
+				<nl>Type eigenaar</nl>
+			</Name>
+			<Description>
+				<en>Type of owner of the organisation</en>
+				<nl>Type eigenaar van de maatschappelijke activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="legalEntity">
+			<Name>
+				<en>Legal entity</en>
+				<nl>Rechtsvorm</nl>
+			</Name>
+			<Description>
+				<en>Legal entity of the owner of the organisation</en>
+				<nl>Rechtsvorm van de eigenaar van de maatschappelijke activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="address">
+			<Name>
+				<en>Address of the organisation</en>
+				<nl>Adres van de organisatie</nl>
+			</Name>
+			<Description>
+				<en>Address of the organisation</en>
+				<nl>Adres van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="emailAddress" optional="true">
+			<Name>
+				<en>Email address of the organisation</en>
+				<nl>Emailadres van de organisatie</nl>
+			</Name>
+			<Description>
+				<en>Email address of the organisation</en>
+				<nl>Emailadres van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="phone" optional="true">
+			<Name>
+				<en>Phone number of the organisation</en>
+				<nl>Telefoonnummer van de organisatie</nl>
+			</Name>
+			<Description>
+				<en>Phone number of the organisation</en>
+				<nl>Telefoonnummer van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="sbiActivity">
+			<Name>
+				<en>SBI activity</en>
+				<nl>SBI activiteit</nl>
+			</Name>
+			<Description>
+				<en>SBI code in accordance with the SBI 2008 structure with associated description of the activity</en>
+				<nl>SBI codering conform de SBI 2008 structuur met bijbehorende omschrijving van de activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="registrationStart">
+			<Name>
+				<en>Start date of registration</en>
+				<nl>Aanvangsdatum van de registratie</nl>
+			</Name>
+			<Description>
+				<en>Start date of the organization's registration</en>
+				<nl>Aanvangsdatum van de registratie van de maatschappelijke activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateDeregistration" >
+			<Name>
+				<en>Date of deregistration</en>
+				<nl>Datum van uitschrijving</nl>
+			</Name>
+			<Description>
+				<en>Date of deregistration of the owner of the organization</en>
+				<nl>Datum van uitschrijving van de eigenaar van de maatschappelijke activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="registrationEnd">
+			<Name>
+				<en>End date of registration</en>
+				<nl>Einddatum van de registratie</nl>
+			</Name>
+			<Description>
+				<en>End date of the organization's registration</en>
+				<nl>Einddatum van de registratie van de eigenaar van de maatschappelijke activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="specialLegalSituation">
+			<Name>
+				<en>Special legal situation</en>
+				<nl>Bijzondere rechtstoestand</nl>
+			</Name>
+			<Description>
+				<en>Special legal situation of the owner of the organisation, eg: bankruptcy, debt restructuring or suspension of payment</en>
+				<nl>Bijzondere rechtstoestand van de eigenaar van de maatschappelijke activiteit, zoals: faillissement, schuldsanering of surseance van betaling</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictionInLegalAction">
+			<Name>
+				<en>Restriction in legal action</en>
+				<nl>Beperking in rechtshandeling</nl>
+			</Name>
+			<Description>
+				<en>Restriction in legal action of the owner of the organisation, eg: provisional rule, placed under guardianship or placed under administration</en>
+				<nl>Beperking in rechtshandeling van de eigenaar van de maatschappelijke activiteit, zoals: provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="foreignLegalStatus">
+			<Name>
+				<en>Foreign legal status</en>
+				<nl>Buitenlandse rechtstoestand</nl>
+			</Name>
+			<Description>
+				<en>Court decision by a foreign court</en>
+				<nl>Gerechtelijke uitspraak door een buitenlands gerecht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="lastName">
+			<Name>
+				<en>Last name</en>
+				<nl>Geslachtsnaam</nl>
+			</Name>
+			<Description>
+				<en>Last name of the official</en>
+				<nl>Geslachtsnaam van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="prefix">
+			<Name>
+				<en>Prefix</en>
+				<nl>Voorvoegsel</nl>
+			</Name>
+			<Description>
+				<en>Prefix of the official</en>
+				<nl>Voorvoegsel geslachtsnaam van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="firstNames">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>First names of the official</en>
+				<nl>Voornamen van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfBirth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Date of birth of the official</en>
+				<nl>Geboortedatum van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfDeath">
+			<Name>
+				<en>Date of death</en>
+				<nl>Overlijdensdatum</nl>
+			</Name>
+			<Description>
+				<en>Date of death of the official</en>
+				<nl>Overlijdensdatum van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Full name of the official</en>
+				<nl>Volledige naam van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="typeOfficial">
+			<Name>
+				<en>Type of official</en>
+				<nl>Type functionaris</nl>
+			</Name>
+			<Description>
+				<en>Type of official</en>
+				<nl>Type functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="position" optional="true">
+			<Name>
+				<en>Position</en>
+				<nl>Functie</nl>
+			</Name>
+			<Description>
+				<en>Position of the official</en>
+				<nl>Functie van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="jobTitle" optional="true">
+			<Name>
+				<en>Job title</en>
+				<nl>Functietitel</nl>
+			</Name>
+			<Description>
+				<en>Job title of the official</en>
+				<nl>Titel van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="kindOfAuthorization">
+			<Name>
+				<en>Kind of authorization</en>
+				<nl>Soort bevoegdheid</nl>
+			</Name>
+			<Description>
+				<en>Kind of authorization</en>
+				<nl>Soort bevoegdheid</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictionInEurosAuthorization">
+			<Name>
+				<en>Restriction of the authorization in euros</en>
+				<nl>Beperking van de bevoegdheid in euro's</nl>
+			</Name>
+			<Description>
+				<en>Authorization of the liable party is limited to the stated amount</en>
+				<nl>Bevoegdheid van de aansprakelijke is beperkt tot het genoemde bedrag</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="otherRestrictionAuthorization">
+			<Name>
+				<en>Other restrictions of the authorization</en>
+				<nl>Overige beperking van de bevoegdheid</nl>
+			</Name>
+			<Description>
+				<en>Indication of whether any other limitation applies to the person liable</en>
+				<nl>Indicatie of er een andere beperking voor de aansprakelijke geldt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="isAuthorizedWithOtherPersons">
+			<Name>
+				<en>Is authorized with other persons</en>
+				<nl>Is bevoegd met andere personen</nl>
+			</Name>
+			<Description>
+				<en>Indication indicating that there is joint authority with other persons (Yes) or with the other directors (No)</en>
+				<nl>Indicatie die aangeeft dat er een gezamenlijke bevoegdheid is met andere personen (Ja) of met de andere bestuurders (Nee)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="typePowerOfAttorney">
+			<Name>
+				<en>Type of power of attorney</en>
+				<nl>Type volmacht</nl>
+			</Name>
+			<Description>
+				<en>Type of power of attorney</en>
+				<nl>Type volmacht, zoals: Volledige volmacht of beperkte volmacht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictioninMoneyPowerOfAttorney">
+			<Name>
+				<en>Restriction in money of the power of attorney</en>
+				<nl>Beperking in geld van de volmacht</nl>
+			</Name>
+			<Description>
+				<en>If the authorized representative is authorized up to a certain amount</en>
+				<nl>Indien de gemachtigde tot een bepaald bedrag is gemachtigd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictionOnActPowerOfAttorney">
+			<Name>
+				<en>Restriction on act of the power of attorney</en>
+				<nl>Beperking in handeling van de volmacht</nl>
+			</Name>
+			<Description>
+				<en>If the authorized person has a structured restriction of type of act</en>
+				<nl>Indien de gemachtigde een gestructureerde beperking in handelen heeft</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="hasOtherPowerOfAttorney">
+			<Name>
+				<en>Has other power of attorney</en>
+				<nl>Heeft overige volmacht</nl>
+			</Name>
+			<Description>
+				<en>Indication indicating that the authorized person has a power of attorney that cannot be included in a structured way as a type of act</en>
+				<nl>Indicatie die aangeeft dat de gemachtigde een volmacht heeft die niet gestructureerd als soort handeling opgenomen kan worden</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="descriptionOtherPowerOfAttorney">
+			<Name>
+				<en>Description other power of attorney</en>
+				<nl>Omschrijving overige volmacht</nl>
+			</Name>
+			<Description>
+				<en>Content of the restriction not to be included in a structured way in the power of attorney</en>
+				<nl>Inhoud van de niet gestructureerd op te nemen beperking in de volmacht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="permissionToChangeTradeRegister">
+			<Name>
+				<en>Permission to file changes to the trade register</en>
+				<nl>Mag opgave handelsregister doen</nl>
+			</Name>
+			<Description>
+				<en>If the authorized representative has the permission to file changes to the trade register</en>
+				<nl>Indien de gemachtigde opgave mag doen aan het handelsregister</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="specialLegalSituationOfficial">
+			<Name>
+				<en>Special legal situation of the official</en>
+				<nl>Bijzondere rechtstoestand functionaris</nl>
+			</Name>
+			<Description>
+				<en>Special legal situation of the official, eg: bankruptcy, debt restructuring or suspension of payment</en>
+				<nl>Bijzondere rechtstoestand van de functionaris, zoals: faillissement, schuldsanering of surseance van betaling</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictionInLegalActionOfficial">
+			<Name>
+				<en>Restriction in legal action of the official</en>
+				<nl>Beperking in rechtshandeling functionaris</nl>
+			</Name>
+			<Description>
+				<en>Restriction in legal action of the official, eg: provisional rule, placed under guardianship or placed under administration</en>
+				<nl>Beperking in rechtshandeling van de functionaris, zoals: provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="suspensionStart">
+			<Name>
+				<en>Start date of suspension</en>
+				<nl>Aanvangsdatum van de schorsing</nl>
+			</Name>
+			<Description>
+				<en>Indicates when the official's suspension started</en>
+				<nl>Geeft aan wanneer de schorsing van de functionaris is gestart</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="suspensionEnd">
+			<Name>
+				<en>End date of suspension</en>
+				<nl>Einddatum van de schorsing</nl>
+			</Name>
+			<Description>
+				<en>Indicates when the official's suspension has ended</en>
+				<nl>Geeft aan wanneer de schorsing van de functionaris beeindigd is</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="emancipationOfMinor">
+			<Name>
+				<en>Emancipation of a minor</en>
+				<nl>Handlichting</nl>
+			</Name>
+			<Description>
+				<en>Emancipation of a minor</en>
+				<nl>Handlichting houdt in dat een minderjarige door toewijzing van een rechter dezelfde bevoegdheden toegekend krijgt als een meerderjarige</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="hasRestriction">
+			<Name>
+				<en>Has restriction</en>
+				<nl>Heeft beperking</nl>
+			</Name>
+			<Description>
+				<en>Indication of whether there is some kind of restriction that affects the determination of an authorization (Yes, No)</en>
+				<nl>Indicatie of er sprake is van enige vorm van beperking, die van invloed is op het bepalen van een bevoegdheid (Ja, Nee)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="isAuthorized">
+			<Name>
+				<en>Is authorized</en>
+				<nl>Is bevoegd</nl>
+			</Name>
+			<Description>
+				<en>Indication of whether someone is authorized (Yes, No or Not established)</en>
+				<nl>Indicatie of iemand bevoegd is (Ja, Nee of Niet vastgesteld)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="reason">
+			<Name>
+				<en>Reason for established authorization</en>
+				<nl>Reden van vastgestelde bevoegdheid</nl>
+			</Name>
+			<Description>
+				<en>Reason for (not) being authorized or not being able to determine someone's authorization</en>
+				<nl>Reden voor het niet/wel bevoegd zijn of niet kunnen vastellen van iemands bevoegdheid</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="referenceMoment">
+			<Name>
+				<en>Reference moment</en>
+				<nl>Peilmoment (opvraagmoment uit handelsregister)</nl>
+			</Name>
+			<Description>
+				<en>Reference moment is the moment the data is extracted from the trade register (format yyyymmddhhmmssmmm)</en>
+				<nl>Peilmoment is het moment dat de gegevens uit het handelsregister zijn onttrokken (formaat jjjjmmddhhmmssmmm)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

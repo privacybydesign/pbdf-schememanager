@@ -1,5 +1,6 @@
 <Issuer version="4">
 	<ID>surf</ID>
+	<DeprecatedSince>1670511600</DeprecatedSince>
 	<ShortName>
 		<en>SURF</en>
 		<nl>SURF</nl>

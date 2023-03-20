@@ -1,0 +1,14 @@
+<Issuer version="4">
+	<ID>cis</ID>
+	<ShortName>
+		<en>CIS Foundation</en>
+		<nl>Stichting CIS</nl>
+	</ShortName>
+	<Name>
+		<en>Central Infomation System Foundation</en>
+		<nl>Stichting Centraal Informatie Systeem</nl>
+	</Name>
+	<SchemeManager>pbdf</SchemeManager>
+	<ContactAddress>https://stichtingcis.nl/</ContactAddress>
+	<ContactEMail>info@stichtingcis.nl</ContactEMail>
+</Issuer>

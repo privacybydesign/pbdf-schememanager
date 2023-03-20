@@ -1,0 +1,15 @@
+<Issuer version="4">
+  <ID>PubHubs</ID>
+  <Name>
+	  <en>PubHubs</en>
+	  <nl>PubHubs</nl>
+  </Name>
+  <ShortName>
+	  <en>PubHubs</en>
+	  <nl>PubHubs</nl>
+  </ShortName>
+  <SchemeManager>pbdf</SchemeManager>
+  <ContactAddress>https://pubhubs.net/</ContactAddress>
+  <ContactEMail>contact@pubhubs.net</ContactEMail>
+  <baseURL></baseURL>
+</Issuer>
