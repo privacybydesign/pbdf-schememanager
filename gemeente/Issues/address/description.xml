@@ -15,8 +15,8 @@
 		<nl>Je woonadres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://services.nijmegen.nl/irma/gemeente/start</en>
-		<nl>https://services.nijmegen.nl/irma/gemeente/start</nl>
+		<en>https://yivi.nijmegen.nl</en>
+		<nl>https://yivi.nijmegen.nl</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -29,20 +29,20 @@
 		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-		<en>Add your home address from the Dutch population register (BRP) to your IRMA app.</en>
-		<nl>Laad je woonadres uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
+		<en>Add your home address from the Dutch population register (BRP) to your Yivi app.</en>
+		<nl>Laad je woonadres uit de basisregistratie personen (BRP) in je Yivi-app.</nl>
 	</FAQIntro>
 	<FAQPurpose>
-		<en>With your home address in your IRMA app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
-		<nl>Met jouw woonadres in de IRMA-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>	
+		<en>With your home address in your Yivi app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
+		<nl>Met jouw woonadres in de Yivi-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>	
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data:\n• street,\n• street number,\n• postal code,\n• city,\n• municipality.</en>
-		<nl>Je laadt de volgende gegevens:\n• straat,\n• huisnummer,\n• postcode,\n• woonplaats,\n• gemeente.</nl>
+		<en>You will add the following data:\n• street,\n• street number,\n• postal code,\n• city,\n• municipality.\nThis data is provided by Gemeente Nijmegen for anybody in the Netherlands.</en>
+		<nl>Je laadt de volgende gegevens:\n• straat,\n• huisnummer,\n• postcode,\n• woonplaats,\n• gemeente.\nJe gegevens worden opgehaald via de gemeente Nijmegen, ook als je daar niet woont. Je logt daarom in via Digid bij de gemeente Nijmegen.</nl>
 	</FAQContent>
 	<FAQHowto>
-		<en>If you live in the Netherlands, you can add your home address from the Dutch population register (BRP) to your IRMA app. You need your DigiD for this.\n Complete the following steps.\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\n2. The municipality of Nijmegen copies your data into your IRMA app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
-		<nl>Als je in Nederland woont, kun je je woonadres uit de basisregistratie personen (BRP) toevoegen in je IRMA app.\nJe hebt je DigiD daarvoor nodig. \n\nDoorloop de volgende stappen.\n1. Log in met je DigiD bij de gemeente Nijmegen (dit werkt voor iedereen in Nederland, niet alleen voor inwoners van Nijmegen).\n2. De gemeente Nijmegen voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
+		<en>If you live in the Netherlands, you can add your home address from the Dutch population register (BRP) to your Yivi app. You need your DigiD for this.\n Complete the following steps.\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\n2. The municipality of Nijmegen copies your data into your Yivi app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
+		<nl>Als je in Nederland woont, kun je je woonadres uit de basisregistratie personen (BRP) toevoegen in je Yivi-app.\nJe hebt je DigiD daarvoor nodig. \n\nDoorloop de volgende stappen.\n1. Log in met je DigiD bij de gemeente Nijmegen (dit werkt voor iedereen in Nederland, niet alleen voor inwoners van Nijmegen).\n2. De gemeente Nijmegen voegt je gegevens toe in je Yivi-app.\n\nJe ontvangt nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
 	</FAQHowto>
 	<Attributes>
 		<Attribute id="street" displayIndex="0">
