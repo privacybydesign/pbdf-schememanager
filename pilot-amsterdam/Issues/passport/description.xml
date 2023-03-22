@@ -11,8 +11,8 @@
 	<IssuerID>pilot-amsterdam</IssuerID>
 	<CredentialID>passport</CredentialID>
 	<Description>
-		<en>Your Dutch passport read from the IRMA desk</en>
-		<nl>Jouw Nederlandse paspoort, uitgelezen via de IRMA-balie</nl>
+		<en>Your Dutch passport read from the Yivi desk</en>
+		<nl>Jouw Nederlandse paspoort, uitgelezen via de Yivi-balie</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<ForegroundColor>#15222E</ForegroundColor>
