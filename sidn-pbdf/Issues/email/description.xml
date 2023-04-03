@@ -37,12 +37,12 @@
 		<nl>Met jouw e-mailadres in de Yivi-app kun je laten zien dat dit adres echt bij jou hoort. Je kunt bijvoorbeeld je e-mailadres gebruiken om een regel in een formulier in te vullen of om op een website in te loggen.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data.\n• emailaddress\n• email domain name</en>
+		<en>You will add the following data.\n• email address\n• email domain name</en>
 		<nl>Je laadt de volgende gegevens.\n• e-mailadres\n• e-mail domeinnaam</nl>
 	</FAQContent>
 	<FAQHowto>
-		<en>Complete the following steps.\n1. Enter your e-mail address.\n2. Open your email application and go to your Inbox (if there is no new mail soon, please check your Spam folder).\n3. Click the link in the email message, sent by the Privacy by Design Foundation. If you see a QR code on your computer screen, scan it with the QR scanner in your Yivi app. The Privacy by Design Foundation copies your email data into your Yivi app.\n\nYou now receive a card with your email address and its domain name in your Yivi app. Repeat this process for other email addresses that you wish to add.</en>
-		<nl>Doorloop de volgende stappen.\n1. Vul je e-mailadres in.\n2. Open je e-maillezer en ga naar 'inkomende berichten' (als er geen mail verschijnt, controleer zonodig je Spam folder).\n3. Open de link in het e-mailbericht van de stichting Privacy by Design. Als je een QR-code te zien krijgt, scan deze met je Yivi-app. De stichting Privacy by Design voegt je e-mail gegevens toe in je Yivi-app.\n\nJe ontvangt nu een kaartje met je e-mailadres en de domeinnaam van dat adres in je Yivi-app. Herhaal dit proces voor ieder e-mail adres dat je toe wil voegen.</nl>
+		<en>Complete the following steps.\n1. Enter your email address.\n2. Open your email application and go to your Inbox (if there is no new mail soon, please check your Spam folder).\n3. Click the link in the email message, sent by Yivi. If you see a QR code on your computer screen, scan it with the QR scanner in your Yivi app. Yivi copies your email data into your Yivi app.\n\nYou now receive a card with your email address and its domain name in your Yivi app. Repeat this process for other email addresses that you wish to add.</en>
+		<nl>Doorloop de volgende stappen.\n1. Vul je e-mailadres in.\n2. Open je e-mailprogramma en ga naar 'inkomende berichten' (als er geen mail verschijnt, controleer zonodig je Spam folder).\n3. Open de link in het e-mailbericht van Yivi. Als je een QR-code te zien krijgt, scan deze met je Yivi-app. Yivi voegt je e-mailgegevens toe in je Yivi-app.\n\nJe ontvangt nu een kaartje met je e-mailadres en de domeinnaam van dat adres in je Yivi-app. Herhaal dit proces voor ieder e-mail adres dat je toe wil voegen.</nl>
 	</FAQHowto>
 
 	<Attributes>

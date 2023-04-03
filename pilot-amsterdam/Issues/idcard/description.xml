@@ -11,7 +11,7 @@
 	<IssuerID>pilot-amsterdam</IssuerID>
 	<CredentialID>idcard</CredentialID>
 	<Description>
-		<en>Your ID card read from the Yivi desk</en>
+		<en>Your Dutch ID card, read from the Yivi desk</en>
 		<nl>Je Nederlandse ID-kaart, uitgelezen via de Yivi-balie</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
