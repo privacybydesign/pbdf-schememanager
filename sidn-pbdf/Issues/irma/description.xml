@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>MyIRMA app ID</en>
-		<nl>MijnIRMA app-ID</nl>
+		<en>MyYivi app ID</en>
+		<nl>MijnYivi app-ID</nl>
 	</Name>
 	<ShortName>
-		<en>MyIRMA</en>
-		<nl>MijnIRMA</nl>
+		<en>MyYivi</en>
+		<nl>MijnYivi</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>sidn-pbdf</IssuerID>
 	<CredentialID>irma</CredentialID>
 	<Description>
-		<en>Your MyIRMA app ID</en>
-		<nl>Je MijnIRMA app-ID</nl>
+		<en>Your MyYivi app ID</en>
+		<nl>Je MijnYivi app-ID</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<DisallowDelete>true</DisallowDelete>
@@ -28,8 +28,8 @@
 				<nl>App-ID</nl>
 			</Name>
 			<Description>
-				<en>Your MyIRMA app ID</en>
-				<nl>Je MijnIRMA app-ID</nl>
+				<en>Your MyYivi app ID</en>
+				<nl>Je MijnYivi app-ID</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

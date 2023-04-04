@@ -29,20 +29,20 @@
 		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-		<en>Add your personal data from your bank to your IRMA app.</en>
-		<nl>Laad je persoonsgegevens van je bank in je IRMA-app.</nl>
+		<en>Load your personal data, known by your bank, into your Yivi app.</en>
+		<nl>Laad je persoonsgegevens, zoals bekend bij je bank, in je Yivi-app.</nl>
 	</FAQIntro>
 	<FAQPurpose>
-		<en>With your personal data from your bank in your IRMA app, you can, for instance, prove what your name is, what your date of birth is, and where you live.</en>
-		<nl>Met jouw persoonsgegevens van je bank in de IRMA-app kun jij bewijzen hoe je heet, wat je geboortedatum is en waar je woont.</nl>
+		<en>With your personal data from your bank in your Yivi app, you can, for instance, prove what your name is, what your date of birth is, and where you live.</en>
+		<nl>Met jouw persoonsgegevens van je bank in de Yivi-app kun jij bewijzen hoe je heet, wat je geboortedatum is en waar je woont.</nl>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• initials,\n• last name,\n• gender,\n• date of birth,\n• age limits (older than 12, 16, 18, 21 or 65),\n• address,\n• postal code,\n• city.</en>
 		<nl>Je laadt de volgende gegevens:\n• initialen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65),\n• adres,\n• postcode,\n• woonplaats.</nl>
 	</FAQContent>
 	<FAQHowto>
-		<en>If you have a Dutch bank account, you can add personal data from the bank to your IRMA app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your IRMA app.\n3. Confirm that you wish to do so.\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your IRMA app.\n\nYou now receive a card with your personal details from your bank.</en>
-		<nl>Als je een Nederlandse bankrekening hebt kun je de persoonsgegevens bij die rekening in je IRMA app laden.\n\nDoorloop de volgende stappen.\n1. Log in bij je eigen bank via de inlogdienst iDIN van de bank.\n2. Je ziet de persoonsgegevens die je van je bank in je IRMA-app laadt.\n3. Bevestig dit laden.\nDe stichting Privacy by Design ontvangt je bankgegevens van iDIN en geeft deze door aan je IRMA-app.\n\nJe ontvangt nu een kaartje met je persoonsgegevens van je bank.</nl>
+		<en>If you have a Dutch bank account, you can add personal data from the bank to your Yivi app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your Yivi app.\n3. Confirm that you wish to do so.\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your Yivi app.\n\nYou now receive a card with your personal details from your bank.</en>
+		<nl>Als je een Nederlandse bankrekening hebt kun je de persoonsgegevens bij die rekening in je Yivi app laden.\n\nDoorloop de volgende stappen.\n1. Log in bij je eigen bank via de inlogdienst iDIN van de bank.\n2. Je ziet de persoonsgegevens die je van je bank in je Yivi-app laadt.\n3. Bevestig dit laden.\nDe stichting Privacy by Design ontvangt je bankgegevens van iDIN en geeft deze door aan je Yivi-app.\n\nJe ontvangt nu een kaartje met je persoonsgegevens van je bank.</nl>
 	</FAQHowto>
 
 	<Attributes>

@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://sidnsmsissuer.irmaconnect.nl/issuance/sms/</en>
-		<nl>https://sidnsmsissuer.irmaconnect.nl/uitgifte/sms/</nl>
+		<en>https://sidnsmsissuer.yiviconnect.nl/issuance/sms/</en>
+		<nl>https://sidnsmsissuer.yiviconnect.nl/uitgifte/sms/</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
@@ -29,20 +29,20 @@
 		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-		<en>Add your mobile phone number to your IRMA app.\nYou can add multiple phone numbers.</en>
-		<nl>Laad je mobiele telefoonnummer in je IRMA-app.\nJe kunt meerdere telefoonnummers toevoegen.</nl>
+		<en>Add your mobile phone number to your Yivi app.\nYou can add multiple phone numbers.</en>
+		<nl>Laad je mobiele telefoonnummer in je Yivi-app.\nJe kunt meerdere telefoonnummers toevoegen.</nl>
 	</FAQIntro>
 	<FAQPurpose>
-		<en>With your mobile phone number in your IRMA app, you can show that this number is really yours. For instance, you can disclose your phone number in a form or use it to login at a website.</en>
-		<nl>Met jouw mobiele telefoonnummer in de IRMA-app kun je laten zien dat dit nummer echt bij jou hoort. Je kunt bijvoorbeeld je mobiele nummer in een formulier toevoegen of gebruiken om op een website in te loggen.</nl>
+		<en>With your mobile phone number in your Yivi app, you can show that this number is really yours. For instance, you can disclose your phone number in a form or use it to login at a website.</en>
+		<nl>Met jouw mobiele telefoonnummer in de Yivi-app kun je laten zien dat dit nummer echt bij jou hoort. Je kunt bijvoorbeeld je mobiele nummer in een formulier toevoegen of gebruiken om op een website in te loggen.</nl>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• mobile phone number.</en>
 		<nl>Je laadt de volgende gegevens:\n• mobiele telefoonnummer.</nl>
 	</FAQContent>
 	<FAQHowto>
-		<en>Complete the following steps.\n1. Enter your mobile phone number.\n2. Check the IRMA SMS message on your phone.\n3. Use either the verification code in the message, or use the link in the message. After filling in the verification on the webpage for issuing phone numbers you will see a QR code that you can scan with the IRMA app on your phone. If you use the direct link in the SMS message you are sent back automatically to the IRMA app.\n\nYou now receive a card with your mobile phone number. Repeat this process for other mobile phone numbers that you wish to add.</en>
-		<nl>Doorloop de volgende stappen.\n1. Vul je mobiele telefoonnummer in.\n2. Open het IRMA SMS-bericht op je telefoon.\n3. Gebruik ofwel de verificatie code of de link in dit bericht. Wanneer je de verificatiecode invult op de webpagina voor het uitgeven van mobiele nummers verschijnt een QR-code; die kun je scannen met de IRMA app op je telefoon. Wanneer je de link in het SMS bericht kiest word je automatisch teruggestuurd naar de IRMA-app.\n\nJe ontvangt nu een kaartje met je mobiele telefoonnummer. Herhaal dit proces voor ieder mobiel nummer dat je toe wil voegen.</nl>
+		<en>Complete the following steps.\n1. Enter your mobile phone number.\n2. Check the Yivi SMS message on your phone.\n3. Use either the verification code in the message, or use the link in the message. After filling in the verification on the webpage for issuing phone numbers you will see a QR code that you can scan with the Yivi app on your phone. If you use the direct link in the SMS message you are sent back automatically to the Yivi app.\n\nYou now receive a card with your mobile phone number. Repeat this process for other mobile phone numbers that you wish to add.</en>
+		<nl>Doorloop de volgende stappen.\n1. Vul je mobiele telefoonnummer in.\n2. Open het Yivi SMS-bericht op je telefoon.\n3. Gebruik ofwel de verificatie code of de link in dit bericht. Wanneer je de verificatiecode invult op de webpagina voor het uitgeven van mobiele nummers verschijnt een QR-code; die kun je scannen met de Yivi-app op je telefoon. Wanneer je de link in het SMS bericht kiest word je automatisch teruggestuurd naar de Yivi-app.\n\nJe ontvangt nu een kaartje met je mobiele telefoonnummer. Herhaal dit proces voor ieder mobiel nummer dat je toe wil voegen.</nl>
 	</FAQHowto>
 
 	<Attributes>

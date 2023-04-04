@@ -11,7 +11,7 @@
   <IssuerID>chipsoft</IssuerID>
   <CredentialID>bsn</CredentialID>
   <Description>
-    <en>Your Dutch Citizen service number (BSN), from the Dutch population register, verified face to face</en>
+    <en>Your Dutch Citizen service number (BSN), from the Dutch Personal Records Database (BRP), verified face to face</en>
     <nl>Je Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens, fysiek geverifieerd</nl>
   </Description>
   <ShouldBeSingleton>true</ShouldBeSingleton>
