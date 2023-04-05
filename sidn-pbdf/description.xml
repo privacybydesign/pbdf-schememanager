@@ -1,16 +1,16 @@
 <Issuer version="4">
 	<ID>sidn-pbdf</ID>
 	<ShortName>
-		<en>PbDF via SIDN</en>
-		<nl>PbDF via SIDN</nl>
+		<en>Yivi</en>
+		<nl>Yivi</nl>
 	</ShortName>
 	<Name>
-		<en>SIDN on behalf of Privacy by Design Foundation</en>
-		<nl>SIDN namens Stichting Privacy by Design</nl>
+		<en>Yivi</en>
+		<nl>Yivi</nl>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
-	<ContactAddress>https://www.sidn.nl</ContactAddress>
-	<ContactEMail>support@sidn.nl</ContactEMail>
+	<ContactAddress>https://yivi.app</ContactAddress>
+	<ContactEMail>support@yivi.app</ContactEMail>
 	<baseURL></baseURL>
 </Issuer>
 
