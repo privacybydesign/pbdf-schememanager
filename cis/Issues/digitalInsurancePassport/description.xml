@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://dfppplaceholder.azurewebsites.net/</en>
-		<nl>https://dfppplaceholder.azurewebsites.net/</nl>
+		<en>https://digitaalpaspoortverzekeren.nl/</en>
+		<nl>https://digitaalpaspoortverzekeren.nl/</nl>
 	</IssueURL>
 
 	<IsInCredentialStore>false</IsInCredentialStore>
