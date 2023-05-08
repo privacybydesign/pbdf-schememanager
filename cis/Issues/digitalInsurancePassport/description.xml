@@ -20,7 +20,7 @@
 		<nl>https://digitaalpaspoortverzekeren.nl/</nl>
 	</IssueURL>
 
-	<IsInCredentialStore>false</IsInCredentialStore>
+	<IsInCredentialStore>true</IsInCredentialStore>
 	<Category>
 		<en>Finance</en>
 		<nl>Financieel</nl>
