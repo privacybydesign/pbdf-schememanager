@@ -36,6 +36,7 @@ jobs:
         run: |
           mkdir -p "$HOME/.local/bin"
           echo "$HOME/.local/bin" >> $GITHUB_PATH
+          
       - name: Download irma CLI tool
         run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/irma-linux-amd64
 
