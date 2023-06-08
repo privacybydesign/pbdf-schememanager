@@ -1,0 +1,105 @@
+# Workflow that reviews changes in pull requests and writes the feedback in review comments.
+name: Pull request review
+
+on:
+  # We use pull_request_target such that we can grant permissions.
+  # This means that the job specification is being pulled from master, instead of from the feature branche.
+  pull_request_target:
+    branches: [ master ]
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+
+permissions:
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+    steps:
+      - name: Checkout pull request base
+        uses: actions/checkout@v3
+        with:
+          path: ./base
+          ref: ${{ github.event.pull_request.base.sha }}
+
+      - name: Checkout pull request head
+        uses: actions/checkout@v3
+        with:
+          path: ./head
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Initialize ~/.local/bin directory
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          
+      - name: Download irma CLI tool
+        run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/irma-linux-amd64
+
+      - name: Set executable permissions
+        run: chmod +x "$HOME/.local/bin/irma"
+
+      - name: Verify scheme at base
+        run: irma scheme verify > ../output-base.txt
+        shell: bash
+        working-directory: ./base
+
+      - name: Verify scheme at head
+        id: verify-head
+        run: irma scheme verify
+        shell: bash
+        working-directory: ./head
+        continue-on-error: true
+
+      - name: Override signing keys
+        run: rm pk.pem && irma scheme keygen
+        shell: bash
+        working-directory: ./head
+
+      - name: Verify whether head can be signed
+        run: irma scheme sign > ../output-head.txt 2>&1
+        shell: bash
+        working-directory: ./head
+        continue-on-error: true
+
+      - name: Initialize message
+        run: echo "The following issues were found when running \`irma scheme verify\`:" > ./message.txt
+        shell: bash
+
+      - name: Generate diff
+        id: generate-diff
+        run: grep -xvF -f ./output-base.txt ./output-head.txt >> ./message.txt
+        shell: bash
+        continue-on-error: true
+
+      - name: Add message footer
+        run: echo -e "\nPlease try to resolve these issues." >> ./message.txt
+        shell: bash
+
+      - name: Write review comment if warnings were found
+        if: steps.generate-diff.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr comment ${{ github.event.pull_request.number }} -F ../message.txt
+        working-directory: ./base
+
+      - name: Write review comment if changes are not signed yet
+        if: steps.verify-head.outcome == 'failure' && steps.generate-diff.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr comment ${{ github.event.pull_request.number }} -b "\
+          No issues were found when running \`irma scheme verify\`. The status checks fail because the changes are not signed yet. \
+          This will be resolved by the Yivi team when your changes have been approved. You don't have to deal with this yourself."
+        working-directory: ./base
+
+      - name: Write review comment if no issues were found
+        if: steps.verify-head.outcome == 'success' && steps.generate-diff.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr comment ${{ github.event.pull_request.number }} -b "No issues were found when running \`irma scheme verify\`."
+        working-directory: ./base
