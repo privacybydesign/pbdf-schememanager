@@ -88,13 +88,24 @@ jobs:
         working-directory: ./base
 
       - name: Write review comment if changes are not signed yet
-        if: steps.verify-head.outcome == 'failure' && steps.generate-diff.outcome == 'failure'
+        if: steps.verify-head.outcome == 'failure' && steps.generate-diff.outcome == 'failure' && github.event.pull_request.maintainer_can_modify == true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr comment ${{ github.event.pull_request.number }} -b "\
           No issues were found when running \`irma scheme verify\`. The status checks fail because the changes are not signed yet. \
           This will be resolved by the Yivi team when your changes have been approved. You don't have to deal with this yourself."
+        working-directory: ./base
+
+      - name: Write review comment if maintainers have no access to sign the changes
+        if: steps.verify-head.outcome == 'failure' && steps.generate-diff.outcome == 'failure' && github.event.pull_request.maintainer_can_modify == false
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr comment ${{ github.event.pull_request.number }} -b "\
+          No issues were found when running \`irma scheme verify\`. The status checks fail because the changes are not signed yet. \
+          The Yivi team has to do this for you. Please [allow edits from maintainers](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork) \
+          on your pull request to make this possible."
         working-directory: ./base
 
       - name: Write review comment if no issues were found
