@@ -3,19 +3,19 @@
         <RevocationServer>https://yivi.pilot.uzi-online.minvws.nl/</RevocationServer>
     </RevocationServers>
 	<Name>
-		<en>UZI Register</en>
-		<nl>UZI register</nl>
+		<en>UZI register</en>
+		<nl>UZI-register</nl>
 	</Name>
 	<ShortName>
 		<en>UZI Register</en>
-		<nl>UZI register</nl>
+		<nl>UZI-register</nl>
 	</ShortName>
 	<SchemeManager>pdbf</SchemeManager>
 	<IssuerID>minvws-cibg</IssuerID>
 	<CredentialID>pilot-2</CredentialID>
 	<Description>
 		<en>Attributes of health identity from the UZI register</en>
-		<nl>Gegevens over uw zorgidentiteit uit het UZI register</nl>
+		<nl>Gegevens over uw zorgidentiteit uit het UZI-register</nl>
 	</Description>
 	<IssueURL>
 		<en>https://yivi.pilot.uzi-online.minvws.nl</en>
@@ -58,7 +58,7 @@
 				<nl>Naam zorgaanbieder</nl>
 			</Name>
 			<Description>
-				<en>The name of an healthcare organisation</en>
+				<en>The name of a healthcare organisation</en>
 				<nl>De naam van de zorgaanbieder</nl>
 			</Description>
 		</Attribute>
