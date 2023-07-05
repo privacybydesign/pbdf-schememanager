@@ -1,15 +1,15 @@
 <Issuer version="4">
-  <ID>uzipoc-cibg</ID>
+  <ID>minvws-cibg</ID>
   <Name>
-	  <en>Demo authority for issuing UZI credentials</en>
-	  <nl>Demo authoriteit voor het uitgeven van UZI credentials</nl>
+	  <en>Authority for issuing UZI credentials</en>
+	  <nl>Authoriteit voor het uitgeven van UZI credentials</nl>
   </Name>
   <ShortName>
-	  <en>Uzipoc CIBG</en>
-	  <nl>Uzipoc CIBG</nl>
+	  <en>MINVWS CIBG</en>
+	  <nl>MINVWS CIBG</nl>
   </ShortName>
-  <SchemeManager>irma-demo</SchemeManager>
+  <SchemeManager>pdbf</SchemeManager>
   <ContactAddress></ContactAddress>
-  <ContactEMail>example@example.com</ContactEMail>
-  <baseURL>https://irma-disclosure.uzipoc.nl</baseURL>
+  <ContactEMail>helpdesk@rdobeheer.nl</ContactEMail>
+  <baseURL>https://yivi.pilot.uzi-online.minvws.nl/</baseURL>
 </Issuer>
