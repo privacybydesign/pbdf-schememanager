@@ -11,7 +11,7 @@
 		<nl>UZI-register</nl>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>MinVWS-cibg</IssuerID>
+	<IssuerID>minvws-cibg</IssuerID>
 	<CredentialID>pilot-2</CredentialID>
 	<Description>
 		<en>Attributes of healthcare identity from the UZI register</en>
