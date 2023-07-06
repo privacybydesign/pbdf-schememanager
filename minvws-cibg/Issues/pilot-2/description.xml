@@ -10,11 +10,11 @@
 		<en>UZI Register</en>
 		<nl>UZI-register</nl>
 	</ShortName>
-	<SchemeManager>pdbf</SchemeManager>
-	<IssuerID>minvws-cibg</IssuerID>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>MinVWS-cibg</IssuerID>
 	<CredentialID>pilot-2</CredentialID>
 	<Description>
-		<en>Attributes of health identity from the UZI register</en>
+		<en>Attributes of healthcare identity from the UZI register</en>
 		<nl>Gegevens over uw zorgidentiteit uit het UZI-register</nl>
 	</Description>
 	<IssueURL>
@@ -58,7 +58,7 @@
 				<nl>Naam zorgaanbieder</nl>
 			</Name>
 			<Description>
-				<en>The name of a healthcare organisation</en>
+				<en>The name of a healthcare provider</en>
 				<nl>De naam van de zorgaanbieder</nl>
 			</Description>
 		</Attribute>
@@ -68,7 +68,7 @@
 				<nl>URA-nummer</nl>
 			</Name>
 			<Description>
-				<en>The URA number of a healthcare organisation</en>
+				<en>The URA number of a healthcare provider</en>
 				<nl>Het URA-nummer van een zorgaanbieder</nl>
 			</Description>
 		</Attribute>
