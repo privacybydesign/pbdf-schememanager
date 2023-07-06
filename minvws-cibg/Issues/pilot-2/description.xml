@@ -54,7 +54,7 @@
 		</Attribute>
 		<Attribute id="entityName">
 			<Name>
-				<en>Name of organisation</en>
+				<en>Name of healthcare provider</en>
 				<nl>Naam zorgaanbieder</nl>
 			</Name>
 			<Description>
