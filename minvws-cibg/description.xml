@@ -8,7 +8,7 @@
 	  <en>MINVWS CIBG</en>
 	  <nl>MINVWS CIBG</nl>
   </ShortName>
-  <SchemeManager>pdbf</SchemeManager>
+  <SchemeManager>pbdf</SchemeManager>
   <ContactAddress></ContactAddress>
   <ContactEMail>helpdesk@rdobeheer.nl</ContactEMail>
   <baseURL>https://yivi.pilot.uzi-online.minvws.nl</baseURL>
