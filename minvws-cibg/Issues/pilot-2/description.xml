@@ -14,7 +14,7 @@
 	<IssuerID>minvws-cibg</IssuerID>
 	<CredentialID>pilot-2</CredentialID>
 	<Description>
-		<en>Attributes of healthcare identity from the UZI register</en>
+		<en>Attributes of your healthcare identity from the UZI register</en>
 		<nl>Gegevens over uw zorgidentiteit uit het UZI-register</nl>
 	</Description>
 	<IssueURL>
@@ -58,7 +58,7 @@
 				<nl>Naam zorgaanbieder</nl>
 			</Name>
 			<Description>
-				<en>The name of a healthcare provider</en>
+				<en>The name of the healthcare provider</en>
 				<nl>De naam van de zorgaanbieder</nl>
 			</Description>
 		</Attribute>
