@@ -1,6 +1,6 @@
 <IssueSpecification version="4">
     <RevocationServers>
-        <RevocationServer>https://yivi.pilot.uzi-online.minvws.nl/</RevocationServer>
+        <RevocationServer>https://yivi.pilot.uzi-online.minvws.nl</RevocationServer>
     </RevocationServers>
 	<Name>
 		<en>UZI register</en>
