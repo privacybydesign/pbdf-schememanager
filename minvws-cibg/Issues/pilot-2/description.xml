@@ -1,0 +1,117 @@
+<IssueSpecification version="4">
+    <RevocationServers>
+        <RevocationServer>https://yivi.pilot.uzi-online.minvws.nl</RevocationServer>
+    </RevocationServers>
+	<Name>
+		<en>UZI register</en>
+		<nl>UZI-register</nl>
+	</Name>
+	<ShortName>
+		<en>UZI Register</en>
+		<nl>UZI-register</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>minvws-cibg</IssuerID>
+	<CredentialID>pilot-2</CredentialID>
+	<Description>
+		<en>Attributes of your healthcare identity from the UZI register</en>
+		<nl>Gegevens over uw zorgidentiteit uit het UZI-register</nl>
+	</Description>
+	<IssueURL>
+		<en>https://yivi.pilot.uzi-online.minvws.nl</en>
+		<nl>https://yivi.pilot.uzi-online.minvws.nl</nl>
+	</IssueURL>
+	<Attributes>
+		<Attribute id="initials">
+			<Name>
+				<en>Initials</en>
+				<nl>Initialen</nl>
+			</Name>
+			<Description>
+				<en>Your initials</en>
+				<nl>Uw initialen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="surnamePrefix">
+			<Name>
+				<en>Surname prefix(es)</en>
+				<nl>Tussenvoegsel(s)</nl>
+			</Name>
+			<Description>
+				<en>Your surname prefix(es)</en>
+				<nl>Tussenvoegsel(s) bij uw achternaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="surname">
+			<Name>
+				<en>Surname</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your surname</en>
+				<nl>Uw achternaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="entityName">
+			<Name>
+				<en>Name of healthcare provider</en>
+				<nl>Naam zorgaanbieder</nl>
+			</Name>
+			<Description>
+				<en>The name of the healthcare provider</en>
+				<nl>De naam van de zorgaanbieder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="ura">
+			<Name>
+				<en>URA number</en>
+				<nl>URA-nummer</nl>
+			</Name>
+			<Description>
+				<en>The URA number of a healthcare provider</en>
+				<nl>Het URA-nummer van een zorgaanbieder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="uziId">
+			<Name>
+				<en>UZI number</en>
+				<nl>UZI-nummer</nl>
+			</Name>
+			<Description>
+				<en>Your UZI number</en>
+				<nl>Uw UZI-nummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="roles">
+			<Name>
+				<en>Roles</en>
+				<nl>Rollen</nl>
+			</Name>
+			<Description>
+				<en>Your roles at a healthcare organisation as defined in the UZI register</en>
+				<nl>Uw rollen bij een zorgaanbieder zoals geregistreerd in het UZI-register</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loaAuthn">
+			<Name>
+				<en>Authentication assurance level</en>
+				<nl>Betrouwbaarheidsniveau authenticatie</nl>
+			</Name>
+			<Description>
+				<en>Level of authenticatie assurance</en>
+				<nl>Betrouwbaarheidsniveau authenticatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loaUzi">
+			<Name>
+				<en>UZI assurance level</en>
+				<nl>UZI-betrouwbaarheidsniveau</nl>
+			</Name>
+			<Description>
+				<en>Level of assurance of UZI identity</en>
+				<nl>Betrouwbaarheidsniveau van UZI-identiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute revocation="true"/>
+	</Attributes>
+</IssueSpecification>

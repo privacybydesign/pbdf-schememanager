@@ -1,0 +1,15 @@
+<Issuer version="4">
+  <ID>minvws-cibg</ID>
+  <Name>
+	  <en>Authority for issuing UZI credentials</en>
+	  <nl>Authoriteit voor het uitgeven van UZI-credentials</nl>
+  </Name>
+  <ShortName>
+	  <en>MinVWS CIBG</en>
+	  <nl>MinVWS CIBG</nl>
+  </ShortName>
+  <SchemeManager>pbdf</SchemeManager>
+  <ContactAddress></ContactAddress>
+  <ContactEMail>helpdesk@rdobeheer.nl</ContactEMail>
+  <baseURL>https://yivi.pilot.uzi-online.minvws.nl</baseURL>
+</Issuer>
