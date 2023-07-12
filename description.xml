@@ -10,8 +10,9 @@
 		<nl>De stichting Privacy by Design ontwikkelt de Yivi-app en de Yivi-infrastructuur, en geeft gratis een set basisattributen uit</nl>
 	</Description>
 	<MinimumAppVersion>
-		<Android>49</Android>
-		<iOS>33</iOS>
+		<!-- Build number of app version 6.2.0 -->
+		<Android>133</Android>
+		<iOS>133</iOS>
 	</MinimumAppVersion>
 	<KeyshareServer>https://irma.sidn.nl/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
 	<KeyshareWebsite>https://my.yivi.app/</KeyshareWebsite>
