@@ -1,0 +1,51 @@
+<IssueSpecification version="4">
+  <Name>
+    <en>PubHubs Registration</en>
+    <nl>PubHubs Registratie</nl>
+  </Name>
+  <ShortName>
+    <en>PubHubs Registration</en>
+    <nl>PubHubs Registratie</nl>
+  </ShortName>
+  <SchemeManager>pbdf</SchemeManager>
+  <IssuerID>PubHubs</IssuerID>
+  <CredentialID>account</CredentialID>
+  <Description>
+    <en>Your PubHubs registration</en>
+    <nl>Je PubHubs registratie</nl>
+  </Description>
+  <ShouldBeSingleton>false</ShouldBeSingleton>
+
+  <Attributes>
+    <Attribute id="id">
+      <Name>
+        <en>Registration pseudonym</en>
+        <nl>Registratie pseudoniem</nl>
+      </Name>
+      <Description>
+        <en>Your unique PubHubs pseudonym</en>
+        <nl>Je unieke PubHubs pseudoniem</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="registration_date">
+      <Name>
+        <en>Date of registration</en>
+        <nl>Datum van registratie</nl>
+      </Name>
+      <Description>
+        <en>Your original registration date at PubHubs</en>
+        <nl>Je oorspronkelijke registratiedatum bij PubHubs</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="registration_source">
+      <Name>
+        <en>Method of registration</en>
+        <nl>Methode van registratie</nl>
+      </Name>
+      <Description>
+        <en>Your method of registration</en>
+        <nl>Je methode van registratie</nl>
+      </Description>
+    </Attribute>
+  </Attributes>
+</IssueSpecification>
