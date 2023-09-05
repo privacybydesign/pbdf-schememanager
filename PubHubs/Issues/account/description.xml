@@ -27,7 +27,7 @@
         <nl>Je unieke PubHubs pseudoniem</nl>
       </Description>
     </Attribute>
-    <Attribute id="registration_date">
+    <Attribute id="registrationDate">
       <Name>
         <en>Date of registration</en>
         <nl>Datum van registratie</nl>
@@ -37,7 +37,7 @@
         <nl>Je oorspronkelijke registratiedatum bij PubHubs</nl>
       </Description>
     </Attribute>
-    <Attribute id="registration_source">
+    <Attribute id="registrationSource">
       <Name>
         <en>Method of registration</en>
         <nl>Methode van registratie</nl>
