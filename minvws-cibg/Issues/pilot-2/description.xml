@@ -21,6 +21,7 @@
 		<en>https://yivi.pilot.uzi-online.minvws.nl</en>
 		<nl>https://yivi.pilot.uzi-online.minvws.nl</nl>
 	</IssueURL>
+	<IsULIssueURL>true</IsULIssueURL>
 	<Attributes>
 		<Attribute id="initials">
 			<Name>
