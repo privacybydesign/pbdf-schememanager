@@ -10,12 +10,19 @@
 		<nl>De stichting Privacy by Design ontwikkelt de Yivi-app en de Yivi-infrastructuur, en geeft gratis een set basisattributen uit</nl>
 	</Description>
 	<MinimumAppVersion>
-		<Android>49</Android>
-		<iOS>33</iOS>
+		<!-- Build number of app version 6.2.0 -->
+		<Android>133</Android>
+		<iOS>133</iOS>
 	</MinimumAppVersion>
 	<KeyshareServer>https://irma.sidn.nl/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
 	<KeyshareWebsite>https://my.yivi.app/</KeyshareWebsite>
-	<KeyshareAttribute>pbdf.pbdf.mijnirma.email</KeyshareAttribute>
+	<!--
+		KeyShareAttribute is required for app users to gain access to the MyYivi
+		webinterface. The current format only allows to name one. Accepted attributes are:
+		- pbdf.pbdf.mijnirma.email
+		- pbdf.sidn-pbdf.irma.pseudonym
+	-->
+	<KeyshareAttribute>pbdf.sidn-pbdf.irma.pseudonym</KeyshareAttribute>
 	<TimestampServer>https://irma.sidn.nl/atumd/</TimestampServer>
 	<Contact>https://privacybydesign.foundation/</Contact>
 </SchemeManager>

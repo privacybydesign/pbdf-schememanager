@@ -1,0 +1,44 @@
+# Workflow to check whether the current state fulfills all requirements.
+name: Status checks
+
+on: [ pull_request ]
+
+jobs:  
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        irmago-version:
+         - v0.4.1
+         - v0.5.0  # Introduces revocation
+         - v0.6.1  # Introduces requestor schemes
+         - v0.8.0  # Introduces issue wizards in requestor schemes
+         - v0.10.0 # Introduces support for defining the languages into which texts should be translated
+         - latest
+    steps:
+     - uses: actions/checkout@v3
+       with:
+         path: pbdf # Older irmago versions require the directory name to be equal to the scheme identifier
+
+     - name: Initialize ~/.local/bin directory
+       run: |
+         mkdir -p "$HOME/.local/bin"
+         echo "$HOME/.local/bin" >> $GITHUB_PATH
+         
+     - name: Download irma CLI tool (latest)
+       if: matrix.irmago-version == 'latest'
+       run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/irma-linux-amd64
+
+     - name: Download irma CLI tool (specific version)
+       if: matrix.irmago-version != 'latest'
+       run: |
+         wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.irmago-version }}/irma-linux-amd64 \
+         || wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.irmago-version }}/irma-master-linux-amd64
+       shell: bash
+
+     - name: Set executable permissions
+       run: chmod +x "$HOME/.local/bin/irma"
+
+     - name: Verify scheme
+       run: irma scheme verify
+       working-directory: ./pbdf
