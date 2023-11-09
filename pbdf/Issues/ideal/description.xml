@@ -10,7 +10,7 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>ideal</CredentialID>
-	<DeprecatedSince>1983740400</DeprecatedSince>
+	<DeprecatedSince>1699657200</DeprecatedSince>
 	<Description>
 		<en>Your account details, provided by your bank, obtained through a token payment</en>
 		<nl>Je rekening details volgens je bank, verkregen via een kleine betaling</nl>
