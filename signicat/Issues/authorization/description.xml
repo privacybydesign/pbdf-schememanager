@@ -1,0 +1,203 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Authorization for an organization</en>
+		<nl>Machtiging voor een organisatie</nl>
+	</Name>
+	<ShortName>
+		<en>Authorization</en>
+		<nl>Machtiging</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>signicat</IssuerID>
+	<CredentialID>authorization</CredentialID>
+	<Description>
+		<en>Authorization for an organization, issued by an official registered in the Chamber of Commerce trade register</en>
+		<nl>Machtiging voor een organisatie, uitgegeven door een functionaris die geregistreerd staat in het KVK handelsregister</nl>
+	</Description>
+	<IssueURL>
+		<en>https://organisatiegegevens.signicat.nl/getauthorization</en>
+		<nl>https://organisatiegegevens.signicat.nl/getauthorization</nl>
+	</IssueURL>
+	<Attributes>
+		<Attribute id="kvkNumber">
+			<Name>
+				<en>KVK number</en>
+				<nl>KVK nummer</nl>
+			</Name>
+			<Description>
+				<en>KVK number of the organisation</en>
+				<nl>KVK nummer van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="name">
+			<Name>
+				<en>Name of the organisation</en>
+				<nl>Naam van de organisatie</nl>
+			</Name>
+			<Description>
+				<en>Name of the organisation</en>
+				<nl>Naam van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="authorizationDescription">
+			<Name>
+				<en>Description of the authorization</en>
+				<nl>Omschrijving van de machtiging</nl>
+			</Name>
+			<Description>
+				<en>Description of the authorization</en>
+				<nl>Omschrijving van de machtiging</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="lastName">
+			<Name>
+				<en>Last name</en>
+				<nl>Geslachtsnaam</nl>
+			</Name>
+			<Description>
+				<en>Last name of the official</en>
+				<nl>Geslachtsnaam van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="prefix">
+			<Name>
+				<en>Prefix</en>
+				<nl>Voorvoegsel</nl>
+			</Name>
+			<Description>
+				<en>Prefix of the official</en>
+				<nl>Voorvoegsel geslachtsnaam van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="firstNames">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>First names of the official</en>
+				<nl>Voornamen van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfBirth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Date of birth of the official</en>
+				<nl>Geboortedatum van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Full name of the official</en>
+				<nl>Volledige naam van de functionaris</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="rsin" optional="true">
+			<Name>
+				<en>RSIN number</en>
+				<nl>RSIN nummer</nl>
+			</Name>
+			<Description>
+				<en>Legal Entity or Partnership Identification Number</en>
+				<nl>Rechtspersoon of Samenwerkingsverband Identificatie Nummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="tradeNames" optional="true">
+			<Name>
+				<en>Trade names</en>
+				<nl>Handelsnamen</nl>
+			</Name>
+			<Description>
+				<en>Trade names under which the company trades</en>
+				<nl>Handelsnamen waar de onderneming onder handelt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="legalEntity">
+			<Name>
+				<en>Legal entity</en>
+				<nl>Rechtsvorm</nl>
+			</Name>
+			<Description>
+				<en>Legal entity of the owner of the organisation</en>
+				<nl>Rechtsvorm van de eigenaar van de maatschappelijke activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="address">
+			<Name>
+				<en>Address of the organisation</en>
+				<nl>Adres van de organisatie</nl>
+			</Name>
+			<Description>
+				<en>Address of the organisation</en>
+				<nl>Adres van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="sbiActivity">
+			<Name>
+				<en>SBI activity</en>
+				<nl>SBI activiteit</nl>
+			</Name>
+			<Description>
+				<en>SBI code in accordance with the SBI 2008 structure with associated description of the activity</en>
+				<nl>SBI codering conform de SBI 2008 structuur met bijbehorende omschrijving van de activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="registrationStart">
+			<Name>
+				<en>Start date of registration</en>
+				<nl>Aanvangsdatum van de registratie</nl>
+			</Name>
+			<Description>
+				<en>Start date of the organization's registration</en>
+				<nl>Aanvangsdatum van de registratie van de maatschappelijke activiteit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="referenceMoment">
+			<Name>
+				<en>Reference moment</en>
+				<nl>Peilmoment</nl>
+			</Name>
+			<Description>
+				<en>Reference moment is the moment that the data is retrieved from the trade register</en>
+				<nl>Peilmoment is het moment dat de gegevens uit het handelsregister zijn opgevraagd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="authorizationCode">
+			<Name>
+				<en>Authorization code</en>
+				<nl>Machtigingscode</nl>
+			</Name>
+			<Description>
+				<en>The code of the authorization</en>
+				<nl>De code van de machtiging</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="authorizationDate">
+			<Name>
+				<en>Authorization date</en>
+				<nl>Datum van machtigen</nl>
+			</Name>
+			<Description>
+				<en>Date on which the authorization was issued</en>
+				<nl>Datum waarop de machtiging is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuedBy">
+			<Name>
+				<en>Authorization issued by</en>
+				<nl>Machtiging afgegeven door</nl>
+			</Name>
+			<Description>
+				<en>The person who issued the authorization</en>
+				<nl>De persoon die de machtiging heeft afgegeven</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
