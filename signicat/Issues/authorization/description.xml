@@ -49,54 +49,24 @@
 				<nl>Omschrijving van de machtiging</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="lastName">
-			<Name>
-				<en>Last name</en>
-				<nl>Geslachtsnaam</nl>
-			</Name>
-			<Description>
-				<en>Last name of the official</en>
-				<nl>Geslachtsnaam van de functionaris</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="prefix">
-			<Name>
-				<en>Prefix</en>
-				<nl>Voorvoegsel</nl>
-			</Name>
-			<Description>
-				<en>Prefix of the official</en>
-				<nl>Voorvoegsel geslachtsnaam van de functionaris</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="firstNames">
-			<Name>
-				<en>First names</en>
-				<nl>Voornamen</nl>
-			</Name>
-			<Description>
-				<en>First names of the official</en>
-				<nl>Voornamen van de functionaris</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="dateOfBirth">
-			<Name>
-				<en>Date of birth</en>
-				<nl>Geboortedatum</nl>
-			</Name>
-			<Description>
-				<en>Date of birth of the official</en>
-				<nl>Geboortedatum van de functionaris</nl>
-			</Description>
-		</Attribute>
 		<Attribute id="fullname">
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
 			</Name>
 			<Description>
-				<en>Full name of the official</en>
-				<nl>Volledige naam van de functionaris</nl>
+				<en>Full name of the authorized person</en>
+				<nl>Volledige naam van de gemachtigde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="euid">
+			<Name>
+				<en>EUID</en>
+				<nl>EUID</nl>
+			</Name>
+			<Description>
+				<en>European Unique Identifier</en>
+				<nl>Europees uniek identificatienummer</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="rsin" optional="true">
@@ -161,12 +131,12 @@
 		</Attribute>
 		<Attribute id="referenceMoment">
 			<Name>
-				<en>Reference moment</en>
-				<nl>Peilmoment</nl>
+				<en>Reference moment of KVK registration of issuer</en>
+				<nl>Peilmoment van KVK inschrijving van uitgever van machtiging</nl>
 			</Name>
 			<Description>
-				<en>Reference moment is the moment that the data is retrieved from the trade register</en>
-				<nl>Peilmoment is het moment dat de gegevens uit het handelsregister zijn opgevraagd</nl>
+				<en>Reference moment of KVK registration of the person who issued the authorization</en>
+				<nl>Peilmoment van KVK inschrijving van de persoon die de machtiging heeft afgegeven</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="authorizationCode">
@@ -197,6 +167,46 @@
 			<Description>
 				<en>The person who issued the authorization</en>
 				<nl>De persoon die de machtiging heeft afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="lastName">
+			<Name>
+				<en>Last name</en>
+				<nl>Geslachtsnaam</nl>
+			</Name>
+			<Description>
+				<en>Last name of the authorized person</en>
+				<nl>Geslachtsnaam van de gemachtigde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="prefix">
+			<Name>
+				<en>Prefix</en>
+				<nl>Voorvoegsel</nl>
+			</Name>
+			<Description>
+				<en>Prefix of the authorized person</en>
+				<nl>Voorvoegsel geslachtsnaam van de gemachtigde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="firstNames">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>First names of the authorized person</en>
+				<nl>Voornamen van de gemachtigde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfBirth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Date of birth of the authorized person</en>
+				<nl>Geboortedatum van de gemachtigde</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
