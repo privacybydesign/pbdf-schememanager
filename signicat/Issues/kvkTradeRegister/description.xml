@@ -15,8 +15,8 @@
 		<nl>KVK bevoegdheidsgegevens van een functionaris voor een rechtspersoon</nl>
 	</Description>
 	<IssueURL>
-		<en>https://organisatiegegevens.signicat.nl</en>
-		<nl>https://organisatiegegevens.signicat.nl</nl>
+		<en>https://organisatiegegevens.signicat.nl/getauthorization/info</en>
+		<nl>https://organisatiegegevens.signicat.nl/getauthorization/info</nl>
 	</IssueURL>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<ForegroundColor>#ffffff</ForegroundColor>
