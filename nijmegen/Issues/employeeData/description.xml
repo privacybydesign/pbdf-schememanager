@@ -1,0 +1,45 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Employee data</en>
+		<nl>Personeelsgegevens</nl>
+	</Name>
+	<ShortName>
+		<en>Employee data</en>
+		<nl>Personeelsgegevens</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>employeeData</CredentialID>
+	<Description>
+		<en>Your employee data, from Gemeente Nijmegen</en>
+		<nl>Uw personeelsgegevens, van Gemeente Nijmegen</nl>
+	</Description>
+	<IssueURL>
+		<en>https://yivi-voor-medewerkers.nijmegen.nl</en>
+		<nl>https://yivi-voor-medewerkers.nijmegen.nl</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="email" displayIndex="0">
+			<Name>
+				<en>Email address</en>
+				<nl>E-mailadres</nl>
+			</Name>
+			<Description>
+				<en>Your Gemeente Nijmegen email address</en>
+				<nl>Uw Gemeente Nijmegen e-mailadres</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="works-for-gemeente-nijmegen" displayIndex="1">
+			<Name>
+				<en>Works for Gemeente Nijmegen</en>
+				<nl>Werkt voor Gemeente Nijmegen</nl>
+			</Name>
+			<Description>
+				<en>Works for Gemeente Nijmegen</en>
+				<nl>Werkt voor Gemeente Nijmegen</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
