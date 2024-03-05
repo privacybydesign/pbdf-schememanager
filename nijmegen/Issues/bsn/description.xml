@@ -1,4 +1,5 @@
 <IssueSpecification version="4">
+	<DeprecatedSince>1576843200</DeprecatedSince>
 	<Name>
 		<en>BSN</en>
 		<nl>BSN</nl>
