@@ -31,7 +31,7 @@
 				<nl>Uw Gemeente Nijmegen e-mailadres</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="works-for-gemeente-nijmegen" displayIndex="1">
+		<Attribute id="worksForGemeenteNijmegen" displayIndex="1">
 			<Name>
 				<en>Works for Gemeente Nijmegen</en>
 				<nl>Werkt voor Gemeente Nijmegen</nl>
