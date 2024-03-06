@@ -1,4 +1,5 @@
 <IssueSpecification version="4">
+	<DeprecatedSince>1576843200</DeprecatedSince>
 	<Name>
 		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
