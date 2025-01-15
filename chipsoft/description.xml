@@ -1,5 +1,6 @@
 <Issuer version="4">
 	<ID>chipsoft</ID>
+	<DeprecatedSince>1736521020</DeprecatedSince>
 	<ShortName>
 		<en>ChipSoft</en>
 		<nl>ChipSoft</nl>
