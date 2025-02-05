@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/uitgifte/idin/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
+		<en>https://idin-issuer.yivi.app/</en>
+		<nl>https://idin-issuer.yivi.app/</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>

@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://sidnemailissuer.yiviconnect.nl/issuance/email</en>
-		<nl>https://sidnemailissuer.yiviconnect.nl/uitgifte/email</nl>
+		<en>https://email-issuer.yivi.app/en/</en>
+		<nl>https://email-issuer.yivi.app/nl/</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
