@@ -1,0 +1,59 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>YiviTube membership</en>
+		<nl>YiviTube lidmaatschap</nl>
+	</Name>
+	<ShortName>
+		<en>YiviTube</en>
+		<nl>YiviTube</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>yivitube</CredentialID>
+	<Description>
+		<en>Your YiviTube membership attributes</en>
+		<nl>Je YiviTube lidmaatschapsattributen</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://yivitube.yivi.app/</en>
+		<nl>https://yivitube.yivi.app/</nl>
+	</IssueURL>
+
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#FFB54C</BackgroundGradientStart>
+	<BackgroundGradientEnd>#FFE8CD</BackgroundGradientEnd>
+
+	<Attributes>
+		<Attribute id="type">
+			<Name>
+				<en>Type</en>
+				<nl>Type</nl>
+			</Name>
+			<Description>
+				<en>Your membership type</en>
+				<nl>Je lidmaatschapstype</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="id">
+			<Name>
+				<en>ID</en>
+				<nl>ID</nl>
+			</Name>
+			<Description>
+				<en>Your membership ID</en>
+				<nl>Je lidmaatschapsnummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname" optional="true">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
