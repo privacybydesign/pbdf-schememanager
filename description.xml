@@ -23,6 +23,6 @@
 		- pbdf.sidn-pbdf.irma.pseudonym
 	-->
 	<KeyshareAttribute>pbdf.sidn-pbdf.irma.pseudonym</KeyshareAttribute>
-	<TimestampServer>https://irma.sidn.nl/atumd/</TimestampServer>
-	<Contact>https://privacybydesign.foundation/</Contact>
+	<TimestampServer>https://atumd.yivi.app/</TimestampServer>
+	<Contact>https://yivi.app/</Contact>
 </SchemeManager>
