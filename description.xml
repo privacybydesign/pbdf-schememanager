@@ -11,8 +11,8 @@
 	</Description>
 	<MinimumAppVersion>
 		<!-- Build number of app version 7.5.4 -->
-        <Android>4194468</Android>
-        <iOS>4194468</iOS>
+		<Android>4194468</Android>
+		<iOS>4194468</iOS>
 	</MinimumAppVersion>
 	<KeyshareServer>https://keyshare.yivi.app/</KeyshareServer>
 	<KeyshareWebsite>https://my.yivi.app/</KeyshareWebsite>
