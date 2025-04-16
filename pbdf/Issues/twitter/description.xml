@@ -10,6 +10,7 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>twitter</CredentialID>
+	<DeprecatedSince>1744970400</DeprecatedSince>
 	<Description>
 		<en>Twitter attributes from your Twitter account</en>
 		<nl>Twitter attributen uit je Twitter account</nl>
