@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/surfconext/surfconext/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/surfconext/surfconext/</nl>
+		<en>https://saml-issuer.yivi.app/en/surfconext/</en>
+		<nl>https://saml-issuer.yivi.app/nl/surfconext/</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>

@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/social/linkedin/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/social/linkedin/</nl>
+		<en>https://saml-issuer.yivi.app/en/linkedin/</en>
+		<nl>https://saml-issuer.yivi.app/nl/linkedin/</nl>
 	</IssueURL>
 
 	<ForegroundColor>#FFFFFF</ForegroundColor>

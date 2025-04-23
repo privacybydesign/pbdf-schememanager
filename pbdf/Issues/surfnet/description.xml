@@ -10,6 +10,7 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>surfnet</CredentialID>
+	<DeprecatedSince>1744970400</DeprecatedSince>
 	<Description>
 		<en>Your Surfnet attributes obtained through SURFconext</en>
 		<nl>Je Surfnet-attributen, verkregen via SURFconext</nl>

@@ -10,6 +10,7 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>irmatube</CredentialID>
+	<DeprecatedSince>1744970400</DeprecatedSince>
 	<Description>
 		<en>Your IRMATube membership attributes</en>
 		<nl>Je IRMATube lidmaatschapsattributen</nl>

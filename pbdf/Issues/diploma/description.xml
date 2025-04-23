@@ -10,6 +10,7 @@
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>diploma</CredentialID>
+	<DeprecatedSince>1744970400</DeprecatedSince>
 	<Description>
 		<en>Data extracted from your diploma provided by DUO</en>
 		<nl>Gegevens uit je diploma, verkregen via DUO</nl>
