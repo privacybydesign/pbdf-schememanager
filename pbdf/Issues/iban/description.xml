@@ -1,0 +1,80 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Bank account</en>
+		<nl>Bankrekening</nl>
+	</Name>
+	<ShortName>
+		<en>Bank</en>
+		<nl>Bank</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>iban</CredentialID>
+	<Description>
+		<en>Your account details, provided by your bank, obtained through a small payment</en>
+		<nl>Je rekeninggegevens volgens je bank, verkregen via een kleine betaling</nl>
+	</Description>
+	<IssueURL>
+		<en>https://iban-issuer.yivi.app/en</en>
+		<nl>https://iban-issuer.yivi.app/nl</nl>
+	</IssueURL>
+
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#053F58</BackgroundGradientStart>
+	<BackgroundGradientEnd>#165B78</BackgroundGradientEnd>
+
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Financial</en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en>Add your bank account to your Yivi app. You can add multiple bank accounts.</en>
+		<nl>Laad je bankrekening in je Yivi-app. Je kunt meerdere bankrekeningen toevoegen.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With your bank account in your Yivi app you can disclose that you are the account holder of this verified bank account.</en>
+		<nl>Met jouw bankrekening in de Yivi-app kun je onthullen dat jij de rekeninghouder bent van deze geverifieerde bankrekening.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• IBAN,\n• BIC code,\n• account holder.</en>
+		<nl>Je laadt de volgende gegevens:\n• IBAN,\n• BIC-code,\n• rekeninghouder.</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en>In case you have a Dutch bank account, you can add its account details to your Yivi app. To do so, complete the following steps.\n1. Select Start IBAN verification.\n2. Transfer an amount of €0.01 to CM (our payment provider) via an ordinary iDEAL payment.\n3. The Privacy by Design Foundation receives your bank details from CM through iDEAL and passes them on to your Yivi app.\n\nYou now receive a card with the bank details of the account that you used for the payment. Repeat this process for other bank accounts that you wish to load into Yivi.</en>
+		<nl>Je kunt de rekeninggegevens van je (Nederlandse) bankrekening in je Yivi-app laden.\n\nDoorloop daarvoor de volgende stappen.\n1. Selecteer Start IBAN verificatie.\n2. Maak een bedrag van €0,01 over aan CM (onze betalingsaanbieder) via een normale iDEAL betaling.\n3. De stichting Privacy by Design ontvangt je bankgegevens van CM via iDEAL en geeft deze door aan je Yivi-app.\n\nJe ontvangt nu een apart kaartje in je Yivi app met je bank details. Herhaal dit proces voor iedere bankrekening die je toe wil voegen.</nl>
+	</FAQHowto>
+
+	<Attributes>
+		<Attribute id="fullname">
+			<Name>
+				<en>Account holder</en>
+				<nl>Rekeninghouder</nl>
+			</Name>
+			<Description>
+				<en>Your full name, as registered at your bank</en>
+				<nl>Je volledige naam, zoals geregistreerd bij je bank</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="iban">
+			<Name>
+				<en>IBAN</en>
+				<nl>IBAN</nl>
+			</Name>
+			<Description>
+				<en>The IBAN of your bank account</en>
+				<nl>De IBAN van je bankrekening</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bic">
+			<Name>
+				<en>BIC</en>
+				<nl>BIC</nl>
+			</Name>
+			<Description>
+				<en>The Bank Identifier Code of your bank</en>
+				<nl>De Bank Identifier Code van je bank</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
