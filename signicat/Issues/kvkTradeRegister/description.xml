@@ -18,7 +18,7 @@
 		<en>https://organisatiegegevens.signicat.nl/getauthorization/info</en>
 		<nl>https://organisatiegegevens.signicat.nl/getauthorization/info</nl>
 	</IssueURL>
-	<IsInCredentialStore>true</IsInCredentialStore>
+	<IsInCredentialStore>false</IsInCredentialStore>
 	<ForegroundColor>#ffffff</ForegroundColor>
 	<BackgroundGradientStart>#aa418c</BackgroundGradientStart>
 	<BackgroundGradientEnd>#aa418c</BackgroundGradientEnd>
