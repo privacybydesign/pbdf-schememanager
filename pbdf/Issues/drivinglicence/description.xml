@@ -1,0 +1,213 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Dutch Driving Licence</en>
+		<nl>Nederlands Rijbewijs</nl>
+	</Name>
+	<ShortName>
+		<en>Dutch Driving Licence</en>
+		<nl>Nederlands Rijbewijs</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>drivinglicence</CredentialID>
+	<Description>
+		<en>Your personal details derived from your Dutch driving licence</en>
+		<nl>Je persoonsgegevens volgens je Nederlandse rijbewijs</nl>
+	</Description>
+	<IssueURL>
+		<en>https://passport-issuer.yivi.app/en</en>
+		<nl>https://passport-issuer.yivi.app/nl</nl>
+	</IssueURL>
+
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#053F58</BackgroundGradientStart>
+	<BackgroundGradientEnd>#165B78</BackgroundGradientEnd>
+
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Personal</en>
+		<nl>Persoonlijk</nl>
+	</Category>
+	<FAQIntro>
+		<en>Add your personal data from your Dutch driving licence to your Yivi app.</en>
+		<nl>Voeg persoonsgegevens van je Nederlandse rijbewijs toe aan je Yivi-app.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>Your personal data in the Yivi app allows you to identify yourself online. Then you can, for example, disclose your name or prove that you are over 18 years old (without revealing your date of birth).</en>
+		<nl>Met je persoonsgegevens in de Yivi-app kun je jezelf online identificeren. Je kunt dan bijvoorbeeld je naam delen of aantonen dat je ouder bent dan 18 jaar (zonder je geboortedatum prijs te geven).</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• photo,\n• document number,\n• first name(s),\n• last name,\n• issuing authority,\n• date of birth,\n• place of birth,\n• year of birth,\n• date of expiry,\n• whether you are over 12, 16, 18, 21 or 65,\n• whether active authentication was performed.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• foto,\n• documentnummer,\n• voornaam/voornamen,\n• achternaam,\n• uitgevende autoriteit,\n• geboortedatum,\n• geboorteplaats,\n• geboortejaar,\n• vervaldatum,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of er actieve authenticatie heeft plaatsgevonden.</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en>1. Scan the front side of your Dutch driving licence with your phone.\n2. Extract the data using the NFC chip in your phone.</en>
+		<nl>1. Scan de voorkant van je Nederlandse rijbewijs met je telefoon\n2. Haal de gegevens op via de NFC-chip in je telefoon.</nl>
+	</FAQHowto>
+
+
+	<Attributes>
+		<Attribute id="documentNumber">
+			<Name>
+				<en>Document number</en>
+				<nl>Documentnummer</nl>
+			</Name>
+			<Description>
+				<en>Document number</en>
+				<nl>Documentnummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="firstName">
+			<Name>
+				<en>First name</en>
+				<nl>Voornaam</nl>
+			</Name>
+			<Description>
+				<en>Given name(s) from driving licence</en>
+				<nl>Voornamen volgens rijbewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="lastName">
+			<Name>
+				<en>Last name</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Surname from driving licence</en>
+				<nl>Achternaam volgens rijbewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuingAuthority">
+			<Name>
+				<en>Issuing authority</en>
+				<nl>Uitgevende autoriteit</nl>
+			</Name>
+			<Description>
+				<en>Municipality responsible for issuing this driving licence</en>
+				<nl>Gemeente die verantwoordelijk is voor de afgifte van dit rijbewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuingMemberState">
+			<Name>
+				<en>Issuing member state</en>
+				<nl>Uitgevende lidstaat</nl>
+			</Name>
+			<Description>
+				<en>European state issuing this driving licence</en>
+				<nl>Europese staat die dit rijbewijs heeft uitgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfBirth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Birthdate from the driving licence</en>
+				<nl>Geboortedatum volgens rijbewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="placeOfBirth">
+			<Name>
+				<en>Place of birth</en>
+				<nl>Geboorteplaats</nl>
+			</Name>
+			<Description>
+				<en>Place of birth from the driving licence</en>
+				<nl>Geboorteplaats volgens rijbewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="yearOfBirth">
+			<Name>
+				<en>Year of birth</en>
+				<nl>Geboortejaar</nl>
+			</Name>
+			<Description>
+				<en>Year of birth from the driving licence</en>
+				<nl>Geboortejaar volgens rijbewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfExpiry">
+			<Name>
+				<en>Date of expiry</en>
+				<nl>Vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of the driving licence</en>
+				<nl>Vervaldatum volgens rijbewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over12" displayHint="yesno">
+			<Name>
+				<en>Over 12</en>
+				<nl>Ouder dan 12</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 12</en>
+				<nl>Of je ouder dan 12 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over16" displayHint="yesno">
+			<Name>
+				<en>Over 16</en>
+				<nl>Ouder dan 16</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 16</en>
+				<nl>Of je ouder dan 16 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over18" displayHint="yesno">
+			<Name>
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 18</en>
+				<nl>Of je ouder dan 18 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over21" displayHint="yesno">
+			<Name>
+				<en>Over 21</en>
+				<nl>Ouder dan 21</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 21</en>
+				<nl>Of je ouder dan 21 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over65" displayHint="yesno">
+			<Name>
+				<en>Over 65</en>
+				<nl>Ouder dan 65</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 65</en>
+				<nl>Of je ouder dan 65 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="activeAuthentication" displayHint="yesno">
+			<Name>
+				<en>Activate authentication</en>
+				<nl>Actieve authenticatie</nl>
+			</Name>
+			<Description>
+				<en>Whether active authentication was performed</en>
+				<nl>Of er actieve authenticatie heeft plaatsgevonden</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="photo"
+			displayHint="portraitPhoto"
+			optional="true">
+			<Name>
+				<en>Photo</en>
+				<nl>Foto</nl>
+			</Name>
+			<Description>
+				<en>Portrait photo of the person</en>
+				<nl>Portretfoto van de persoon</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
