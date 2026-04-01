@@ -1,5 +1,6 @@
 <Issuer version="4">
   <ID>PubHubs</ID>
+  <DeprecatedSince>1775028603</DeprecatedSince>
   <Name>
 	  <en>PubHubs</en>
 	  <nl>PubHubs</nl>

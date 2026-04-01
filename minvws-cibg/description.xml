@@ -1,5 +1,6 @@
 <Issuer version="4">
   <ID>minvws-cibg</ID>
+  <DeprecatedSince>1775028603</DeprecatedSince>
   <Name>
 	  <en>Authority for issuing UZI credentials</en>
 	  <nl>Authoriteit voor het uitgeven van UZI-credentials</nl>
