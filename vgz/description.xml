@@ -1,5 +1,6 @@
 <Issuer version="4">
 	<ID>vgz</ID>
+	<DeprecatedSince>1775028603</DeprecatedSince>
 	<ShortName>
 		<en>VGZ</en>
 		<nl>VGZ</nl>

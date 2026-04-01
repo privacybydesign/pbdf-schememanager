@@ -1,5 +1,6 @@
 <Issuer version="4">
 	<ID>bzkpilot</ID>
+	<DeprecatedSince>1775028603</DeprecatedSince>
 	<ShortName>
 		<en>Rijksoverheid Pilot</en>
 		<nl>Rijksoverheid Pilot</nl>

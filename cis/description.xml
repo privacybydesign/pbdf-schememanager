@@ -1,5 +1,6 @@
 <Issuer version="4">
 	<ID>cis</ID>
+	<DeprecatedSince>1775028603</DeprecatedSince>
 	<ShortName>
 		<en>Foundation Central Information System</en>
 		<nl>Stichting Centraal Informatie Systeem</nl>
