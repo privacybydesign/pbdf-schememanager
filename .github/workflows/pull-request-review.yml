@@ -21,13 +21,13 @@ jobs:
     if: github.event.pull_request.draft == false
     steps:
       - name: Checkout pull request base
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           path: ./base
           ref: ${{ github.event.pull_request.base.sha }}
 
       - name: Checkout pull request head
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           path: ./head
           ref: ${{ github.event.pull_request.head.sha }}
@@ -37,37 +37,37 @@ jobs:
           mkdir -p "$HOME/.local/bin"
           echo "$HOME/.local/bin" >> $GITHUB_PATH
           
-      - name: Download irma CLI tool
-        run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/irma-linux-amd64
+      - name: Download yivi CLI tool
+        run: wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/latest/download/yivi-linux-amd64
 
       - name: Set executable permissions
-        run: chmod +x "$HOME/.local/bin/irma"
+        run: chmod +x "$HOME/.local/bin/yivi"
 
       - name: Verify scheme at base
-        run: irma scheme verify > ../output-base.txt
+        run: yivi irma scheme verify > ../output-base.txt
         shell: bash
         working-directory: ./base
 
       - name: Verify scheme at head
         id: verify-head
-        run: irma scheme verify
+        run: yivi irma scheme verify
         shell: bash
         working-directory: ./head
         continue-on-error: true
 
       - name: Override signing keys
-        run: rm pk.pem && irma scheme keygen
+        run: rm pk.pem && yivi irma scheme keygen
         shell: bash
         working-directory: ./head
 
       - name: Verify whether head can be signed
-        run: irma scheme sign > ../output-head.txt 2>&1
+        run: yivi irma scheme sign > ../output-head.txt 2>&1
         shell: bash
         working-directory: ./head
         continue-on-error: true
 
       - name: Initialize message
-        run: echo "The following issues were found when running \`irma scheme verify\`:" > ./message.txt
+        run: echo "The following issues were found when running \`yivi irma scheme verify\`:" > ./message.txt
         shell: bash
 
       - name: Generate diff
@@ -93,7 +93,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr comment ${{ github.event.pull_request.number }} -b "\
-          No issues were found when running \`irma scheme verify\`. The status checks fail because the changes are not signed yet. \
+          No issues were found when running \`yivi irma scheme verify\`. The status checks fail because the changes are not signed yet. \
           This will be resolved by the Yivi team when your changes have been approved. You don't have to deal with this yourself."
         working-directory: ./base
 
@@ -103,7 +103,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr comment ${{ github.event.pull_request.number }} -b "\
-          No issues were found when running \`irma scheme verify\`. The status checks fail because the changes are not signed yet. \
+          No issues were found when running \`yivi irma scheme verify\`. The status checks fail because the changes are not signed yet. \
           The Yivi team has to do this for you. Please [allow edits from maintainers](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork) \
           on your pull request to make this possible."
         working-directory: ./base
@@ -112,5 +112,5 @@ jobs:
         if: steps.verify-head.outcome == 'success' && steps.generate-diff.outcome == 'failure'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh pr comment ${{ github.event.pull_request.number }} -b "No issues were found when running \`irma scheme verify\`."
+        run: gh pr comment ${{ github.event.pull_request.number }} -b "No issues were found when running \`yivi irma scheme verify\`."
         working-directory: ./base

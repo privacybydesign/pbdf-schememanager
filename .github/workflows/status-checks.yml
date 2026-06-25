@@ -3,8 +3,43 @@ name: Status checks
 
 on: [ pull_request ]
 
-jobs:  
+jobs:
   verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        yivi-version:
+         - v1.0.0 # Introduces Yivi CLI tool
+         - latest
+    steps:
+     - uses: actions/checkout@v7
+       with:
+         path: pbdf # Older irmago versions require the directory name to be equal to the scheme identifier
+
+     - name: Initialize ~/.local/bin directory
+       run: |
+         mkdir -p "$HOME/.local/bin"
+         echo "$HOME/.local/bin" >> $GITHUB_PATH
+         
+     - name: Download yivi CLI tool (latest)
+       if: matrix.yivi-version == 'latest'
+       run: wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/latest/download/yivi-linux-amd64
+
+     - name: Download yivi CLI tool (specific version)
+       if: matrix.yivi-version != 'latest'
+       run: |
+         wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.yivi-version }}/yivi-linux-amd64 \
+         || wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.yivi-version }}/yivi-master-linux-amd64
+       shell: bash
+
+     - name: Set executable permissions
+       run: chmod +x "$HOME/.local/bin/yivi"
+
+     - name: Verify scheme
+       run: yivi irma scheme verify
+       working-directory: ./pbdf
+
+  verify-backwards-compatibility:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -14,9 +49,9 @@ jobs:
          - v0.6.1  # Introduces requestor schemes
          - v0.8.0  # Introduces issue wizards in requestor schemes
          - v0.10.0 # Introduces support for defining the languages into which texts should be translated
-         - latest
+         - v0.19.2 # Latest IRMA CLI version
     steps:
-     - uses: actions/checkout@v3
+     - uses: actions/checkout@v7
        with:
          path: pbdf # Older irmago versions require the directory name to be equal to the scheme identifier
 
@@ -25,12 +60,7 @@ jobs:
          mkdir -p "$HOME/.local/bin"
          echo "$HOME/.local/bin" >> $GITHUB_PATH
          
-     - name: Download irma CLI tool (latest)
-       if: matrix.irmago-version == 'latest'
-       run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/irma-linux-amd64
-
      - name: Download irma CLI tool (specific version)
-       if: matrix.irmago-version != 'latest'
        run: |
          wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.irmago-version }}/irma-linux-amd64 \
          || wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.irmago-version }}/irma-master-linux-amd64
