@@ -1,0 +1,344 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Certificate of conduct (VOG)</en>
+        <nl>Verklaring Omtrent het Gedrag (VOG)</nl>
+    </Name>
+    <ShortName>
+        <en>VOG</en>
+        <nl>VOG</nl>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>vog</CredentialID>
+    <Description>
+        <en>Your Verklaring Omtrent het Gedrag (certificate of conduct) issued by Justis, validated with validatie.nl and bound to your identity.</en>
+        <nl>Je Verklaring Omtrent het Gedrag, afgegeven door Justis, gevalideerd via validatie.nl en gekoppeld aan je identiteit.</nl>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://vog.yivi.app/en</en>
+        <nl>https://vog.yivi.app/nl</nl>
+    </IssueURL>
+    <Attributes>
+        <Attribute id="referenceNumber">
+            <Name>
+                <en>Reference number</en>
+                <nl>Kenmerk</nl>
+            </Name>
+            <Description>
+                <en>Reference number (kenmerk) of the VOG</en>
+                <nl>Kenmerk van de VOG</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="issueDate">
+            <Name>
+                <en>Date of issue</en>
+                <nl>Datum</nl>
+            </Name>
+            <Description>
+                <en>Date the VOG was issued (YYYY-MM-DD)</en>
+                <nl>Datum waarop de VOG is afgegeven (JJJJ-MM-DD)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="surname">
+            <Name>
+                <en>Surname</en>
+                <nl>Geslachtsnaam</nl>
+            </Name>
+            <Description>
+                <en>Surname as printed on the VOG</en>
+                <nl>Geslachtsnaam zoals op de VOG</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="prefix" optional="true">
+            <Name>
+                <en>Prefix</en>
+                <nl>Tussenvoegsels</nl>
+            </Name>
+            <Description>
+                <en>Surname prefix</en>
+                <nl>Tussenvoegsels</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="givenNames">
+            <Name>
+                <en>Given names</en>
+                <nl>Voornamen</nl>
+            </Name>
+            <Description>
+                <en>Given names as printed on the VOG</en>
+                <nl>Voornamen zoals op de VOG</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="dateOfBirth">
+            <Name>
+                <en>Date of birth</en>
+                <nl>Geboortedatum</nl>
+            </Name>
+            <Description>
+                <en>Date of birth (YYYY-MM-DD)</en>
+                <nl>Geboortedatum (JJJJ-MM-DD)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="placeOfBirth">
+            <Name>
+                <en>Place of birth</en>
+                <nl>Geboorteplaats</nl>
+            </Name>
+            <Description>
+                <en>Place of birth</en>
+                <nl>Geboorteplaats</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="countryOfBirth">
+            <Name>
+                <en>Country of birth</en>
+                <nl>Geboorteland</nl>
+            </Name>
+            <Description>
+                <en>Country of birth</en>
+                <nl>Geboorteland</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="purpose">
+            <Name>
+                <en>Purpose</en>
+                <nl>Doel</nl>
+            </Name>
+            <Description>
+                <en>Function or purpose the VOG was requested for</en>
+                <nl>Functie of doel waarvoor de VOG is aangevraagd</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="profileCodes">
+            <Name>
+                <en>Screening profile codes</en>
+                <nl>Screeningsprofiel codes</nl>
+            </Name>
+            <Description>
+                <en>Function aspect codes the screening covered, e.g. "84, 85"</en>
+                <nl>Functieaspecten waarop is gescreend, bijv. "84, 85"</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="profileDescription">
+            <Name>
+                <en>Screening profile</en>
+                <nl>Screeningsprofiel</nl>
+            </Name>
+            <Description>
+                <en>Function aspects with description, e.g. "84: Belast zijn met de zorg voor minderjarigen"</en>
+                <nl>Functieaspecten met omschrijving, bijv. "84: Belast zijn met de zorg voor minderjarigen"</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="riskAreas">
+            <Name>
+                <en>Risk areas</en>
+                <nl>Risicogebieden</nl>
+            </Name>
+            <Description>
+                <en>Risk areas of the general screening profile covered, e.g. "Informatie, Personen"</en>
+                <nl>Risicogebieden van het algemeen screeningsprofiel, bijv. "Informatie, Personen"</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="identitySource">
+            <Name>
+                <en>Identity verified with</en>
+                <nl>Identiteit geverifieerd met</nl>
+            </Name>
+            <Description>
+                <en>Credential used to bind the VOG to the holder: brp, passport, id_card or driving_licence</en>
+                <nl>Gegeven waarmee de VOG aan de houder is gekoppeld: brp, passport, id_card of driving_licence</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect11" displayHint="yesno">
+            <Name>
+                <en>11 Authorised to consult/process systems</en>
+                <nl>11 Bevoegdheid raadplegen/bewerken systemen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 11: being authorised to consult and or process data in computer systems</en>
+                <nl>Gescreend op functieaspect 11: bevoegdheid hebben tot het raadplegen en/of bewerken van systemen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect12" displayHint="yesno">
+            <Name>
+                <en>12 Sensitive/confidential information</en>
+                <nl>12 Gevoelige/vertrouwelijke informatie</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 12: handling sensitive/confidential information</en>
+                <nl>Gescreend op functieaspect 12: met gevoelige/vertrouwelijke informatie omgaan</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect13" displayHint="yesno">
+            <Name>
+                <en>13 Security systems knowledge</en>
+                <nl>13 Kennis van veiligheidssystemen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 13: having knowledge of security systems, control mechanisms and verification processes</en>
+                <nl>Gescreend op functieaspect 13: kennis dragen van veiligheidssystemen, controlemechanismen en verificatieprocessen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect21" displayHint="yesno">
+            <Name>
+                <en>21 Handling money</en>
+                <nl>21 Omgaan met geld</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 21: handling cash, transferable money and/or (digital) securities</en>
+                <nl>Gescreend op functieaspect 21: met contante en/of girale gelden en/of (digitale) waardepapieren omgaan</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect22" displayHint="yesno">
+            <Name>
+                <en>22 Budgetary authority</en>
+                <nl>22 Budgetbevoegdheid</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 22: having budgetary authority</en>
+                <nl>Gescreend op functieaspect 22: budgetbevoegdheid hebben</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect36" displayHint="yesno">
+            <Name>
+                <en>36 Monitoring production processes</en>
+                <nl>36 Bewaken van productieprocessen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 36: monitoring production processes</en>
+                <nl>Gescreend op functieaspect 36: het bewaken van productieprocessen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect37" displayHint="yesno">
+            <Name>
+                <en>37 Access to goods</en>
+                <nl>37 Beschikken over goederen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 37: having access to goods</en>
+                <nl>Gescreend op functieaspect 37: het beschikken over goederen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect38" displayHint="yesno">
+            <Name>
+                <en>38 Hazardous materials/objects</en>
+                <nl>38 Risicovolle stoffen/objecten</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 38: having access to materials, property, objects etc. that pose a risk to people and/or animals</en>
+                <nl>Gescreend op functieaspect 38: het voorhanden hebben van stoffen, objecten en voorwerpen die een risico vormen voor mensen (en dier)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect41" displayHint="yesno">
+            <Name>
+                <en>41 Providing services</en>
+                <nl>41 Verlenen van diensten</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 41: providing services (advice, security, cleaning, catering, maintenance etc.)</en>
+                <nl>Gescreend op functieaspect 41: het verlenen van diensten (advies, beveiliging, schoonmaak, catering, onderhoud etc.)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect43" displayHint="yesno">
+            <Name>
+                <en>43 Services in living environment</en>
+                <nl>43 Diensten in persoonlijke leefomgeving</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 43: services in individual living environment</en>
+                <nl>Gescreend op functieaspect 43: het verlenen van diensten in de persoonlijke leefomgeving</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect53" displayHint="yesno">
+            <Name>
+                <en>53 Offers and contracts</en>
+                <nl>53 Offertes en contracten</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 53: making decisions on offers and awarding contracts</en>
+                <nl>Gescreend op functieaspect 53: het beslissen over offertes en het doen van aanbestedingen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect61" displayHint="yesno">
+            <Name>
+                <en>61 Operating machinery/vehicles</en>
+                <nl>61 Bedienen machines/voertuigen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 61: maintaining/converting/operating machinery, devices, vehicles and/or aircrafts</en>
+                <nl>Gescreend op functieaspect 61: het onderhouden/ombouwen/bedienen van (productie)machines, apparaten, voertuigen en/of luchtvaartuigen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect62" displayHint="yesno">
+            <Name>
+                <en>62 Transporting goods</en>
+                <nl>62 Vervoer van goederen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 62: transporting and/or delivering goods, post and packages</en>
+                <nl>Gescreend op functieaspect 62: (rijdend) vervoer van goederen, producten, post en pakketten</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect63" displayHint="yesno">
+            <Name>
+                <en>63 Transporting passengers</en>
+                <nl>63 Vervoer van personen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 63: transporting passengers</en>
+                <nl>Gescreend op functieaspect 63: (rijdend) vervoer waarbij personen worden vervoerd</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect71" displayHint="yesno">
+            <Name>
+                <en>71 Managing people/organisation</en>
+                <nl>71 Aansturen mensen/organisatie</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 71: managing people and/or (part of) an organisation</en>
+                <nl>Gescreend op functieaspect 71: personen die mensen en/of een organisatie aansturen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect84" displayHint="yesno">
+            <Name>
+                <en>84 Care of minors</en>
+                <nl>84 Zorg voor minderjarigen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 84: being responsible for the care of minors</en>
+                <nl>Gescreend op functieaspect 84: belast zijn met de zorg voor minderjarigen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect85" displayHint="yesno">
+            <Name>
+                <en>85 Care of vulnerable persons</en>
+                <nl>85 Zorg voor hulpbehoevende personen</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 85: being responsible for the care of persons requiring assistance such as the aged and disabled</en>
+                <nl>Gescreend op functieaspect 85: belast zijn met de zorg voor (hulpbehoevende) personen, zoals ouderen en gehandicapten</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect86" displayHint="yesno">
+            <Name>
+                <en>86 Childcare</en>
+                <nl>86 Kinderopvang</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 86: childcare</en>
+                <nl>Gescreend op functieaspect 86: kinderopvang</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aspect91" displayHint="yesno">
+            <Name>
+                <en>91 Port area</en>
+                <nl>91 Havengebied</nl>
+            </Name>
+            <Description>
+                <en>Screened for function aspect 91: port area</en>
+                <nl>Gescreend op functieaspect 91: havengebied</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>
