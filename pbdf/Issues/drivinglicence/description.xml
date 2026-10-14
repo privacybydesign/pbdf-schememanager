@@ -37,8 +37,8 @@
 		<nl>Met je persoonsgegevens in de Yivi-app kun je jezelf online identificeren. Je kunt dan bijvoorbeeld je naam delen of aantonen dat je ouder bent dan 18 jaar (zonder je geboortedatum prijs te geven).</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data:\n• photo,\n• document number,\n• first name(s),\n• last name,\n• issuing authority,\n• date of birth,\n• place of birth,\n• year of birth,\n• date of expiry,\n• whether you are over 12, 16, 18, 21 or 65,\n• whether active authentication was performed.</en>
-		<nl>Je voegt de volgende gegevens toe:\n• foto,\n• documentnummer,\n• voornaam/voornamen,\n• achternaam,\n• uitgevende autoriteit,\n• geboortedatum,\n• geboorteplaats,\n• geboortejaar,\n• vervaldatum,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of er actieve authenticatie heeft plaatsgevonden.</nl>
+		<en>You will add the following data:\n• photo,\n• document number,\n• first name(s),\n• last name,\n• issuing authority,\n• date of birth,\n• place of birth,\n• year of birth,\n• date of expiry,\n• whether you are over 12, 16, 18, 21 or 65,\n• whether active authentication was performed,\n• your driving licence categories (such as B), with their dates of issue and expiry.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• foto,\n• documentnummer,\n• voornaam/voornamen,\n• achternaam,\n• uitgevende autoriteit,\n• geboortedatum,\n• geboorteplaats,\n• geboortejaar,\n• vervaldatum,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of er actieve authenticatie heeft plaatsgevonden,\n• je rijbewijscategorieën (zoals B), met hun afgifte- en vervaldatum.</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en>1. Scan the front side of your Dutch driving licence with your phone.\n2. Extract the data using the NFC chip in your phone.</en>
@@ -207,6 +207,486 @@
 			<Description>
 				<en>Portrait photo of the person</en>
 				<nl>Portretfoto van de persoon</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryAM" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category AM</en>
+				<nl>Categorie AM</nl>
+			</Name>
+			<Description>
+				<en>Whether category AM is on the driving licence</en>
+				<nl>Of categorie AM op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryAMDateOfIssue" optional="true">
+			<Name>
+				<en>Category AM date of issue</en>
+				<nl>Categorie AM afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category AM was issued</en>
+				<nl>Datum waarop categorie AM is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryAMDateOfExpiry" optional="true">
+			<Name>
+				<en>Category AM date of expiry</en>
+				<nl>Categorie AM vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category AM</en>
+				<nl>Vervaldatum van categorie AM</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryA1" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category A1</en>
+				<nl>Categorie A1</nl>
+			</Name>
+			<Description>
+				<en>Whether category A1 is on the driving licence</en>
+				<nl>Of categorie A1 op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryA1DateOfIssue" optional="true">
+			<Name>
+				<en>Category A1 date of issue</en>
+				<nl>Categorie A1 afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category A1 was issued</en>
+				<nl>Datum waarop categorie A1 is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryA1DateOfExpiry" optional="true">
+			<Name>
+				<en>Category A1 date of expiry</en>
+				<nl>Categorie A1 vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category A1</en>
+				<nl>Vervaldatum van categorie A1</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryA2" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category A2</en>
+				<nl>Categorie A2</nl>
+			</Name>
+			<Description>
+				<en>Whether category A2 is on the driving licence</en>
+				<nl>Of categorie A2 op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryA2DateOfIssue" optional="true">
+			<Name>
+				<en>Category A2 date of issue</en>
+				<nl>Categorie A2 afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category A2 was issued</en>
+				<nl>Datum waarop categorie A2 is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryA2DateOfExpiry" optional="true">
+			<Name>
+				<en>Category A2 date of expiry</en>
+				<nl>Categorie A2 vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category A2</en>
+				<nl>Vervaldatum van categorie A2</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryA" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category A</en>
+				<nl>Categorie A</nl>
+			</Name>
+			<Description>
+				<en>Whether category A is on the driving licence</en>
+				<nl>Of categorie A op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryADateOfIssue" optional="true">
+			<Name>
+				<en>Category A date of issue</en>
+				<nl>Categorie A afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category A was issued</en>
+				<nl>Datum waarop categorie A is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryADateOfExpiry" optional="true">
+			<Name>
+				<en>Category A date of expiry</en>
+				<nl>Categorie A vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category A</en>
+				<nl>Vervaldatum van categorie A</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryB1" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category B1</en>
+				<nl>Categorie B1</nl>
+			</Name>
+			<Description>
+				<en>Whether category B1 is on the driving licence</en>
+				<nl>Of categorie B1 op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryB1DateOfIssue" optional="true">
+			<Name>
+				<en>Category B1 date of issue</en>
+				<nl>Categorie B1 afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category B1 was issued</en>
+				<nl>Datum waarop categorie B1 is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryB1DateOfExpiry" optional="true">
+			<Name>
+				<en>Category B1 date of expiry</en>
+				<nl>Categorie B1 vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category B1</en>
+				<nl>Vervaldatum van categorie B1</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryB" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category B</en>
+				<nl>Categorie B</nl>
+			</Name>
+			<Description>
+				<en>Whether category B is on the driving licence</en>
+				<nl>Of categorie B op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryBDateOfIssue" optional="true">
+			<Name>
+				<en>Category B date of issue</en>
+				<nl>Categorie B afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category B was issued</en>
+				<nl>Datum waarop categorie B is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryBDateOfExpiry" optional="true">
+			<Name>
+				<en>Category B date of expiry</en>
+				<nl>Categorie B vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category B</en>
+				<nl>Vervaldatum van categorie B</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryC1" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category C1</en>
+				<nl>Categorie C1</nl>
+			</Name>
+			<Description>
+				<en>Whether category C1 is on the driving licence</en>
+				<nl>Of categorie C1 op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryC1DateOfIssue" optional="true">
+			<Name>
+				<en>Category C1 date of issue</en>
+				<nl>Categorie C1 afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category C1 was issued</en>
+				<nl>Datum waarop categorie C1 is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryC1DateOfExpiry" optional="true">
+			<Name>
+				<en>Category C1 date of expiry</en>
+				<nl>Categorie C1 vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category C1</en>
+				<nl>Vervaldatum van categorie C1</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryC" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category C</en>
+				<nl>Categorie C</nl>
+			</Name>
+			<Description>
+				<en>Whether category C is on the driving licence</en>
+				<nl>Of categorie C op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryCDateOfIssue" optional="true">
+			<Name>
+				<en>Category C date of issue</en>
+				<nl>Categorie C afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category C was issued</en>
+				<nl>Datum waarop categorie C is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryCDateOfExpiry" optional="true">
+			<Name>
+				<en>Category C date of expiry</en>
+				<nl>Categorie C vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category C</en>
+				<nl>Vervaldatum van categorie C</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryD1" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category D1</en>
+				<nl>Categorie D1</nl>
+			</Name>
+			<Description>
+				<en>Whether category D1 is on the driving licence</en>
+				<nl>Of categorie D1 op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryD1DateOfIssue" optional="true">
+			<Name>
+				<en>Category D1 date of issue</en>
+				<nl>Categorie D1 afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category D1 was issued</en>
+				<nl>Datum waarop categorie D1 is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryD1DateOfExpiry" optional="true">
+			<Name>
+				<en>Category D1 date of expiry</en>
+				<nl>Categorie D1 vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category D1</en>
+				<nl>Vervaldatum van categorie D1</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryD" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category D</en>
+				<nl>Categorie D</nl>
+			</Name>
+			<Description>
+				<en>Whether category D is on the driving licence</en>
+				<nl>Of categorie D op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryDDateOfIssue" optional="true">
+			<Name>
+				<en>Category D date of issue</en>
+				<nl>Categorie D afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category D was issued</en>
+				<nl>Datum waarop categorie D is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryDDateOfExpiry" optional="true">
+			<Name>
+				<en>Category D date of expiry</en>
+				<nl>Categorie D vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category D</en>
+				<nl>Vervaldatum van categorie D</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryBE" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category BE</en>
+				<nl>Categorie BE</nl>
+			</Name>
+			<Description>
+				<en>Whether category BE is on the driving licence</en>
+				<nl>Of categorie BE op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryBEDateOfIssue" optional="true">
+			<Name>
+				<en>Category BE date of issue</en>
+				<nl>Categorie BE afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category BE was issued</en>
+				<nl>Datum waarop categorie BE is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryBEDateOfExpiry" optional="true">
+			<Name>
+				<en>Category BE date of expiry</en>
+				<nl>Categorie BE vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category BE</en>
+				<nl>Vervaldatum van categorie BE</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryC1E" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category C1E</en>
+				<nl>Categorie C1E</nl>
+			</Name>
+			<Description>
+				<en>Whether category C1E is on the driving licence</en>
+				<nl>Of categorie C1E op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryC1EDateOfIssue" optional="true">
+			<Name>
+				<en>Category C1E date of issue</en>
+				<nl>Categorie C1E afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category C1E was issued</en>
+				<nl>Datum waarop categorie C1E is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryC1EDateOfExpiry" optional="true">
+			<Name>
+				<en>Category C1E date of expiry</en>
+				<nl>Categorie C1E vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category C1E</en>
+				<nl>Vervaldatum van categorie C1E</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryCE" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category CE</en>
+				<nl>Categorie CE</nl>
+			</Name>
+			<Description>
+				<en>Whether category CE is on the driving licence</en>
+				<nl>Of categorie CE op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryCEDateOfIssue" optional="true">
+			<Name>
+				<en>Category CE date of issue</en>
+				<nl>Categorie CE afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category CE was issued</en>
+				<nl>Datum waarop categorie CE is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryCEDateOfExpiry" optional="true">
+			<Name>
+				<en>Category CE date of expiry</en>
+				<nl>Categorie CE vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category CE</en>
+				<nl>Vervaldatum van categorie CE</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryD1E" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category D1E</en>
+				<nl>Categorie D1E</nl>
+			</Name>
+			<Description>
+				<en>Whether category D1E is on the driving licence</en>
+				<nl>Of categorie D1E op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryD1EDateOfIssue" optional="true">
+			<Name>
+				<en>Category D1E date of issue</en>
+				<nl>Categorie D1E afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category D1E was issued</en>
+				<nl>Datum waarop categorie D1E is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryD1EDateOfExpiry" optional="true">
+			<Name>
+				<en>Category D1E date of expiry</en>
+				<nl>Categorie D1E vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category D1E</en>
+				<nl>Vervaldatum van categorie D1E</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryDE" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category DE</en>
+				<nl>Categorie DE</nl>
+			</Name>
+			<Description>
+				<en>Whether category DE is on the driving licence</en>
+				<nl>Of categorie DE op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryDEDateOfIssue" optional="true">
+			<Name>
+				<en>Category DE date of issue</en>
+				<nl>Categorie DE afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category DE was issued</en>
+				<nl>Datum waarop categorie DE is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryDEDateOfExpiry" optional="true">
+			<Name>
+				<en>Category DE date of expiry</en>
+				<nl>Categorie DE vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category DE</en>
+				<nl>Vervaldatum van categorie DE</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryT" displayHint="yesno" optional="true">
+			<Name>
+				<en>Category T</en>
+				<nl>Categorie T</nl>
+			</Name>
+			<Description>
+				<en>Whether category T is on the driving licence</en>
+				<nl>Of categorie T op het rijbewijs staat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryTDateOfIssue" optional="true">
+			<Name>
+				<en>Category T date of issue</en>
+				<nl>Categorie T afgiftedatum</nl>
+			</Name>
+			<Description>
+				<en>Date category T was issued</en>
+				<nl>Datum waarop categorie T is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="categoryTDateOfExpiry" optional="true">
+			<Name>
+				<en>Category T date of expiry</en>
+				<nl>Categorie T vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of category T</en>
+				<nl>Vervaldatum van categorie T</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
